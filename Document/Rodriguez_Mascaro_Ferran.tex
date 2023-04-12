@@ -86,12 +86,12 @@ with the time and space-related dimensions $t , x_i \in (-\infty,+\infty)$ and a
 
 Fixing the coordinate $z$, one creates $d$-dimensional Minkowski space-time surfaces 'weighted' by the factor $\frac{1}{z^2}$.
 
-\begin{figure}[h!]
+\begin{wrapfigure}{r}{0.27\textwidth}
     \centering
-    \includegraphics[scale=0.25]{../Imatges/Captura_Superficies_z.png}
+    \includegraphics[width=0.15\textwidth]{../Imatges/Captura_Superficies_z.png}
 \caption{Representation of the different Minkowski space-time layers along the $z$ coordinate inside an AdS space-time.}
 \label{fig:AdS_z-surfaces}
-\end{figure}
+\end{wrapfigure}
 
 At constant time, \cite{} this metric forms hyperbolic spaces of negative curvature, conformally equivalent to Minkowski space-times at $z \to 0$. The conformal infinity of AdS is timelike, thus one needs boundary conditions to determine the future evolution uniquely.
 % \footnotetext{A conformal or angle-preserving function is the one that preserves angles between curves at a certain point, as well as preserving orientation \cite{}.}
@@ -102,12 +102,12 @@ Using hyper-polar coordinates one can obtain a different expression for the metr
 }
 being $L$ ($k^2=1/L^2$) the so called anti-de Sitter radius.
 
-\begin{figure}[h!]
+\begin{wrapfigure}{r}{0.27\textwidth}
     \centering
-    \includegraphics[scale=0.5]{../Imatges/Wikipedia_Half-space_Cilindric.png}
+    \includegraphics[width=0.21\textwidth]{../Imatges/Wikipedia_Half-space_Cilindric.png}
 \caption{Representation of the half-space region of an AdS space-time and its boundary.}
 \label{fig:AdS_cylindrical}
-\end{figure}
+\end{wrapfigure}
 
 In Figure \ref{fig:AdS_cylindrical} it is represented the metric of Equation \ref{eq:AdS_hyper-polar-metric}. The whole cylinder corresponds to an AdS space-time, being the lateral surface the conformal boundary (where $z \to 0$, or $r \to \infty$). The marked region corresponds to the one covered by the half-space coordinates, flanked by the conformal boundary and two lightlike geodesic hyperplanes \cite{}.
 
@@ -153,11 +153,18 @@ If there is no entanglement between both subsystems, the entanglement entropy is
 
 \subsection{Entanglement entropy in AdS/CFT}
 
-In a quantum field placed in a Minkowski space-time, at a given time, every point on space is entangled with the points surrounding it \cite{nishioka_entanglement_2018}. Therefore, the entanglement entropy between a subsytem and the rest of the space will be dominated by the correlations between both sides of the boundary that isolates the subsystem (Figure \ref{fig:EE_Minkowski-boundary}).
+\begin{wrapfigure}{r}{0.27\textwidth}
+    \centering
+    \includegraphics[width=0.27\textwidth]{../Imatges/EE_AdS-CFT.png}
+\caption{Region $\calA$ (dark blue) and its boundary $\partial \calA$ inside a $z=\delta$ AdS slide (grey) and its respective $\gamma_{\calA}$ (light blue) inside the AdS space-time.}
+\label{fig:EE_AdS-CFT}
+\end{wrapfigure}
 
-% \begin{wrapfigure}{r}{0.5\textwidth}
+In a quantum field placed in a Minkowski space-time, at a given time, every point on space is entangled with the points surrounding it \cite{nishioka_entanglement_2018}. Therefore, the entanglement entropy between a subsytem and the rest of the space will be dominated by the correlations between both sides of the boundary that isolates the subsystem.
+
+% \begin{wrapfigure}{r}{0.25\textwidth}
 %     \centering
-%     \includegraphics[width=0.48\textwidth]{../Imatges/Captura_EE_Frontera.png}
+%     \includegraphics[width=0.24\textwidth]{../Imatges/Captura_EE_Frontera.png}
 % \caption{Bipartion of a system in two complementary regions A and B.}
 % \label{fig:EE_Minkowski-boundary}
 % \end{wrapfigure}
@@ -169,18 +176,11 @@ In a quantum field placed in a Minkowski space-time, at a given time, every poin
 % \label{fig:EE_Minkowski-boundary}
 % \end{figure}
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.25]{../Imatges/EE_AdS-CFT.png}
-\caption{Region $\calA$ (dark blue) and its boundary $\partial \calA$ inside a $z=\delta$ AdS slide (grey) and its respective $\gamma_{\calA}$ (light blue) inside the AdS space-time.}
-\label{fig:EE_AdS/CFT}
-\end{figure}
-
 In an ($d+1$)-dimensional AdS space-time, being $\calA$ a region of a $d$-dimensional Minkowski space-time slice formed from fixing $z$ as $z=\delta \ll 1$, the entanglement entropy of a $d$-dimensional CFT on this Minkowski space-time will be expressed by the so called Ryu-Takayanagi formula
 \eq{EE_RT}{
     S_{\calA} = \frac{ \text{Area}(\gamma_{\calA}) }{ 4 G_{d+1} } \ ,
 }
-\cite{ryu_holographic_2008} where $\gamma_{\calA}$ is the surface of minimal area on the whole AdS space-time connected to the ($d-1$)-dimensional boundary $\partial \calA$ of the region $\calA$, and $G_{d+1}$ is the ($d+1$)-dimensional Newton constant (represented in Figure \ref{fig:EE_AdS/CFT}).
+\cite{ryu_holographic_2008} where $\gamma_{\calA}$ is the surface of minimal area on the whole AdS space-time connected to the ($d-1$)-dimensional boundary $\partial \calA$ of the region $\calA$, and $G_{d+1}$ is the ($d+1$)-dimensional Newton constant (represented in Figure \ref{fig:EE_AdS-CFT}).
 
 The area of $\gamma_{\calA}$ is obtained by
 \eq{EE_RT-area}{
