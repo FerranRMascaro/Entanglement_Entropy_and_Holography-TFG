@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.2)  12 APR 2023 15:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.2)  18 APR 2023 20:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -681,10 +681,10 @@ Underfull \hbox (badness 1803) in paragraph at lines 84--86
 \T1/lmr/m/n/10 with the time and space-related di-men-sions $\OML/lmm/m/it/10 t; x[] \OMS/lmsy/m/n/10 2
  []
 
-<../Imatges/Captura_Superficies_z.png, id=1, 227.6505pt x 320.397pt>
-File: ../Imatges/Captura_Superficies_z.png Graphic file (type png)
-<use ../Imatges/Captura_Superficies_z.png>
-Package pdftex.def Info: ../Imatges/Captura_Superficies_z.png  used on input line 91.
+<../Imatges/Extern/Captura_Superficies_z.png, id=1, 227.6505pt x 320.397pt>
+File: ../Imatges/Extern/Captura_Superficies_z.png Graphic file (type png)
+<use ../Imatges/Extern/Captura_Superficies_z.png>
+Package pdftex.def Info: ../Imatges/Extern/Captura_Superficies_z.png  used on input line 91.
 (pdftex.def)             Requested size: 77.39685pt x 108.92863pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 92.
@@ -748,10 +748,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--102
 []\T1/lmr/m/n/10 Using hyper-polar
  []
 
-<../Imatges/Wikipedia_Half-space_Cilindric.png, id=3, 220.825pt x 165.61874pt>
-File: ../Imatges/Wikipedia_Half-space_Cilindric.png Graphic file (type png)
-<use ../Imatges/Wikipedia_Half-space_Cilindric.png>
-Package pdftex.def Info: ../Imatges/Wikipedia_Half-space_Cilindric.png  used on input line 107.
+<../Imatges/Extern/Wikipedia_Half-space_Cilindric.png, id=3, 220.825pt x 165.61874pt>
+File: ../Imatges/Extern/Wikipedia_Half-space_Cilindric.png Graphic file (type png)
+<use ../Imatges/Extern/Wikipedia_Half-space_Cilindric.png>
+Package pdftex.def Info: ../Imatges/Extern/Wikipedia_Half-space_Cilindric.png  used on input line 107.
 (pdftex.def)             Requested size: 108.36346pt x 81.27266pt.
 
 LaTeX Warning: Citation '' on page 1 undefined on input line 112.
@@ -759,14 +759,14 @@ LaTeX Warning: Citation '' on page 1 undefined on input line 112.
 [1{C:/Users/ferran/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 
- <../Imatges/Captura_Superficies_z.png> <../Imatges/Wikipedia_Half-space_Cilindric.png>]
+ <../Imatges/Extern/Captura_Superficies_z.png> <../Imatges/Extern/Wikipedia_Half-space_Cilindric.png>]
 
 LaTeX Warning: Citation '' on page 2 undefined on input line 142.
 
-<../Imatges/EE_AdS-CFT.png, id=28, 687.56876pt x 382.42876pt>
-File: ../Imatges/EE_AdS-CFT.png Graphic file (type png)
-<use ../Imatges/EE_AdS-CFT.png>
-Package pdftex.def Info: ../Imatges/EE_AdS-CFT.png  used on input line 158.
+<../Imatges/Extern/EE_AdS-CFT.png, id=28, 687.56876pt x 382.42876pt>
+File: ../Imatges/Extern/EE_AdS-CFT.png Graphic file (type png)
+<use ../Imatges/Extern/EE_AdS-CFT.png>
+Package pdftex.def Info: ../Imatges/Extern/EE_AdS-CFT.png  used on input line 158.
 (pdftex.def)             Requested size: 139.3222pt x 77.48807pt.
 
 Underfull \hbox (badness 1681) in paragraph at lines 163--164
@@ -798,21 +798,21 @@ Underfull \hbox (badness 2856) in paragraph at lines 163--164
 \T1/lmr/m/n/10 la-tions be-tween both
  []
 
-[2 <../Imatges/EE_AdS-CFT.png (PNG copy)>] (Rodriguez_Mascaro_Ferran.aux)
+[2 <../Imatges/Extern/EE_AdS-CFT.png (PNG copy)>] (Rodriguez_Mascaro_Ferran.aux)
 Package logreq Info: Writing requests to 'Rodriguez_Mascaro_Ferran.run.xml'.
 \openout1 = `Rodriguez_Mascaro_Ferran.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  14057 strings out of 476339
- 278337 string characters out of 5787648
- 1872340 words of memory out of 5000000
+ 278470 string characters out of 5787648
+ 1873340 words of memory out of 5000000
  34265 multiletter control sequences out of 15000+600000
  699650 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,7n,77p,1570b,1328s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,15n,77p,1570b,1328s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Rodriguez_Mascaro_Ferran.pdf (2 pages, 365875 bytes).
+Output written on Rodriguez_Mascaro_Ferran.pdf (2 pages, 367013 bytes).
 PDF statistics:
  124 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

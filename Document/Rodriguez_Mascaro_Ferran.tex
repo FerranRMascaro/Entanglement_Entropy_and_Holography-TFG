@@ -84,11 +84,11 @@ One can obtain the metric of the half-space of an AdS spacetime of $D=d+1$ dimen
 }
 with the time and space-related dimensions $t , x_i \in (-\infty,+\infty)$ and an extra dimension $z \in (0,+\infty)$ \cite{kaplan_lectures_nodate}.
 
-Fixing the coordinate $z$, one creates $d$-dimensional Minkowski space-time surfaces 'weighted' by the factor $\frac{1}{z^2}$.
+Fixing the coordinate $z$, one creates $d$-dimensional space-time surfaces 'weighted' by the factor $\frac{1}{z^2}$.
 
 \begin{wrapfigure}{r}{0.27\textwidth}
     \centering
-    \includegraphics[width=0.15\textwidth]{../Imatges/Captura_Superficies_z.png}
+    \includegraphics[width=0.15\textwidth]{../Imatges/Extern/Captura_Superficies_z.png}
 \caption{Representation of the different Minkowski space-time layers along the $z$ coordinate inside an AdS space-time.}
 \label{fig:AdS_z-surfaces}
 \end{wrapfigure}
@@ -104,7 +104,7 @@ being $L$ ($k^2=1/L^2$) the so called anti-de Sitter radius.
 
 \begin{wrapfigure}{r}{0.27\textwidth}
     \centering
-    \includegraphics[width=0.21\textwidth]{../Imatges/Wikipedia_Half-space_Cilindric.png}
+    \includegraphics[width=0.21\textwidth]{../Imatges/Extern/Wikipedia_Half-space_Cilindric.png}
 \caption{Representation of the half-space region of an AdS space-time and its boundary.}
 \label{fig:AdS_cylindrical}
 \end{wrapfigure}
@@ -155,7 +155,7 @@ If there is no entanglement between both subsystems, the entanglement entropy is
 
 \begin{wrapfigure}{r}{0.27\textwidth}
     \centering
-    \includegraphics[width=0.27\textwidth]{../Imatges/EE_AdS-CFT.png}
+    \includegraphics[width=0.27\textwidth]{../Imatges/Extern/EE_AdS-CFT.png}
 \caption{Region $\calA$ (dark blue) and its boundary $\partial \calA$ inside a $z=\delta$ AdS slide (grey) and its respective $\gamma_{\calA}$ (light blue) inside the AdS space-time.}
 \label{fig:EE_AdS-CFT}
 \end{wrapfigure}
@@ -196,9 +196,19 @@ that says that the entropy related to a black hole only depends on the area $A_H
 
 Solving the Ryu-Takayanagi formula for a ($d+1$)-dimensional anti-de Sitter space-time one obtains the expected general expression of the entanglement entropy for a $d$-dimensional quantum field theory:
 \eq{EE}{
-    S_{QFT_d} = \sum_{i=0}^{d/2-1} c_i \left( \frac{R}{\delta} \right) ^{d-2(i+1)} + a \log \left( \frac{R}{\delta} \right) - F \ ,
+    \begin{array}{rr}
+        {S_{QFT_d} = c_0 \left( \frac{R}{\delta} \right) ^{d-2} + c_1 \left( \frac{R}{\delta} \right) ^{d-4} + ... + } \\ \\
+        {+ \left\{ \begin{array}{cl} 
+        0 & \text{for odd } d \\
+        a \log \left( \frac{R}{\delta} \right) & \text{for even } d
+        \end{array} \right\}
+        - F \ ,}
+    \end{array}
 }
-\cite{nishioka_entanglement_2018} in which $R$ is the characteristic length of the region studied, $c_i$ are coefficients that can be dependent on $\delta$, the logarithmic component only appears for even $d$, and $F$ is a function related to the aspect of the region $\calA$.
+\cite{nishioka_entanglement_2018} in which $R$ is the characteristic length of the region studied, $c_i$ are coefficients that can be dependent on $\delta$, and $F$ is a function related to the aspect of the region $\calA$.
+
+
+\subsection{}
 
 
 \printbibliography
