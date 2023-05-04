@@ -16,6 +16,7 @@
 }
 \usepackage{amsmath}
 \DeclareMathOperator{\calA}{\mathcal{A}}
+\DeclareMathOperator{\calB}{\mathcal{B}}
 \DeclareMathOperator{\calH}{\mathcal{H}}
 \DeclareMathOperator{\tr}{tr}
 \usepackage{fancyhdr}
@@ -143,7 +144,7 @@ being $\ket{\Psi_{A,B}}$ the possible different substates in which one could sep
 
 The \textit{entanglement entropy} is a measure of the degree of quantum entanglement between the two subsystems composing a full quantum system \cite{nishioka_entanglement_2018}. It is defined by the von
 Neumann entropy of the reduced density matrix $\rho_A$ of one of the subsystems as
-\eq{entanglement-entropy}{
+\eq{EE}{
     S_{EE}(A) = - \tr_A ( \rho_A \log \rho_A ) \ ,
 }
 being $\rho_A = \tr_B \ket{\Psi}\bra{\Psi}$. If $\rho_A$ is diagonalized ($\rho_A = \sum_i \lambda_i \ket{i}\bra{i}$), then the entanglement entropy would take the simplified form $S_{EE} = - \sum_i \lambda_i \log \lambda_i$.
@@ -208,7 +209,75 @@ Solving the Ryu-Takayanagi formula for a ($d+1$)-dimensional anti-de Sitter spac
 \cite{nishioka_entanglement_2018} in which $R$ is the characteristic length of the region studied, $c_i$ are coefficients that can be dependent on $\delta$, and $F$ is a function related to the aspect of the region $\calA$.
 
 
-\subsection{}
+\subsection{Strong subadditivity}
+
+Being $S(\rho)$ the von Neumann entropy (Equation \ref{eq:EE}) of a system with density matrix $\rho$, two entanglement subsystems $\rho_1$ and $\rho_2$ forming a whole system with $\rho_{full}$ generally obey the inequalities
+\eq{EE_subadd}{
+    \abs{S(\rho_1)-S(\rho_2)} \le S(\rho_{full}) \le S(\rho_1) + S(\rho_2) \ .
+}
+This property of the entanglement entropy is known as \textit{subadditivity} \cite{headrick_holographic_2007}.
+
+These relations between entanglement entropies of the different subsystems can be extended to a higer number of subsystems. For example, in the case of three subsystems we have that
+\eq{EE_strong-subadd}{
+    \begin{array}{c}
+        S(\rho_{12}) + S(\rho_{23}) \ge S(\rho_2) + S(\rho_{123}) \ , \\
+        S(\rho_{12}) + S(\rho_{23}) \ge S(\rho_1) + S(\rho_3) \ ,
+    \end{array}
+}
+or equivalently
+\eq{EE_strong-subadd-2}{
+    \begin{array}{c}
+        S(\rho_{A}) + S(\rho_{B}) \ge S(A \cup B) + S(A \cap B) \ , \\
+        S(\rho_{A}) + S(\rho_{B}) \ge S(A \setminus B) + S(B \setminus A) \ .
+    \end{array}
+}
+This is called \textit{strong subadditivity}.
+
+An important test of the validity of the Ryu-Takayanagi formula (Equation \ref{eq:EE_RT}) is whether it has the property of strong subadditivity.
+
+Let's start proving the first inequality. Let $\gamma_{\calA}$, $\gamma_{\calB}$ be the surfaces of minimal area in the bulk connected to $\partial \calA$, $\partial \calB$ respectively, and $r_{\calA}$, $r_{\calB}$ the corresponding regions of the bulk. Thus, $\partial r_{\calA} = \calA \cup \gamma_{\calA}$, $\partial r_{\calB} = \calB \cup \gamma_{\calB}$, and we define the regions
+\eq{SS_r-1}{
+    r_{\calA \cup \calB} = r_{\calA} \cup r_{\calB} \ , \ r_{\calA \cap \calB} = r_{\calA} \cap r_{\calB} \ .
+}
+The surfaces onto the slice of this regions can be decomposed as
+\eq{SS_dr-1}{
+    \partial r_{\calA \cup \calB} = (\calA \cup \calB) \cup \gamma_{\calA \cup \calB} \ , \ \partial r_{\calA \cap \calB } = (\calA \cap \calB) \cup \gamma_{\calA \cap \calB} \ .
+}
+It is clear that $\partial (\calA \cup \calB)$ and $\partial (\calA \cap \calB)$ correspond to $\gamma_{\calA \cup \calB}$ and $\gamma_{\calA \cap \calB}$, but nothing says that they are the surfaces of minimal area $\gamma^{'}_{\calA \cup \calB}$ and $\gamma^{'}_{\calA \cap \calB}$ related to $\partial (\calA \cup \calB)$ and $\partial (\calA \cap \calB)$, they are upper bounds. This proves that
+\eq{SS_gamma-1}{
+    \gamma_{\calA} + \gamma_{\calB} = \gamma_{\calA \cup \calB} + \gamma_{\calA \cap \calB} \ge \gamma^{'}_{\calA \cup \calB} + \gamma^{'}_{\calA \cap \calB} \ ,
+}
+and, therefore, using the Ryu-Takayanagi formula (Equation \ref{eq:EE_RT}), the first inequality of \ref{eq:EE_strong-subadd-2}.
+
+Regarding the second inequality, we see that
+\eq{SS_r-2}{
+    r_{\calA \setminus \calB} = r_{\calA} \cup r_{\calB} \ , \ r_{\calB \setminus \calA} = r_{\calB} \cup r_{\calA} \ .
+}
+The surface onto the slice of this regions are decomposed as
+\eq{SS_dr-2}{
+    \partial r_{\calA \setminus \calB} = (\calA \setminus \calB) \cup \gamma_{\calA \setminus \calB} \ , \ \partial r_{\calB \setminus \calA } = (\calB \setminus \calA) \cup \gamma_{\calB \setminus \calA} \ .
+}
+The $\partial (\calA \setminus \calB)$ and $\partial (\calB \setminus \calA)$ correspond to the upper bounds $\gamma_{\calA \setminus \calB}$ and $\gamma_{\calB \setminus \calA}$ of the surfaces of minimal area $\gamma^{'}_{\calA \setminus \calB}$ and $\gamma^{'}_{\calA \setminus \calB}$. So
+\eq{SS_gamma-2}{
+    \gamma_{\calA} + \gamma_{\calB} = \gamma_{\calA \setminus \calB} + \gamma_{\calB \setminus \calA} \ge \gamma^{'}_{\calA \setminus \calB} + \gamma^{'}_{\calB \setminus \calA} \ ,
+}
+and, through the Ryu-Takayanagi formula, the second inequality of \ref{eq:EE_strong-subadd-2} it is proven.
+
+Using this simple geometric proof, it is shown that holography presents the strong subadditivity property that should be true in any quantum mechanical many-body system, playing the extra dimension in the holographic dual an essential role.
+
+In the holographic context, the only examples where these inequalities saturate involve only two disjoint regions, and therefore reduce to the saturation of weak subadditivity.
+
+The first inequality of Equation \ref{eq:EE_subadd}, called Araki-Lieb inequality, is saturated when the full system is pure, and the entanglement entropy of each subsystem are due only to correlations between each other and not because the full system is in a mixed state.
+
+Another case where this inequality is saturated is when there is a black hole inside the bulk, $\calA$ corresponds to a region outside the black hole and $\calB$ includes two connected components: $\calA$ and the event horizont, being $\partial \calA = \partial \calB$. In this case, $S(\calB) = S(\calA) + S_{BH}$, where $S_{BH}$ is the black hole's Bekenstein-Hawking entropy. Since due to the limit of the information that the bulk can contain $S_{full} = S_{BH}$, the Araki-Lieb inequality is saturated.
+
+The second inequality is saturated when the mutual information
+\eq{Mutual-Info}{
+    I(\calA,\calB) = S(\calA) + S(\calB) - S(\calA \cup \calB)
+}
+is zero. In this case, the two regions are sufficiently far apart that their union's surface is simply the union of their minimal surfaces. The mutual information only vanishes when the two subsystems are uncorrelated. It is interesting that the correlations between subsystems can go stricktly to zero in a field theory in the limit of large number of subsystems.
+
+
 
 
 \printbibliography

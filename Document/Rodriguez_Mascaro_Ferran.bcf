@@ -2368,6 +2368,7 @@
     <bcf:citekey order="9" intorder="1">ryu_holographic_2008</bcf:citekey>
     <bcf:citekey order="10" intorder="1">bekenstein_black_1973</bcf:citekey>
     <bcf:citekey order="11" intorder="1">nishioka_entanglement_2018</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">headrick_holographic_2007</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

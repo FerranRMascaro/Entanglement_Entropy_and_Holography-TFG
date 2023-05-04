@@ -95,7 +95,7 @@
       \verb{url}
       \verb http://arxiv.org/abs/hep-th/9905177
       \endverb
-      \keyw{Astrophysics,General Relativity and Quantum Cosmology,High Energy Physics - Theory}
+      \keyw{High Energy Physics - Theory,Astrophysics,General Relativity and Quantum Cosmology}
     \endentry
     \entry{t_hooft_dimensional_2009}{misc}{}
       \name{author}{1}{}{%
@@ -193,7 +193,7 @@
       \verb{url}
       \verb http://arxiv.org/abs/1609.01287
       \endverb
-      \keyw{General Relativity and Quantum Cosmology,High Energy Physics - Theory,Quantum Physics}
+      \keyw{High Energy Physics - Theory,General Relativity and Quantum Cosmology,Quantum Physics}
     \endentry
     \entry{maldacena_large_1999}{article}{}
       \name{author}{1}{}{%
@@ -404,7 +404,7 @@
       \verb{url}
       \verb http://arxiv.org/abs/hep-th/0603001
       \endverb
-      \keyw{Condensed Matter - Strongly Correlated Electrons,General Relativity and Quantum Cosmology,High Energy Physics - Theory,Quantum Physics}
+      \keyw{High Energy Physics - Theory,General Relativity and Quantum Cosmology,Quantum Physics,Condensed Matter - Strongly Correlated Electrons}
     \endentry
     \entry{bekenstein_black_1973}{article}{}
       \name{author}{1}{}{%
@@ -450,6 +450,64 @@
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevD.7.2333
       \endverb
+    \endentry
+    \entry{headrick_holographic_2007}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4c6b79daf5eea5cf04d9a151c95dc0ec}{%
+           family={Headrick},
+           familyi={H\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=01d3ce6cd1e1b3aa26952eb5001ae008}{%
+           family={Takayanagi},
+           familyi={T\bibinitperiod},
+           given={Tadashi},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4e088820048c97460d908ed46cb8f71}
+      \strng{fullhash}{d4e088820048c97460d908ed46cb8f71}
+      \strng{bibnamehash}{d4e088820048c97460d908ed46cb8f71}
+      \strng{authorbibnamehash}{d4e088820048c97460d908ed46cb8f71}
+      \strng{authornamehash}{d4e088820048c97460d908ed46cb8f71}
+      \strng{authorfullhash}{d4e088820048c97460d908ed46cb8f71}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{When a quantum system is divided into subsystems, their entanglement entropies are subject to an inequality known as "strong subadditivity". For a field theory this inequality can be stated as follows: given any two regions of space \$A\$ and \$B\$, \$S(A) + S(B) {\textbackslash}ge S(A {\textbackslash}cup B) + S(A {\textbackslash}cap B)\$. Recently, a method has been found for computing entanglement entropies in any field theory for which there is a holographically dual gravity theory. In this note we give a simple geometrical proof of strong subadditivity employing this holographic prescription.}
+      \field{day}{21}
+      \field{eprinttype}{arxiv}
+      \field{issn}{1550-7998, 1550-2368}
+      \field{journaltitle}{Physical Review D}
+      \field{month}{11}
+      \field{number}{10}
+      \field{shortjournal}{Phys. Rev. D}
+      \field{title}{A holographic proof of the strong subadditivity of entanglement entropy}
+      \field{urlday}{3}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{volume}{76}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{106013}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.76.106013
+      \endverb
+      \verb{eprint}
+      \verb 0704.3719 [cond-mat, physics:hep-th, physics:quant-ph]
+      \endverb
+      \verb{file}
+      \verb arXiv Fulltext PDF:C\:\\Users\\ferran\\Zotero\\storage\\MNFQT2R7\\Headrick i Takayanagi - 2007 - A holographic proof of the strong subadditivity of.pdf:application/pdf;arXiv.org Snapshot:C\:\\Users\\ferran\\Zotero\\storage\\S5542ZWF\\0704.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/0704.3719
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/0704.3719
+      \endverb
+      \keyw{Condensed Matter - Statistical Mechanics,High Energy Physics - Theory,Quantum Physics}
     \endentry
   \enddatalist
 \endrefsection
