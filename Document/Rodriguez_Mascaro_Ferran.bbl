@@ -348,57 +348,6 @@
       \endverb
       \keyw{High Energy Physics - Theory}
     \endentry
-    \entry{casini_lectures_2022}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=143644abc951b359890b7a9ffde39d27}{%
-           family={Casini},
-           familyi={C\bibinitperiod},
-           given={Horacio},
-           giveni={H\bibinitperiod}}}%
-        {{hash=4cbf2f34b1e3525d81574a5a402ce7af}{%
-           family={Huerta},
-           familyi={H\bibinitperiod},
-           given={Marina},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{16af96d7b2c4435c17c2e7405468b842}
-      \strng{fullhash}{16af96d7b2c4435c17c2e7405468b842}
-      \strng{bibnamehash}{16af96d7b2c4435c17c2e7405468b842}
-      \strng{authorbibnamehash}{16af96d7b2c4435c17c2e7405468b842}
-      \strng{authornamehash}{16af96d7b2c4435c17c2e7405468b842}
-      \strng{authorfullhash}{16af96d7b2c4435c17c2e7405468b842}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{These notes grew from a series of lectures given by the authors during the last decade. They will be published in the proceedings of {TASI} 2021. After a brief introduction to quantum information theory tools, they are organized in four chapters covering the following subjects: Entanglement in quantum field theory, Irreversibility theorems, Energy-entropy bounds, Entanglement and symmetries.}
-      \field{eprinttype}{arxiv}
-      \field{langid}{english}
-      \field{number}{{arXiv}:2201.13310}
-      \field{title}{Lectures on entanglement in quantum field theory}
-      \field{urlday}{8}
-      \field{urlmonth}{4}
-      \field{urlyear}{2023}
-      \field{year}{2022}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{eprint}
-      \verb 2201.13310 [hep-th]
-      \endverb
-      \verb{file}
-      \verb Casini i Huerta - 2023 - Lectures on entanglement in quantum field theory.pdf:C\:\\Users\\ferran\\Zotero\\storage\\LPIHB6QC\\Casini i Huerta - 2023 - Lectures on entanglement in quantum field theory.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/2201.13310
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/2201.13310
-      \endverb
-      \keyw{High Energy Physics - Theory}
-    \endentry
     \entry{ryu_holographic_2008}{article}{}
       \name{author}{2}{}{%
         {{hash=e98e80616d8c35e9d2fbbb928838ec72}{%
@@ -559,6 +508,59 @@
       \verb http://arxiv.org/abs/0704.3719
       \endverb
       \keyw{High Energy Physics - Theory,Quantum Physics,Condensed Matter - Statistical Mechanics}
+    \endentry
+    \entry{fareghbal_first_2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ef9a2ad85c4a6250b272c55e8cef6442}{%
+           family={Fareghbal},
+           familyi={F\bibinitperiod},
+           given={Reza},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4c260e9cc501468a17ee47e364c286f5}{%
+           family={Hakami\bibnamedelima Shalamzari},
+           familyi={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Mehdi},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{813355a431bc67bdcb735b814d9d8413}
+      \strng{fullhash}{813355a431bc67bdcb735b814d9d8413}
+      \strng{bibnamehash}{813355a431bc67bdcb735b814d9d8413}
+      \strng{authorbibnamehash}{813355a431bc67bdcb735b814d9d8413}
+      \strng{authornamehash}{813355a431bc67bdcb735b814d9d8413}
+      \strng{authorfullhash}{813355a431bc67bdcb735b814d9d8413}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{15}
+      \field{issn}{2470-0010, 2470-0029}
+      \field{journaltitle}{Physical Review D}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{10}
+      \field{shortjournal}{Phys. Rev. D}
+      \field{title}{First law of entanglement entropy in flat-space holography}
+      \field{urlday}{22}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{volume}{100}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{106006}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.100.106006
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\ferran\\Zotero\\storage\\UG3MPWST\\Fareghbal i Hakami Shalamzari - 2019 - First law of entanglement entropy in flat-space ho.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.100.106006
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.100.106006
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

@@ -1,14 +1,15 @@
 # Fdb version 4
-["biber Examples"] 1684689858 "Examples.bcf" "Examples.bbl" "Examples" 1684690127 0
-  "Examples.bcf" 1684690127 106902 3b97008d9934b15ac01bd011602903ca "pdflatex"
+["biber Examples"] 0 "Examples.bcf" "Examples.bbl" "Examples" 1684783457 -1
+  "Examples.bcf" 1684783457 106902 3b97008d9934b15ac01bd011602903ca "pdflatex"
   (generated)
   "Examples.bbl"
   "Examples.blg"
   (rewritten before read)
-["pdflatex"] 1684690126 "c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Other/Examples/Examples.tex" "Examples.pdf" "Examples" 1684690127 0
+["pdflatex"] 1684783455 "c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Other/Examples/Examples.tex" "Examples.pdf" "Examples" 1684783457 0
   "C:/Users/ferran/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1684686994 83358 a8328cf182cf32ae8c92cd2e930e6977 ""
   "C:/Users/ferran/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1677759180 23176269 45db22a90f401442908f6903e875746e ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256933040 2375 baa924870cfb487815765f9094cf3728 ""
+  "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1256933040 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1256933040 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc" 1256933040 2840 216e6e45ad352e2456e1149f28885bee ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc" 1256933040 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -47,12 +48,18 @@
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmr5.tfm" 1256933040 11804 aefb10c002e6492c25236524a447f969 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmr7.tfm" 1256933040 11852 5a9022f105fd1ee2797df861e79ae9a0 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb" 1256933040 116427 4909e80035dae5d5a4ec2b5ddd9649dd ""
+  "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb" 1256933040 23055 2e5b42921de910eaa97b85df04ca4891 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb" 1256933040 30388 702fae6a5f0e6e9c48a1d872b442ffcf ""
+  "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb" 1256933040 31443 ba2241b179aa231f73e052863720cb42 ""
+  "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb" 1256933040 30789 39c6b966e509dbc60e7a1aaaf85d08a0 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb" 1256933040 119235 05e5c8d6d60439433e50047898c2c0e0 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb" 1256933040 113634 9384aebdf26f9881e046a4b5574566db ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb" 1256933040 119752 1bd8d06e4079df624bf59ce3ad7c9aa6 ""
+  "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb" 1256933040 120387 4904c2679a7b90fe9e17171d6c7c9dd0 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb" 1256933040 121145 00b210fbe9efd7ce850c04e64670de9a ""
+  "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb" 1256933040 112593 fda2373ba4420af33949610de4c28fe8 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb" 1256933040 27863 09ce3735688ffde955e72da27c95b61a ""
+  "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb" 1256933040 28210 b80965e85ec354118856303654d00ba5 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb" 1256933040 27941 d1f5d03f61a46c3fcc3a2ba904ddda52 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580393758 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/tex/generic/atbegshi/atbegshi.sty" 1575574700 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -149,12 +156,12 @@
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/tex/latex/tools/shellesc.sty" 1667245866 4118 0aa319c56935d7d217b6a8bf300b81b7 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
-  "Examples.aux" 1684690127 913 3df494f01a5613cb62d7d7aa70053fa6 "pdflatex"
-  "Examples.bbl" 1684689860 486 ee04f40f768daeed26442158e95aba61 "biber Examples"
-  "Examples.out" 1684690127 153 bb2943e8f93be0bbf3248cec36cecf4d "pdflatex"
-  "Examples.run.xml" 1684690127 2451 69af6b9b732bf210f2c117d8249f17e3 "pdflatex"
-  "Examples.tex" 1684690125 1559 62ed8bc90be095633705b149e8b05e06 ""
-  "c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Other/Examples/Examples.tex" 1684690125 1559 62ed8bc90be095633705b149e8b05e06 ""
+  "Examples.aux" 1684783457 1451 0fe0d84bda8e087bc1e8493aff7a5f69 "pdflatex"
+  "Examples.bbl" 1684775809 486 ee04f40f768daeed26442158e95aba61 "biber Examples"
+  "Examples.out" 1684783457 286 bce48fbf3bd772f3c93c1822b6a13220 "pdflatex"
+  "Examples.run.xml" 1684783457 2451 69af6b9b732bf210f2c117d8249f17e3 "pdflatex"
+  "Examples.tex" 1684783455 5188 39bdf18730ff5ffe153d49badd6ec42c ""
+  "c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Other/Examples/Examples.tex" 1684783455 5188 39bdf18730ff5ffe153d49badd6ec42c ""
   (generated)
   "Examples.aux"
   "Examples.bcf"

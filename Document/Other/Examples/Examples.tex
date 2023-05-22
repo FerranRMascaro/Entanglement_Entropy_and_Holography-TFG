@@ -4,6 +4,7 @@
 \usepackage{lmodern}
 \usepackage[T1]{fontenc}
 \usepackage{mathtools}
+\usepackage{amsmath}
 \usepackage{float}
 \usepackage{csvsimple}
 \providecommand{\abs}[1]{\lvert#1\rvert}
@@ -18,6 +19,7 @@
 \DeclareMathOperator{\calA}{\mathcal{A}}
 \DeclareMathOperator{\calB}{\mathcal{B}}
 \DeclareMathOperator{\calH}{\mathcal{H}}
+\DeclareMathOperator{\calL}{\mathcal{L}}
 \DeclareMathOperator{\tr}{tr}
 \usepackage{fancyhdr}
 \usepackage{authblk}
@@ -60,14 +62,81 @@
 % ]
 
 
-\section{EE of a disk in $d=3$}
+\section{Examples of EE}
 
-\eq{A}{
-    \calA = \{ ( r, \theta, z, t ) \ | \ t = 0, z = \delta, r \le R \}
+The general procedure is explained in the main paper.
+
+
+\subsection{EE of a disk in $d=3$}
+
+A circuilar region $\calA$ with radius $R$ inside a 2-dimensional layer $z = \delta \ll 1$ is represented in polar coordinates as
+\eq{1A}{
+    \calA = \{ ( r, \theta, z, t ) \ | \ t = 0, z = \delta, r \le R \} \ ,
 }
-\eq{gammaA}{
-    \gamma_{\calA} = \{ ( r, \theta, z, t ) \ | \ t = 0, z = f (r, \theta) \}
+and the corresponding surface of minimal area $\delta_{\calA}$ will be represented by the $z$ coordinate as a function of the polar coordinates of $\calA$:
+\eq{1gammaA}{
+    \gamma_{\calA} = \{ ( r, \theta, z, t ) \ | \ t = 0, z = f (r, \theta) \} \ .
 }
+There is no property on the AdS spacetime theory that will make the symetry of $\partial \calA$ on the coordinate $\theta$ not being transfered to $\gamma_{\calA}$. Thus, $z = f (r)$.
+
+In polar coordinates, the metric corresponding to a ($d+1$)-dimensional AdS spacetime will be
+\eq{1Ametric}{
+    ds^2_{\text{AdS}_4} = g_{\mu \nu} dx^\mu dx^\nu = 
+    \frac{L^2}{z^2} [ -dt^2 + dz^2 + dr^2 + r^2 d\theta^2 ] \ .
+}
+
+Aplying the restrictions on the coordinates for the definition of $\gamma_{\calA}$, it is obtained the induced metric of the surface:
+\eq{1gammaAmetric}{
+    ds^2_{\gamma_{\calA}} = h_{\rho \sigma} dx^\rho dx^\sigma = 
+    \frac{L^2}{f(r)^2} \left[ \left( 1+ \dot{f}(r)^2 \right) dr^2 + r^2 d\theta^2 \right] \ ,
+}
+being $dz = \frac{\partial z}{\partial x^\rho} dx^\rho = \frac{\partial f(r)}{\partial r} dr = \dot{f}(r) dr$.
+
+The determinant of the induced metric and its square rood will be
+\eq{1h}{
+    h = \left( \frac{L}{f(r)} \right) ^4 r^2 ( 1 + \dot{f}(r)^2 ) \ , \
+    \sqrt{h} = \left( \frac{L}{f(r)} \right) ^2 r \sqrt{ 1 + \dot{f}(r)^2 } \ .
+}
+
+The minimal value of the integral over the polar coordinates of the square rood of the induced metric will correspond to the area of $\gamma_{\calA}$. So, by the Ryu-Takayanagi formula, the entanglement entropy related to the region $\calA$ will be
+\eq{1EEA}{
+    \arraycolsep=1.4pt\def\arraystretch{2}
+    \begin{array}{c}
+        S_{\calA} = \frac{1}{4G} \text{min} \int_{\gamma_{\calA}} \sqrt{h} dx^\rho = \\
+        = \frac{1}{4G} \text{min} \int_0^{2\pi} d\theta \int_0^R dr \left( \frac{L}{f(r)} \right) ^2 r \sqrt{ 1 + \dot{f}(r)^2 } \\
+        = \frac{\pi L^2}{2G} \text{min} \int_0^R dr \frac{r}{f(r)^2} \sqrt{ 1 + \dot{f}(r)^2 } \ .
+    \end{array}
+}
+
+The interior of this final integral looks like some type of Lagrangian $\calL [r,f(r),\dot{f}(r)]$. Thus, the Euler-Lagrange equation can be aplied to find relations to find the extreme of this functional:
+\eq{1EL}{
+    \arraycolsep=1.4pt\def\arraystretch{2}
+    \begin{array}{c}
+        \frac{\partial \calL}{\partial f} - \frac{d}{dr} \left[ \frac{\partial \calL}{\partial \dot{f}} \right] = 0 \\
+        \rightarrow \left( 1+\dot{f}^2 \right) \left( -2r-f\dot{f}-rf\ddot{f} \right) + rf\dot{f}^2\ddot{f} = 0
+    \end{array}
+}
+
+It is proven that $f(r) = \sqrt{R^2 - r^2}$ is solution of the previous solution and correspond to the function that minimise the functional of the entanglement entropy. Then:
+\eq{1sol}{
+    \arraycolsep=1.4pt\def\arraystretch{2}
+    \begin{array}{c}
+    S_{\calA} = \frac{\pi L^2}{2G} \int_0^R dr \frac{r}{\left(R^2-r^2\right)^{3/2}} = \\
+    = \frac{\pi L^2}{2G} \left. \frac{R}{\sqrt{R^2-r^r}} \right|_{r=R} - \frac{\pi L^2}{2G} = \frac{\pi L^2}{2G} \frac{R}{\delta} - F \ ,
+    \end{array}
+}
+that is equivalent to the general expression for the entanglement entropy in a 3-dimensional QFT with
+\[
+    \left\{
+    \arraycolsep=1.4pt\def\arraystretch{2}
+    \begin{array}{lr}
+        c_1 = \frac{\pi L^2}{2G} \\
+        \delta = \lim_{r \to R} \sqrt{R^2-r^2} \\
+        s_{\text{non-loc}} = - \frac{i \pi L^2}{2G} & .
+    \end{array}
+    \right.
+\]
+
 
 
 

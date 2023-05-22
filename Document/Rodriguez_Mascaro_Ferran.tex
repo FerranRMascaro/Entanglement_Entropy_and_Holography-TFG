@@ -152,17 +152,11 @@ being $\rho_A = \tr_B \ket{\Psi}\bra{\Psi}$. If $\rho_A$ is diagonalized ($\rho_
 
 If there is no entanglement between both subsystems, the entanglement entropy is null ($S_{EE} = 0$).
 
-A density matrix is a positive operator and can be written as
-\eq{modH}{
-    \rho = \frac{e^{-K}}{\tr e^{-K}}
-}
-\cite{casini_lectures_2022} if it does not have zero eigenvalues. $K$ is the modular Hamiltonian.
-
 
 \subsection{Entanglement entropy in CFT}
 The general expression of the entanglement entropy for a $d$-dimensional quantum field theory is
 \eq{EE}{
-    \begin{array}{rr}
+    \begin{array}{cc}
         {S_{QFT_d} = c_{d-2} \left( \frac{H}{\delta} \right) ^{d-2} + c_{d-1} \left( \frac{H}{\delta} \right) ^{d-4} + ... + } \\ \\
         {+ \left \{ \begin{array}{cl} 
         c_1 \frac{H}{\delta} + (-1)^{\frac{d-1}{2}} s_{\text{non-loc}}
@@ -221,13 +215,6 @@ that says that the entropy related to a black hole only depends on the area $A_H
 From the Ryu-Takayanagi formula for a ( $d+1$ )-dimensional anti-de Sitter space-time one obtains the expected general expression of the entanglement entropy \ref{eq:EE} for a $d$-dimensional conformal field theory \cite{}.
 
 To do so, one defines the region studied $\calA$ of a layer with $z = \delta \ll 1$ in terms of an apropiate group of coordinates $x_i$. The surface of minimal area $\delta_{\calA}$ will be defined in terms of these set of coordinates, being $z = f (x_i)$. Aplying this restriction to the metric one obtains the induced metric onto $\delta_{\calA}$. The square rood of the determinant of the induced metric, $\sqrt{h}$, is integrated to obtain the family of surface of $\delta_{\calA}$. Extremezing this functional one obtains the surface of minimal area $\delta_{\calA}$. The induced metric will be expressed in terms of $f(x_i)$ and its derivate, so one can use the equations of Euler-Lagrange to find relations between $f (x_i)$ and its derivate to finally deduce its expression and solve the integral.
-
-
-\subsection{First law of entanglement entropy}
-
------
-
-
 
 
 \section{Strong subadditivity}
@@ -306,6 +293,35 @@ The second inequality is saturated when the mutual information
     I(\calA,\calB) = S(\calA) + S(\calB) - S(\calA \cup \calB)
 }
 is zero. In this case, the two regions are sufficiently far apart that their union's surface is simply the union of their minimal surfaces. The mutual information only vanishes when the two subsystems are uncorrelated. It is interesting that the correlations between subsystems can go stricktly to zero in a field theory in the limit of large number of subsystems.
+
+
+\section{Duality with Einstein equation}
+
+\subsection{First law of entanglement entropy}
+
+For a small perturbation of a quantum field theory state $\ket{\psi(\varepsilon)}$ to the initial state $\ket{\psi(0)}$, the \textit{First Law of Entanglement Entropy} is defined as
+\eq{FLEE}{
+    \delta S_{\calA} = \frac{d}{d \varepsilon} S_{\calA} = \frac{d}{d \varepsilon} \abs{H_{\calA}} = \frac{d}{d \varepsilon} \tr (H_{\calA} \rho_{\calA}) \equiv \delta E_{calA}
+}
+for the entanglement entropy of a subsystem $\calA$ \cite{fareghbal_first_2019}. The modular Hamiltonian $H_{\calA}$ is independent of the perturbaton and is defined by
+\eq{modularH}{
+    \rho_{\calA} (\varepsilon) = e^{-H_{\calA}}.
+}
+
+The first law of entanglement entropy is a generalization of the first law of thermodynamics for any arbitrary small perturbation, quantum state or subsystem.
+
+When $H_{\calA}$ is a local operator, $\rho_{\calA}$ can be mapped to a thermal one, $\rho_{\calH}$, by an unitary transformation, being the resultant entropy thermal. Hence $\rho_{\calH}$ can be written as
+\eq{modularH2}{
+    \rho_{\calH} = \frac{e^{-H_{\calH}}}{\tr (e^{-H_{\calH}})} \ ,
+}
+where $H_{\calH}$ is the associated charge of the so called modular flow $\xi$.
+
+In the holographic description \cite{fareghbal_first_2019} it has been shown that writing both sites of the first law of entanglement entropy in terms of the corresponding bulk parameters leads to a constraint on the bulk geometry that is exactly the Einstein equation. If this was an intrinsec property of any gauge/gravity theory, one could use entanglement entropy in an arbitrary field theory to find a dual gravitational geometry.
+
+\subsection{First law of entanglement entropy applied to holography}
+
+
+
 
 
 
