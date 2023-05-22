@@ -24,6 +24,7 @@
 \usepackage{abstract}
 \usepackage{wrapfig}
 \usepackage{graphicx}
+\usepackage{hyperref}
 
 \usepackage[backend=biber,style=phys]{biblatex}
 \addbibresource{TFG.bib}
@@ -132,7 +133,7 @@ A class of conformal field theories are equivalently described in certain limits
 The \textit{AdS/CFT Correspondance}, simply called \textit{holography} in high energy physics, is an equivalence or duality between quantum gravity theories (certain string theories) at asymptotically $D$-dimensional anti-de Sitter space-times and non-gravitational conformal quantum field theories at Minkowski space-times of $D-1$ dimensions \cite{maldacena_large_1999}. It allows us to study different aspects of each of these theories through the other. The so called \textit{holographic dictionary} relates quantities (observables) between the AdS theories and the CFT. % \cite{kaplan_lectures_nodate}
 
 
-\subsection{Entanglement Entropy}
+\section{Entanglement Entropy}
 
 When two quantum systems enter into temporary physical interaction, they can no longer be described in the same way after a time of mutual influence \cite{schrodinger_discussion_1935}. One can no longer describe neither of those systems independently without losing global information, because the state of each systems know is influenced and correlated by the other system. This is the so called \textit{quantum entanglement}.
 
@@ -150,6 +151,28 @@ Neumann entropy of the reduced density matrix $\rho_A$ of one of the subsystems 
 being $\rho_A = \tr_B \ket{\Psi}\bra{\Psi}$. If $\rho_A$ is diagonalized ($\rho_A = \sum_i \lambda_i \ket{i}\bra{i}$), then the entanglement entropy would take the simplified form $S_{EE} = - \sum_i \lambda_i \log \lambda_i$.
 
 If there is no entanglement between both subsystems, the entanglement entropy is null ($S_{EE} = 0$).
+
+A density matrix is a positive operator and can be written as
+\eq{modH}{
+    \rho = \frac{e^{-K}}{\tr e^{-K}}
+}
+\cite{casini_lectures_2022} if it does not have zero eigenvalues. $K$ is the modular Hamiltonian.
+
+
+\subsection{Entanglement entropy in CFT}
+The general expression of the entanglement entropy for a $d$-dimensional quantum field theory is
+\eq{EE}{
+    \begin{array}{rr}
+        {S_{QFT_d} = c_{d-2} \left( \frac{H}{\delta} \right) ^{d-2} + c_{d-1} \left( \frac{H}{\delta} \right) ^{d-4} + ... + } \\ \\
+        {+ \left \{ \begin{array}{cl} 
+        c_1 \frac{H}{\delta} + (-1)^{\frac{d-1}{2}} s_{\text{non-loc}}
+        & \text{for odd } d \\
+        c_2 \left ( \frac{H}{\delta} \right ) + (-1)^{\frac{d-2}{2}} s_{\text{loc}} \log \left ( \frac{H}{\delta} \right ) + c_0
+        & \text{for even } d
+        \end{array} \right . \ ,}
+    \end{array}
+}
+\cite{nishioka_entanglement_2018} in which $H$ is the characteristic length of the region studied, $c_i$ are coefficients that are non-universal (not well-defined in the continuum, dependent on the definition of $\delta$) and local, and $s_{\text{loc},\text{non-loc}}$ are universal coefficients (the suffixs refer to if they are local or non-local) that contain information about the corresponding CFT.
 
 
 \subsection{Entanglement entropy in AdS/CFT}
@@ -195,21 +218,19 @@ The Ryu-Takayanagi formula is valid for generic systems, and gives a flavour of 
 }
 that says that the entropy related to a black hole only depends on the area $A_H$ of its event horizon.
 
-Solving the Ryu-Takayanagi formula for a ($d+1$)-dimensional anti-de Sitter space-time one obtains the expected general expression of the entanglement entropy for a $d$-dimensional quantum field theory:
-\eq{EE}{
-    \begin{array}{rr}
-        {S_{QFT_d} = c_0 \left( \frac{R}{\delta} \right) ^{d-2} + c_1 \left( \frac{R}{\delta} \right) ^{d-4} + ... + } \\ \\
-        {+ \left\{ \begin{array}{cl} 
-        0 & \text{for odd } d \\
-        a \log \left( \frac{R}{\delta} \right) & \text{for even } d
-        \end{array} \right\}
-        - F \ ,}
-    \end{array}
-}
-\cite{nishioka_entanglement_2018} in which $R$ is the characteristic length of the region studied, $c_i$ are coefficients that can be dependent on $\delta$, and $F$ is a function related to the aspect of the region $\calA$.
+From the Ryu-Takayanagi formula for a ( $d+1$ )-dimensional anti-de Sitter space-time one obtains the expected general expression of the entanglement entropy \ref{eq:EE} for a $d$-dimensional conformal field theory \cite{}.
+
+To do so, one defines the region studied $\calA$ of a layer with $z = \delta \ll 1$ in terms of an apropiate group of coordinates $x_i$. The surface of minimal area $\delta_{\calA}$ will be defined in terms of these set of coordinates, being $z = f (x_i)$. Aplying this restriction to the metric one obtains the induced metric onto $\delta_{\calA}$. The square rood of the determinant of the induced metric, $\sqrt{h}$, is integrated to obtain the family of surface of $\delta_{\calA}$. Extremezing this functional one obtains the surface of minimal area $\delta_{\calA}$. The induced metric will be expressed in terms of $f(x_i)$ and its derivate, so one can use the equations of Euler-Lagrange to find relations between $f (x_i)$ and its derivate to finally deduce its expression and solve the integral.
 
 
-\subsection{Strong subadditivity}
+\subsection{First law of entanglement entropy}
+
+-----
+
+
+
+
+\section{Strong subadditivity}
 
 Being $S(\rho)$ the von Neumann entropy (Equation \ref{eq:EE}) of a system with density matrix $\rho$, two entanglement subsystems $\rho_1$ and $\rho_2$ forming a whole system with $\rho_{full}$ generally obey the inequalities
 \eq{EE_subadd}{
@@ -233,7 +254,16 @@ or equivalently
 }
 This is called \textit{strong subadditivity}.
 
+\begin{wrapfigure}{r}{0.2\textwidth}
+    \centering
+    \includegraphics[width=0.2\textwidth]{../Imatges/empty.png}
+\caption{}
+\label{fig:}
+\end{wrapfigure}
+
 An important test of the validity of the Ryu-Takayanagi formula (Equation \ref{eq:EE_RT}) is whether it has the property of strong subadditivity.
+
+Generally, this property is very difficult to demonstrate, but is extremely easy to do so using the Ryu-Takayanagi formula only using geometric relations.
 
 Let's start proving the first inequality. Let $\gamma_{\calA}$, $\gamma_{\calB}$ be the surfaces of minimal area in the bulk connected to $\partial \calA$, $\partial \calB$ respectively, and $r_{\calA}$, $r_{\calB}$ the corresponding regions of the bulk. Thus, $\partial r_{\calA} = \calA \cup \gamma_{\calA}$, $\partial r_{\calB} = \calB \cup \gamma_{\calB}$, and we define the regions
 \eq{SS_r-1}{
@@ -242,12 +272,12 @@ Let's start proving the first inequality. Let $\gamma_{\calA}$, $\gamma_{\calB}$
 The surfaces onto the slice of this regions can be decomposed as
 \eq{SS_dr-1}{
     \partial r_{\calA \cup \calB} = (\calA \cup \calB) \cup \gamma_{\calA \cup \calB} \ , \ \partial r_{\calA \cap \calB } = (\calA \cap \calB) \cup \gamma_{\calA \cap \calB} \ .
-}
-It is clear that $\partial (\calA \cup \calB)$ and $\partial (\calA \cap \calB)$ correspond to $\gamma_{\calA \cup \calB}$ and $\gamma_{\calA \cap \calB}$, but nothing says that they are the surfaces of minimal area $\gamma^{'}_{\calA \cup \calB}$ and $\gamma^{'}_{\calA \cap \calB}$ related to $\partial (\calA \cup \calB)$ and $\partial (\calA \cap \calB)$, they are upper bounds. This proves that
+    }
+It is clear that $\partial (\calA \cup \calB)$ and $\partial (\calA \cap \calB)$ correspond to $\gamma_{\calA \cup \calB}$ and $\gamma_{\calA \cap \calB}$, but nothing says that they are the surfaces of minimal area $\gamma^{\text{min}}_{\calA \cup \calB}$ and $\gamma^{\text{min}}_{\calA \cap \calB}$ related to $\partial (\calA \cup \calB)$ and $\partial (\calA \cap \calB)$, they are upper bounds. This proves that
 \eq{SS_gamma-1}{
-    \gamma_{\calA} + \gamma_{\calB} = \gamma_{\calA \cup \calB} + \gamma_{\calA \cap \calB} \ge \gamma^{'}_{\calA \cup \calB} + \gamma^{'}_{\calA \cap \calB} \ ,
+    \gamma_{\calA} + \gamma_{\calB} = \gamma_{\calA \cup \calB} + \gamma_{\calA \cap \calB} \ge \gamma^{\text{min}}_{\calA \cup \calB} + \gamma^{\text{min}}_{\calA \cap \calB} \ ,
 }
-and, therefore, using the Ryu-Takayanagi formula (Equation \ref{eq:EE_RT}), the first inequality of \ref{eq:EE_strong-subadd-2}.
+and, therefore, using the Ryu-Takayanagi formula (Equation \ref{eq:EE_RT}), the first inequality of Equation \ref{eq:EE_strong-subadd-2}.
 
 Regarding the second inequality, we see that
 \eq{SS_r-2}{
@@ -257,9 +287,9 @@ The surface onto the slice of this regions are decomposed as
 \eq{SS_dr-2}{
     \partial r_{\calA \setminus \calB} = (\calA \setminus \calB) \cup \gamma_{\calA \setminus \calB} \ , \ \partial r_{\calB \setminus \calA } = (\calB \setminus \calA) \cup \gamma_{\calB \setminus \calA} \ .
 }
-The $\partial (\calA \setminus \calB)$ and $\partial (\calB \setminus \calA)$ correspond to the upper bounds $\gamma_{\calA \setminus \calB}$ and $\gamma_{\calB \setminus \calA}$ of the surfaces of minimal area $\gamma^{'}_{\calA \setminus \calB}$ and $\gamma^{'}_{\calA \setminus \calB}$. So
+The $\partial (\calA \setminus \calB)$ and $\partial (\calB \setminus \calA)$ correspond to the upper bounds $\gamma_{\calA \setminus \calB}$ and $\gamma_{\calB \setminus \calA}$ of the surfaces of minimal area $\gamma^{\text{min}}_{\calA \setminus \calB}$ and $\gamma^{\text{min}}_{\calA \setminus \calB}$. So
 \eq{SS_gamma-2}{
-    \gamma_{\calA} + \gamma_{\calB} = \gamma_{\calA \setminus \calB} + \gamma_{\calB \setminus \calA} \ge \gamma^{'}_{\calA \setminus \calB} + \gamma^{'}_{\calB \setminus \calA} \ ,
+    \gamma_{\calA} + \gamma_{\calB} = \gamma_{\calA \setminus \calB} + \gamma_{\calB \setminus \calA} \ge \gamma^{\text{min}}_{\calA \setminus \calB} + \gamma^{\text{min}}_{\calB \setminus \calA} \ ,
 }
 and, through the Ryu-Takayanagi formula, the second inequality of \ref{eq:EE_strong-subadd-2} it is proven.
 

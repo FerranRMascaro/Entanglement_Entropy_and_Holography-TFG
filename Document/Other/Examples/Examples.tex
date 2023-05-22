@@ -1,0 +1,78 @@
+\documentclass[lettersize,journal]{IEEEtran}
+
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{mathtools}
+\usepackage{float}
+\usepackage{csvsimple}
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\usepackage{braket}
+\providecommand{\eq}[2]{
+    \begin{equation}
+        #2
+    \label{eq:#1}
+    \end{equation}
+}
+\usepackage{amsmath}
+\DeclareMathOperator{\calA}{\mathcal{A}}
+\DeclareMathOperator{\calB}{\mathcal{B}}
+\DeclareMathOperator{\calH}{\mathcal{H}}
+\DeclareMathOperator{\tr}{tr}
+\usepackage{fancyhdr}
+\usepackage{authblk}
+\usepackage{abstract}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\usepackage[backend=biber,style=phys]{biblatex}
+\addbibresource{TFG.bib}
+
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+
+% \usepackage{graphicx}
+% \usepackage{caption}
+% \usepackage{subcaption}
+
+% \usepackage[a4paper]{geometry}
+% \geometry{top=3cm, bottom=3.3cm, left=3cm, right=3cm}
+
+
+\title{Entanglement Entropy and Holography - Examples}
+\author{F. R. Mascaró}
+\date{}
+
+\begin{document}
+
+
+\maketitle{}
+
+
+% \twocolumn[
+%     \begin{@twocolumnfalse}
+%         \maketitle{}
+%         \begin{abstract}
+%         ...
+%         \end{abstract}
+%     \end{@twocolumnfalse}
+% ]
+
+
+\section{EE of a disk in $d=3$}
+
+\eq{A}{
+    \calA = \{ ( r, \theta, z, t ) \ | \ t = 0, z = \delta, r \le R \}
+}
+\eq{gammaA}{
+    \gamma_{\calA} = \{ ( r, \theta, z, t ) \ | \ t = 0, z = f (r, \theta) \}
+}
+
+
+
+
+
+\printbibliography
+
+\end{document}
