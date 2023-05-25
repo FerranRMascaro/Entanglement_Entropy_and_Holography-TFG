@@ -2369,8 +2369,13 @@
     <bcf:citekey order="10" intorder="1">ryu_holographic_2008</bcf:citekey>
     <bcf:citekey order="11" intorder="1">bekenstein_black_1973</bcf:citekey>
     <bcf:citekey order="12" intorder="1">headrick_holographic_2007</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">fareghbal_first_2019</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">fareghbal_first_2019</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">bueno_holographic_2021</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">iyer_properties_1994</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">bueno_holographic_2021</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">dong_holographic_2014</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">faulkner_quantum_2013</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">fareghbal_first_2019</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">fareghbal_first_2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.2)  23 MAY 2023 01:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.2)  25 MAY 2023 03:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -784,7 +784,7 @@ Underfull \hbox (badness 1803) in paragraph at lines 86--88
 \T1/lmr/m/n/10 with the time and space-related di-men-sions $\OML/lmm/m/it/10 t; x[] \OMS/lmsy/m/n/10 2
  []
 
-<../Imatges/Extern/Captura_Superficies_z.png, id=52, 227.6505pt x 320.397pt>
+<../Imatges/Extern/Captura_Superficies_z.png, id=64, 227.6505pt x 320.397pt>
 File: ../Imatges/Extern/Captura_Superficies_z.png Graphic file (type png)
 <use ../Imatges/Extern/Captura_Superficies_z.png>
 Package pdftex.def Info: ../Imatges/Extern/Captura_Superficies_z.png  used on input line 93.
@@ -851,7 +851,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--104
 []\T1/lmr/m/n/10 Using hyper-polar
  []
 
-<../Imatges/Extern/Wikipedia_Half-space_Cilindric.png, id=54, 220.825pt x 165.61874pt>
+<../Imatges/Extern/Wikipedia_Half-space_Cilindric.png, id=66, 220.825pt x 165.61874pt>
 File: ../Imatges/Extern/Wikipedia_Half-space_Cilindric.png Graphic file (type png)
 <use ../Imatges/Extern/Wikipedia_Half-space_Cilindric.png>
 Package pdftex.def Info: ../Imatges/Extern/Wikipedia_Half-space_Cilindric.png  used on input line 109.
@@ -866,99 +866,102 @@ LaTeX Warning: Citation '' on page 1 undefined on input line 114.
 
 LaTeX Warning: Citation '' on page 2 undefined on input line 144.
 
-<../Imatges/Extern/EE_AdS-CFT.png, id=99, 687.56876pt x 382.42876pt>
+<../Imatges/Extern/EE_AdS-CFT.png, id=111, 687.56876pt x 382.42876pt>
 File: ../Imatges/Extern/EE_AdS-CFT.png Graphic file (type png)
 <use ../Imatges/Extern/EE_AdS-CFT.png>
-Package pdftex.def Info: ../Imatges/Extern/EE_AdS-CFT.png  used on input line 176.
+Package pdftex.def Info: ../Imatges/Extern/EE_AdS-CFT.png  used on input line 177.
 (pdftex.def)             Requested size: 139.3222pt x 77.48807pt.
 
-Underfull \hbox (badness 1681) in paragraph at lines 181--182
+Underfull \hbox (badness 1681) in paragraph at lines 182--183
 \T1/lmr/m/n/10 time, ev-ery point on
  []
 
 
-Underfull \hbox (badness 4569) in paragraph at lines 181--182
+Underfull \hbox (badness 4569) in paragraph at lines 182--183
 \T1/lmr/m/n/10 the points sur-round-
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 181--182
+Underfull \hbox (badness 1924) in paragraph at lines 182--183
 \T1/lmr/m/n/10 ing it [[]7[]]. There-fore,
  []
 
 
-Underfull \hbox (badness 1983) in paragraph at lines 181--182
+Underfull \hbox (badness 1983) in paragraph at lines 182--183
 \T1/lmr/m/n/10 the en-tan-gle-ment en-
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 181--182
+Underfull \hbox (badness 2671) in paragraph at lines 182--183
 \T1/lmr/m/n/10 i-nated by the cor-re-
  []
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 181--182
+Underfull \hbox (badness 2856) in paragraph at lines 182--183
 \T1/lmr/m/n/10 la-tions be-tween both
  []
 
 
-LaTeX Warning: Citation '' on page 2 undefined on input line 215.
+LaTeX Warning: Citation '' on page 2 undefined on input line 216.
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 215--216
+Underfull \hbox (badness 1675) in paragraph at lines 216--217
 \T1/lmr/m/n/10 ex-pected gen-eral ex-pres-sion of the en-tan-gle-ment en-
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 215--216
+Underfull \hbox (badness 2932) in paragraph at lines 216--217
 \T1/lmr/m/n/10 tropy []5[] for a $\OML/lmm/m/it/10 d$\T1/lmr/m/n/10 -dimensional con-for-mal field the-ory
  []
 
 [2 <../Imatges/Extern/EE_AdS-CFT.png (PNG copy)>]
-<../Imatges/empty.png, id=127, 96.36pt x 96.36pt>
+<../Imatges/empty.png, id=139, 96.36pt x 96.36pt>
 File: ../Imatges/empty.png Graphic file (type png)
 <use ../Imatges/empty.png>
-Package pdftex.def Info: ../Imatges/empty.png  used on input line 246.
+Package pdftex.def Info: ../Imatges/empty.png  used on input line 247.
 (pdftex.def)             Requested size: 103.19843pt x 103.19826pt.
 
-Underfull \hbox (badness 2573) in paragraph at lines 251--252
+Underfull \hbox (badness 2573) in paragraph at lines 252--253
 [][]\T1/lmr/m/n/10 An im-por-tant test of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
 \T1/lmr/m/n/10 for-mula (Equa-tion []6[]) is
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 253--254
+Underfull \hbox (badness 1831) in paragraph at lines 254--255
 []\T1/lmr/m/n/10 Generally, this prop-erty is
  []
 
-[3 <../Imatges/empty.png>] [4
+[3 <../Imatges/empty.png>]
+Underfull \hbox (badness 5245) in paragraph at lines 316--317
+[]\T1/lmr/m/n/10 One can also con-sider cor-rec-tions on the Ryu-
+ []
 
-] (Rodriguez_Mascaro_Ferran.aux)
+[4] (Rodriguez_Mascaro_Ferran.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Rodriguez_Mascaro_Ferran.out' has not changed.
-(rerunfilecheck)             Checksum: E29A64ED1E8A368D3E1DD7C7210CE785;2343.
+(rerunfilecheck)             Checksum: 35849F98C909DBAE990F2BE3FBC4828E;2891.
 Package logreq Info: Writing requests to 'Rodriguez_Mascaro_Ferran.run.xml'.
 \openout1 = `Rodriguez_Mascaro_Ferran.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20386 strings out of 476339
- 378617 string characters out of 5787648
+ 20431 strings out of 476339
+ 379860 string characters out of 5787648
  1878340 words of memory out of 5000000
- 40460 multiletter control sequences out of 15000+600000
+ 40497 multiletter control sequences out of 15000+600000
  699650 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,16n,77p,1570b,1339s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,16n,77p,1727b,1339s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Rodriguez_Mascaro_Ferran.pdf (4 pages, 407602 bytes).
+Output written on Rodriguez_Mascaro_Ferran.pdf (4 pages, 418457 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 117 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 310 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
