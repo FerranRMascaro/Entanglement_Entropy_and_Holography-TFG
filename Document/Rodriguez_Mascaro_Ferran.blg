@@ -1,15 +1,53 @@
-[0] Config.pm:306> INFO - This is Biber 2.18
-[0] Config.pm:309> INFO - Logfile is 'Rodriguez_Mascaro_Ferran.blg'
-[93] biber-MSWIN64:340> INFO - === 
-[124] Biber.pm:418> INFO - Reading 'Rodriguez_Mascaro_Ferran.bcf'
-[212] Biber.pm:978> INFO - Found 16 citekeys in bib section 0
-[225] Biber.pm:4401> INFO - Processing section 0
-[235] Biber.pm:4592> INFO - Looking for bibtex file 'TFG.bib' for section 0
-[282] bibtex.pm:1713> INFO - LaTeX decoding ...
-[363] bibtex.pm:1518> INFO - Found BibTeX data source 'TFG.bib'
-[444] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[444] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[445] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[445] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
-[458] bbl.pm:654> INFO - Writing 'Rodriguez_Mascaro_Ferran.bbl' with encoding 'UTF-8'
-[465] bbl.pm:757> INFO - Output to Rodriguez_Mascaro_Ferran.bbl
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Rodriguez_Mascaro_Ferran.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: plain.bst
+Database file #1: TFG.bib
+Warning--I didn't find a database entry for ""
+Warning--empty journal in kaplan_lectures_nodate
+Warning--empty year in kaplan_lectures_nodate
+Warning--empty publisher in rangamani_holographic_2017
+You've used 16 entries,
+            2118 wiz_defined-function locations,
+            601 strings with 6466 characters,
+and the built_in function-call counts, 4625 in all, are:
+= -- 457
+> -- 164
+< -- 1
++ -- 69
+- -- 50
+* -- 345
+:= -- 790
+add.period$ -- 55
+call.type$ -- 16
+change.case$ -- 72
+chr.to.int$ -- 0
+cite$ -- 19
+duplicate$ -- 168
+empty$ -- 394
+format.name$ -- 50
+if$ -- 941
+int.to.chr$ -- 0
+int.to.str$ -- 16
+missing$ -- 15
+newline$ -- 90
+num.names$ -- 32
+pop$ -- 59
+preamble$ -- 1
+purify$ -- 57
+quote$ -- 0
+skip$ -- 115
+stack$ -- 0
+substring$ -- 313
+swap$ -- 16
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 62
+warning$ -- 3
+while$ -- 49
+width$ -- 18
+write$ -- 187
+(There were 4 warnings)

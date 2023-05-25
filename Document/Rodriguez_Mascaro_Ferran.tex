@@ -1,4 +1,5 @@
-\documentclass[lettersize,journal]{IEEEtran}
+\RequirePackage[2020-02-02]{latexrelease}
+\documentclass[twocolumn]{revtex4}
 
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
@@ -21,19 +22,16 @@
     \end{gather}
 }
 \usepackage{amsmath}
+\usepackage{amsfonts}
 \DeclareMathOperator{\calA}{\mathcal{A}}
 \DeclareMathOperator{\calB}{\mathcal{B}}
 \DeclareMathOperator{\calH}{\mathcal{H}}
 \DeclareMathOperator{\tr}{tr}
 \usepackage{fancyhdr}
-\usepackage{authblk}
-\usepackage{abstract}
+% \usepackage{abstract}
 \usepackage{wrapfig}
-\usepackage{graphicx}
-\usepackage{hyperref}
-
-\usepackage[backend=biber,style=phys]{biblatex}
-\addbibresource{TFG.bib}
+\usepackage{graphicx,epsfig}
+\usepackage[hidelinks]{hyperref}
 
 % \usepackage{multirow}
 % \usepackage[table,xcdraw]{xcolor}
@@ -46,22 +44,53 @@
 % \geometry{top=3cm, bottom=3.3cm, left=3cm, right=3cm}
 
 
-\title{Entanglement Entropy and Holography}
-\author{Ferran Rodríguez Mascaró}
-\date{}
+% \usepackage[backend=biber,style=phys]{biblatex}
+% \addbibresource{TFG.bib}
 
 
 \begin{document}
 
 
-\twocolumn[
-    \begin{@twocolumnfalse}
-        \maketitle{}
-        \begin{abstract}
-            The AdS/CFT correspondance, also called Holography, is a duality relating quantum field theory and gravity, in particular conformal field theory and anti-de Sitter spacetime-time gravities. It descrives how quantities from each of these theories, the so-called holographic dictionary, can be studied one throw the other. One of the most important magnituds of the holographic dictionary is the entanglement entropy of a region, that mesures the degree of quantum entanglement between this region and its surroundings. In this work it is introduced the basics of holography, especially aplied to entanglement entropy, demonstrating some important properties and fascinating achievements of the theory, as the equivalence of the Ryu-Takayanagi formula with the Bekenstein-Hawking black hole entropy formula, the fulfillment of the strong subadditivity property or the duality between entanglement entropy and the Einstein field equations.
-        \end{abstract}
-    \end{@twocolumnfalse}
-]
+\pagestyle{fancy}
+\lhead{\bf Entanglement Entropy and Holography}
+\rhead{Ferran Rodríguez Mascaró}
+\lfoot{Treball de Fi de Grau}
+\rfoot{Barcelona, January 2023}
+
+
+\title{Entanglement Entropy and Holography}
+\author{Author: Ferran Rodríguez Mascaró.}
+\affiliation{Facultat de F\'{\i}sica, Universitat de Barcelona, Diagonal
+645, 08028 Barcelona, Spain.}
+\email{ferran.r.m11@gmail.com} %optional
+\author{Advisor: Pablo Bueno Gómez}
+%\date{\today}
+
+
+\begin{abstract}
+    The AdS/CFT correspondance, also called Holography, is a duality relating quantum field theory and gravity, in particular conformal field theory and anti-de Sitter spacetime-time gravities. It descrives how quantities from each of these theories, the so-called holographic dictionary, can be studied one throw the other. One of the most important magnituds of the holographic dictionary is the entanglement entropy of a region, that mesures the degree of quantum entanglement between this region and its surroundings. In this work it is introduced the basics of holography, especially aplied to entanglement entropy, demonstrating some important properties and fascinating achievements of the theory, as the equivalence of the Ryu-Takayanagi formula with the Bekenstein-Hawking black hole entropy formula, the fulfillment of the strong subadditivity property or the duality between entanglement entropy and the Einstein field equations.
+\end{abstract}
+
+
+\maketitle
+
+
+% \title{Entanglement Entropy and Holography}
+% \author{Ferran Rodríguez Mascaró}
+% \date{}
+
+
+% \begin{document}
+
+
+% \twocolumn[
+%     \begin{@twocolumnfalse}
+%         \maketitle{}
+%         \begin{abstract}
+%             The AdS/CFT correspondance, also called Holography, is a duality relating quantum field theory and gravity, in particular conformal field theory and anti-de Sitter spacetime-time gravities. It descrives how quantities from each of these theories, the so-called holographic dictionary, can be studied one throw the other. One of the most important magnituds of the holographic dictionary is the entanglement entropy of a region, that mesures the degree of quantum entanglement between this region and its surroundings. In this work it is introduced the basics of holography, especially aplied to entanglement entropy, demonstrating some important properties and fascinating achievements of the theory, as the equivalence of the Ryu-Takayanagi formula with the Bekenstein-Hawking black hole entropy formula, the fulfillment of the strong subadditivity property or the duality between entanglement entropy and the Einstein field equations.
+%         \end{abstract}
+%     \end{@twocolumnfalse}
+% ]
 
 
 \section{Introduction} \label{s:Intro}
@@ -102,8 +131,8 @@ Fixing the coordinate $z$, one creates $d$-dimensional space-time surfaces 'weig
 \begin{wrapfigure}{r}{0.27\textwidth}
     \centering
     \includegraphics[width=0.15\textwidth]{../Imatges/Extern/Captura_Superficies_z.png}
-\caption{Representation of the different Minkowski space-time layers along the $z$ coordinate inside an AdS space-time.}
 \label{fig:AdS_z-surfaces}
+\caption{Representation of the different Minkowski space-time layers along the $z$ coordinate inside an AdS space-time.}
 \end{wrapfigure}
 
 At constant time, \cite{} this metric forms hyperbolic spaces of negative curvature, conformally equivalent to Minkowski space-times at $z \to 0$. The conformal infinity of AdS is timelike, thus one needs boundary conditions to determine the future evolution uniquely.
@@ -118,8 +147,8 @@ being $L$ ($k^2=1/L^2$) the so-called anti-de Sitter radius.
 \begin{wrapfigure}{r}{0.27\textwidth}
     \centering
     \includegraphics[width=0.21\textwidth]{../Imatges/Extern/Wikipedia_Half-space_Cilindric.png}
-\caption{Representation of the half-space region of an AdS space-time and its boundary.}
 \label{fig:AdS_cylindrical}
+\caption{Representation of the half-space region of an AdS space-time and its boundary.}
 \end{wrapfigure}
 
 In figure \ref{fig:AdS_cylindrical} it is represented the metric of equation \ref{eq:AdS_hyper-polar-metric}. The whole cylinder corresponds to an AdS space-time, being the lateral surface the conformal boundary (where $z \to 0$, or $r \to \infty$). The marked region corresponds to the one covered by the half-space coordinates, flanked by the conformal boundary and two lightlike geodesic hyperplanes \cite{}.
@@ -208,8 +237,8 @@ The general expression of the entanglement entropy for a $d$-dimensional quantum
 \begin{wrapfigure}{r}{0.27\textwidth}
     \centering
     \includegraphics[width=0.27\textwidth]{../Imatges/Extern/EE_AdS-CFT.png}
-\caption{Region $\calA$ (dark blue) and its boundary $\partial \calA$ inside a $z=\delta$ AdS slide (grey) and its respective $\gamma_{\calA}$ (light blue) inside the AdS space-time.}
 \label{fig:EE_AdS-CFT}
+\caption{Region $\calA$ (dark blue) and its boundary $\partial \calA$ inside a $z=\delta$ AdS slide (grey) and its respective $\gamma_{\calA}$ (light blue) inside the AdS space-time.}
 \end{wrapfigure}
 
 In a quantum field placed in a Minkowski space-time, at a given time, every point on space is entangled with the points surrounding it \cite{nishioka_entanglement_2018}. Therefore, the entanglement entropy between a subsytem and the rest of the space will be dominated by the correlations between both sides of the boundary that isolates the subsystem.
@@ -274,8 +303,8 @@ This is called \textit{strong subadditivity}.
 \begin{wrapfigure}{r}{0.2\textwidth}
     \centering
     \includegraphics[width=0.2\textwidth]{../Imatges/empty.png}
-\caption{}
 \label{fig:}
+\caption{}
 \end{wrapfigure}
 
 An important test of the validity of the Ryu-Takayanagi formula (Equation \ref{eq:EE_RT}) is whether it has the property of strong subadditivity, that should be fulfilled in any quantum mechanical theory.
@@ -400,17 +429,44 @@ In the holographic description \cite{fareghbal_first_2019} it has been shown tha
 
 
 
-\section{Acknoledgments} \label{s:Acknoledgments}
+\begin{acknowledgments}
+    ---
+    
+    ---
+    
+    ---
+    
+\end{acknowledgments}
 
----
-
----
-
----
 
 
+% \begin{thebibliography}{99}
+
+%     \bibitem{latex}Helmut Kopka and Patrick W. Daly, \textsl{A Guide to
+%     \LaTeX: Document Preparation for Beginners and Advanced Users}, 3rd. ed. (Addison-Wesley, Reading, MA, 1999).
+    
+%     \bibitem{footnotes} It is necessary to process a file twice to
+%     get the counters correct.
+    
+%     \bibitem{jackson} J.D. Jackson, {\it Classical Electrodynamics}, (John-Wiley
+%     \& Sons, New York 1975, 2nd. ed.).
+    
+    
+%     \bibitem{wmap} Hinshaw, G. et al. (WMAP Collaboration).
+%     "Five-Year Wilkinson Microwave Anisotropy Probe Observations:
+%     Data Processing, Sky Maps, and Basic Results".
+%     The Astrophysical Journal Supplement {\bf 180}: 225–245 (2009).
+    
+%     \bibitem{weinberg} Weinberg, S.. "High-Energy Behavior in Quantum
+%     Field Theory". Phys. Rev. {\bf 118}: 838–849 (1960).
+    
+    
+% \end{thebibliography}
 
 
-\printbibliography
+% \printbibliography
+\bibliographystyle{plain}
+\bibliography{TFG.bib}
+
 
 \end{document}
