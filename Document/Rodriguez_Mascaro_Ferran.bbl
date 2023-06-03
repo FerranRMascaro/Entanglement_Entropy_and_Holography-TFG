@@ -12,8 +12,16 @@
 \providecommand{\bibinfo}[2]{#2}
 \providecommand{\eprint}[2][]{\url{#2}}
 
-\bibitem[{\citenamefont{Kaplan}()}]{kaplan_lectures_nodate}
-\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Kaplan}} (????).
+\bibitem[{\citenamefont{'t~Hooft}()}]{t_hooft_dimensional_2009}
+\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{'t~Hooft}},
+  \emph{\bibinfo{title}{Dimensional reduction in quantum gravity}},
+  \eprint{gr-qc/9310026}, \urlprefix\url{http://arxiv.org/abs/gr-qc/9310026}.
+
+\bibitem[{\citenamefont{Bekenstein}()}]{bekenstein_black_1973}
+\bibinfo{author}{\bibfnamefont{J.~D.} \bibnamefont{Bekenstein}},
+  \textbf{\bibinfo{volume}{7}}, \bibinfo{pages}{2333} (????), ISSN
+  \bibinfo{issn}{0556-2821},
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.7.2333}.
 
 \bibitem[{\citenamefont{Bousso}()}]{bousso_covariant_1999}
 \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Bousso}},
@@ -21,10 +29,14 @@
   \bibinfo{issn}{1029-8479}, \eprint{hep-th/9905177},
   \urlprefix\url{http://arxiv.org/abs/hep-th/9905177}.
 
-\bibitem[{\citenamefont{'t~Hooft}()}]{t_hooft_dimensional_2009}
-\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{'t~Hooft}},
-  \emph{\bibinfo{title}{Dimensional reduction in quantum gravity}},
-  \eprint{gr-qc/9310026}, \urlprefix\url{http://arxiv.org/abs/gr-qc/9310026}.
+\bibitem[{\citenamefont{Ramallo}()}]{ramallo_introduction_2013}
+\bibinfo{author}{\bibfnamefont{A.~V.} \bibnamefont{Ramallo}},
+  \emph{\bibinfo{title}{Introduction to the {AdS}/{CFT} correspondence}},
+  \eprint{1310.4319 [cond-mat, physics:hep-ph, physics:hep-th]},
+  \urlprefix\url{http://arxiv.org/abs/1310.4319}.
+
+\bibitem[{\citenamefont{Kaplan}()}]{kaplan_lectures_nodate}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Kaplan}} (????).
 
 \bibitem[{\citenamefont{Rangamani and
   Takayanagi}()}]{rangamani_holographic_2017}
@@ -33,12 +45,6 @@
   \emph{\bibinfo{title}{Holographic Entanglement Entropy}}, vol.
   \bibinfo{volume}{931} (????), \eprint{1609.01287 [gr-qc, physics:hep-th,
   physics:quant-ph]}, \urlprefix\url{http://arxiv.org/abs/1609.01287}.
-
-\bibitem[{\citenamefont{Ramallo}()}]{ramallo_introduction_2013}
-\bibinfo{author}{\bibfnamefont{A.~V.} \bibnamefont{Ramallo}},
-  \emph{\bibinfo{title}{Introduction to the {AdS}/{CFT} correspondence}},
-  \eprint{1310.4319 [cond-mat, physics:hep-ph, physics:hep-th]},
-  \urlprefix\url{http://arxiv.org/abs/1310.4319}.
 
 \bibitem[{\citenamefont{Maldacena}()}]{maldacena_large_1999}
 \bibinfo{author}{\bibfnamefont{J.~M.} \bibnamefont{Maldacena}},
@@ -64,12 +70,6 @@
   \textbf{\bibinfo{volume}{96}}, \bibinfo{pages}{181602} (????), ISSN
   \bibinfo{issn}{0031-9007, 1079-7114}, \eprint{hep-th/0603001},
   \urlprefix\url{http://arxiv.org/abs/hep-th/0603001}.
-
-\bibitem[{\citenamefont{Bekenstein}()}]{bekenstein_black_1973}
-\bibinfo{author}{\bibfnamefont{J.~D.} \bibnamefont{Bekenstein}},
-  \textbf{\bibinfo{volume}{7}}, \bibinfo{pages}{2333} (????), ISSN
-  \bibinfo{issn}{0556-2821},
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.7.2333}.
 
 \bibitem[{\citenamefont{Headrick and Takayanagi}()}]{headrick_holographic_2007}
 \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Headrick}} \bibnamefont{and}
