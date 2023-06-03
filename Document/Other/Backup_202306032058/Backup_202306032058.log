@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.26)  4 JUN 2023 01:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.26)  4 JUN 2023 01:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Rodriguez_Mascaro_Ferran.tex"
-(c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Rodriguez_Mascaro_Ferran.tex
+**"c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Other/Backup_202306032058/Backup_202306032058.tex"
+(c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Other/Backup_202306032058/Backup_202306032058.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-05-15> (C:\Users\ferran\AppData\Local\Programs\MiKTeX\tex/latex/base\latexrelease.sty
 LaTeX Info: Redefining \IfTargetDateBefore on input line 281.
@@ -1479,12 +1479,12 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen163
 \Gin@req@width=\dimen164
-) (Rodriguez_Mascaro_Ferran.aux
+) (Backup_202306032058.aux
 
 LaTeX Warning: Label `eq:EE' multiply defined.
 
 )
-\openout1 = `Rodriguez_Mascaro_Ferran.aux'.
+\openout1 = `Backup_202306032058.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
@@ -1563,10 +1563,10 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 74
  (C:\Users\ferran\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<../Imatges/Extern/Captura_Superficies_z.png, id=1, 227.6505pt x 320.397pt>
-File: ../Imatges/Extern/Captura_Superficies_z.png Graphic file (type png)
-<use ../Imatges/Extern/Captura_Superficies_z.png>
-Package pdftex.def Info: ../Imatges/Extern/Captura_Superficies_z.png  used on input line 130.
+<Imatges/Extern/Captura_Superficies_z.png, id=1, 227.6505pt x 320.397pt>
+File: Imatges/Extern/Captura_Superficies_z.png Graphic file (type png)
+<use Imatges/Extern/Captura_Superficies_z.png>
+Package pdftex.def Info: Imatges/Extern/Captura_Superficies_z.png  used on input line 130.
 (pdftex.def)             Requested size: 51.00311pt x 71.77821pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 132.
@@ -1585,10 +1585,10 @@ Underfull \hbox (badness 1342) in paragraph at lines 137--139
 \T1/lmr/m/n/10 is time-like, thus one
  []
 
-<../Imatges/Extern/Wikipedia_Half-space_Cilindric.png, id=3, 220.825pt x 165.61874pt>
-File: ../Imatges/Extern/Wikipedia_Half-space_Cilindric.png Graphic file (type png)
-<use ../Imatges/Extern/Wikipedia_Half-space_Cilindric.png>
-Package pdftex.def Info: ../Imatges/Extern/Wikipedia_Half-space_Cilindric.png  used on input line 148.
+<Imatges/Extern/Wikipedia_Half-space_Cilindric.png, id=3, 220.825pt x 165.61874pt>
+File: Imatges/Extern/Wikipedia_Half-space_Cilindric.png Graphic file (type png)
+<use Imatges/Extern/Wikipedia_Half-space_Cilindric.png>
+Package pdftex.def Info: Imatges/Extern/Wikipedia_Half-space_Cilindric.png  used on input line 148.
 (pdftex.def)             Requested size: 101.99844pt x 76.4989pt.
 
 Underfull \hbox (badness 1881) in paragraph at lines 150--150
@@ -1600,11 +1600,11 @@ Underfull \hbox (badness 2547) in paragraph at lines 153--154
 \T1/lmr/m/n/10 Eq. 2[]. The whole
  []
 
-[1{C:/Users/ferran/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc} <../Imatges/Extern/Captura_Superficies_z.png> <../Imatges/Extern/Wikipedia_Half-space_Cilindric.png>]
-<../Imatges/Extern/EE_AdS-CFT.png, id=28, 687.56876pt x 382.42876pt>
-File: ../Imatges/Extern/EE_AdS-CFT.png Graphic file (type png)
-<use ../Imatges/Extern/EE_AdS-CFT.png>
-Package pdftex.def Info: ../Imatges/Extern/EE_AdS-CFT.png  used on input line 238.
+[1{C:/Users/ferran/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc} <./Imatges/Extern/Captura_Superficies_z.png> <./Imatges/Extern/Wikipedia_Half-space_Cilindric.png>]
+<Imatges/Extern/EE_AdS-CFT.png, id=28, 687.56876pt x 382.42876pt>
+File: Imatges/Extern/EE_AdS-CFT.png Graphic file (type png)
+<use Imatges/Extern/EE_AdS-CFT.png>
+Package pdftex.def Info: Imatges/Extern/EE_AdS-CFT.png  used on input line 238.
 (pdftex.def)             Requested size: 101.99844pt x 56.73161pt.
 
 Underfull \hbox (badness 1048) in paragraph at lines 243--244
@@ -1631,11 +1631,11 @@ Underfull \hbox (badness 2189) in paragraph at lines 243--244
 \T1/lmr/m/n/10 la-tions be-tween both
  []
 
-[2 <../Imatges/Extern/EE_AdS-CFT.png (PNG copy)>]
-<../Imatges/empty.png, id=38, 96.36pt x 96.36pt>
-File: ../Imatges/empty.png Graphic file (type png)
-<use ../Imatges/empty.png>
-Package pdftex.def Info: ../Imatges/empty.png  used on input line 304.
+[2 <./Imatges/Extern/EE_AdS-CFT.png (PNG copy)>]
+<Imatges/empty.png, id=38, 96.36pt x 96.36pt>
+File: Imatges/empty.png Graphic file (type png)
+<use Imatges/empty.png>
+Package pdftex.def Info: Imatges/empty.png  used on input line 304.
 (pdftex.def)             Requested size: 101.99844pt x 101.99846pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 309--310
@@ -1662,66 +1662,106 @@ Underfull \hbox (badness 2828) in paragraph at lines 324--326
 \T1/lmr/m/n/10 and, there-fore, us-ing the Ryu-Takayanagi for-mula
  []
 
-[3 <../Imatges/empty.png>]
+[3 <./Imatges/empty.png>]
 Underfull \hbox (badness 2582) in paragraph at lines 373--374
 []\T1/lmr/m/n/10 One can also con-sider cor-rec-tions on the Ryu-
  []
 
-[4] (Rodriguez_Mascaro_Ferran.bbl
-Underfull \hbox (badness 5985) in paragraph at lines 19--23
- []\T1/lmr/m/n/9 R. Bousso, \T1/lmr/bx/n/9 1999\T1/lmr/m/n/9 , 004 (????), ISSN 1029-8479,
+[4] (Backup_202306032058.bbl
+Underfull \hbox (badness 3240) in paragraph at lines 48--53
+ []\T1/lmr/m/n/9 J. M. Mal-da-cena, In-ter-na-tional Jour-nal of The-o-
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 50--54
- []\T1/lmr/m/n/9 E. Schr�dinger, \T1/lmr/bx/n/9 31\T1/lmr/m/n/9 , 555 (????), ISSN 0305-0041,
+Underfull \hbox (badness 3815) in paragraph at lines 48--53
+ \T1/lmr/m/n/9 ret-i-cal Physics \T1/lmr/bx/n/9 38\T1/lmr/m/n/9 , 1113 (1999), ISSN 00207748,
  []
 
 
-Underfull \hbox (badness 5008) in paragraph at lines 50--54
- \T1/lmr/m/n/9 1469-8064, URL $\T1/lmtt/m/n/9 https : / / www . cambridge . org / core /
+Underfull \hbox (badness 3849) in paragraph at lines 48--53
+ \T1/lmr/m/n/9 arXiv:hep-th/9711200, URL $\T1/lmtt/m/n/9 http : / / arxiv . org / abs /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--54
- \T1/lmtt/m/n/9 product / identifier / S0305004100013554 / type /
+Underfull \hbox (badness 10000) in paragraph at lines 55--60
+ []\T1/lmr/m/n/9 E. Schr�dinger, Math-e-mat-i-cal Pro-ceed-ings of
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 69--73
- []\T1/lmr/m/n/9 J. D. Beken-stein, \T1/lmr/bx/n/9 7\T1/lmr/m/n/9 , 2333 (????), ISSN 0556-2821,
+Underfull \hbox (badness 10000) in paragraph at lines 55--60
+ \T1/lmr/m/n/9 the Cam-bridge Philo-soph-i-cal So-ci-ety \T1/lmr/bx/n/9 31\T1/lmr/m/n/9 , 555
  []
 
 
-Underfull \hbox (badness 7685) in paragraph at lines 69--73
+Underfull \hbox (badness 3954) in paragraph at lines 55--60
+ \T1/lmr/m/n/9 (1935), ISSN 0305-0041, 1469-8064, URL $\T1/lmtt/m/n/9 https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--60
+ \T1/lmtt/m/n/9 / / www . cambridge . org / core / product / identifier /
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 69--75
+ []\T1/lmr/m/n/9 S. Ryu and T. Takayanagi, Phys-i-cal Re-view Let-
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 69--75
+ \T1/lmr/m/n/9 arXiv:hep-th/0603001, URL $\T1/lmtt/m/n/9 http : / / arxiv . org / abs /
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 84--91
+ []\T1/lmr/m/n/9 M. Head-rick and T. Takayanagi, Phys-i-cal Re-view
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--91
+ \T1/lmr/m/n/9 D \T1/lmr/bx/n/9 76\T1/lmr/m/n/9 , 106013 (2007), ISSN 1550-7998, 1550-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--91
+ \T1/lmr/m/n/9 2368, arXiv:0704.3719 [cond-mat, physics:hep-th,
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 103--109
+ []\T1/lmr/m/n/9 V. Iyer and R. M. Wald, Phys-i-cal Re-view D \T1/lmr/bx/n/9 50\T1/lmr/m/n/9 ,
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 103--109
+ \T1/lmr/m/n/9 846 (1994), pub-lisher: Amer-i-can Phys-i-cal So-ci-ety,
+ []
+
+
+Underfull \hbox (badness 7685) in paragraph at lines 103--109
  \T1/lmr/m/n/9 URL $\T1/lmtt/m/n/9 https : / / link . aps . org / doi / 10 . 1103 / PhysRevD .
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 75--81
- \T1/lmr/m/n/9 th, physics:quant-ph], URL $\T1/lmtt/m/n/9 http : / / arxiv . org / abs /
+Underfull \hbox (badness 3108) in paragraph at lines 130--136
+ []\T1/lmr/m/n/9 R. Faregh-bal and M. Hakami Sha-la-mzari, Phys-i-
  []
 
-
-Underfull \hbox (badness 1122) in paragraph at lines 84--90
- \T1/lmr/m/n/9 (????), ISSN 1029-8479, URL $\T1/lmtt/m/n/9 https : / / doi . org / 10 .
- []
-
-) [5] (Rodriguez_Mascaro_Ferran.aux)
+) [5] (Backup_202306032058.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7025 strings out of 476410
- 120760 string characters out of 5788641
- 1873845 words of memory out of 5000000
- 27208 multiletter control sequences out of 15000+600000
+ 7026 strings out of 476410
+ 120841 string characters out of 5788641
+ 1876845 words of memory out of 5000000
+ 27209 multiletter control sequences out of 15000+600000
  575669 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,17n,45p,1133b,364s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 44i,17n,45p,1154b,366s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt9.pfb>
-Output written on Rodriguez_Mascaro_Ferran.pdf (5 pages, 454176 bytes).
+Output written on Backup_202306032058.pdf (5 pages, 455123 bytes).
 PDF statistics:
  124 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

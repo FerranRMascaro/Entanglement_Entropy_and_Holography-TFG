@@ -10,46 +10,59 @@ Warning--I didn't find a database entry for ""
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Warning--empty year in kaplan_lectures_nodate; set to ????
+Warning--empty year in bousso_covariant_1999; set to ????
 Warning--missing publisher in rangamani_holographic_2017
+Warning--empty year in rangamani_holographic_2017; set to ????
+Warning--empty year in maldacena_large_1999; set to ????
+Warning--empty year in schrodinger_discussion_1935; set to ????
+Warning--empty year in nishioka_entanglement_2018; set to ????
+Warning--empty year in ryu_holographic_2008; set to ????
+Warning--empty year in bekenstein_black_1973; set to ????
+Warning--empty year in headrick_holographic_2007; set to ????
+Warning--empty year in bueno_holographic_2021; set to ????
+Warning--empty year in iyer_properties_1994; set to ????
+Warning--empty year in dong_holographic_2014; set to ????
+Warning--empty year in faulkner_quantum_2013; set to ????
+Warning--empty year in fareghbal_first_2019; set to ????
 You've used 16 entries,
             3411 wiz_defined-function locations,
-            1278 strings with 13206 characters,
-and the built_in function-call counts, 9367 in all, are:
-= -- 601
+            1264 strings with 12898 characters,
+and the built_in function-call counts, 8750 in all, are:
+= -- 541
 > -- 198
 < -- 40
 + -- 142
 - -- 50
-* -- 1264
-:= -- 1087
+* -- 1133
+:= -- 1031
 add.period$ -- 16
 call.type$ -- 16
-change.case$ -- 76
+change.case$ -- 67
 chr.to.int$ -- 16
-cite$ -- 18
-duplicate$ -- 866
-empty$ -- 821
+cite$ -- 31
+duplicate$ -- 781
+empty$ -- 778
 format.name$ -- 140
-if$ -- 1779
+if$ -- 1652
 int.to.chr$ -- 1
 int.to.str$ -- 17
-missing$ -- 141
+missing$ -- 117
 newline$ -- 63
 num.names$ -- 48
-pop$ -- 175
+pop$ -- 266
 preamble$ -- 1
 purify$ -- 64
 quote$ -- 0
-skip$ -- 326
+skip$ -- 284
 stack$ -- 0
-substring$ -- 358
-swap$ -- 671
+substring$ -- 340
+swap$ -- 546
 text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 94
-warning$ -- 2
+warning$ -- 15
 while$ -- 44
 width$ -- 0
-write$ -- 206
-(There were 3 warnings)
+write$ -- 192
+(There were 16 warnings)

@@ -1,17 +1,16 @@
 # Fdb version 4
-["bibtex Rodriguez_Mascaro_Ferran"] 1685833410 "Rodriguez_Mascaro_Ferran.aux" "Rodriguez_Mascaro_Ferran.bbl" "Rodriguez_Mascaro_Ferran" 1685833412 0
-  "./TFG.bib" 1685831980 56450 5343f2eb208be4da714ff550b4ce05e3 ""
+["bibtex Backup_202306032058"] 0 "Backup_202306032058.aux" "Backup_202306032058.bbl" "Backup_202306032058" 1685833810 -1
+  "./TFG.bib" 1685833694 58154 e4b02acf10577b4e9168eaf7113cd785 ""
+  "Backup_202306032058.aux" 1685833809 5958 42d9f38b5ec84b675cc7b58bcac3a4fe "pdflatex"
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/bibtex/bst/revtex4/apsrev.bst" 996873060 44155 dc7233506a001aedcd59cfd90f9fe8d7 ""
-  "Rodriguez_Mascaro_Ferran.aux" 1685833411 5898 1bfe7af312a7a27d25c97a02434a1153 "pdflatex"
   (generated)
-  "Rodriguez_Mascaro_Ferran.bbl"
-  "Rodriguez_Mascaro_Ferran.blg"
+  "Backup_202306032058.bbl"
+  "Backup_202306032058.blg"
   (rewritten before read)
-["pdflatex"] 1685833410 "c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Rodriguez_Mascaro_Ferran.tex" "Rodriguez_Mascaro_Ferran.pdf" "Rodriguez_Mascaro_Ferran" 1685833412 0
-  "../Imatges/Extern/Captura_Superficies_z.png" 1678984597 11879 3d99f0eea35567237af370403bf96ecd ""
-  "../Imatges/Extern/EE_AdS-CFT.png" 1681243071 36179 894eb83adc5b7a481c34d29f58b4d0d7 ""
-  "../Imatges/Extern/Wikipedia_Half-space_Cilindric.png" 1681149989 6886 94cf9fe3c64395223b9d28f1041c4a26 ""
-  "../Imatges/empty.png" 1684687152 1532 33cb47ac0e13bc9f9b74048932c72119 ""
+["pdflatex"] 1685833809 "c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Other/Backup_202306032058/Backup_202306032058.tex" "Backup_202306032058.pdf" "Backup_202306032058" 1685833810 0
+  "Backup_202306032058.aux" 1685833809 5958 42d9f38b5ec84b675cc7b58bcac3a4fe "pdflatex"
+  "Backup_202306032058.bbl" 1685833697 7380 95629ea5207b909f5662d76abf42abb8 "bibtex Backup_202306032058"
+  "Backup_202306032058.tex" 1685833809 27293 173f7904d5f73cb0d746298b586c128e ""
   "C:/Users/ferran/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1685639366 83358 a8328cf182cf32ae8c92cd2e930e6977 ""
   "C:/Users/ferran/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1685054334 23186028 76ebf4dd811f93e228ee88d814534336 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256933040 2375 baa924870cfb487815765f9094cf3728 ""
@@ -144,12 +143,13 @@
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/tex/latex/tools/shellesc.sty" 1667245866 4118 0aa319c56935d7d217b6a8bf300b81b7 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
-  "Rodriguez_Mascaro_Ferran.aux" 1685833411 5898 1bfe7af312a7a27d25c97a02434a1153 "pdflatex"
-  "Rodriguez_Mascaro_Ferran.bbl" 1685833410 6311 577743586aa8624e5e07385375d33700 "bibtex Rodriguez_Mascaro_Ferran"
-  "Rodriguez_Mascaro_Ferran.tex" 1685833405 27311 7012a619e2d0725592dd22aa559cfab6 ""
-  "c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Rodriguez_Mascaro_Ferran.tex" 1685833405 27311 7012a619e2d0725592dd22aa559cfab6 ""
+  "Imatges/Extern/Captura_Superficies_z.png" 1678984597 11879 3d99f0eea35567237af370403bf96ecd ""
+  "Imatges/Extern/EE_AdS-CFT.png" 1681243071 36179 894eb83adc5b7a481c34d29f58b4d0d7 ""
+  "Imatges/Extern/Wikipedia_Half-space_Cilindric.png" 1681149989 6886 94cf9fe3c64395223b9d28f1041c4a26 ""
+  "Imatges/empty.png" 1684687152 1532 33cb47ac0e13bc9f9b74048932c72119 ""
+  "c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Other/Backup_202306032058/Backup_202306032058.tex" 1685833809 27293 173f7904d5f73cb0d746298b586c128e ""
   (generated)
-  "Rodriguez_Mascaro_Ferran.aux"
-  "Rodriguez_Mascaro_Ferran.log"
-  "Rodriguez_Mascaro_Ferran.pdf"
+  "Backup_202306032058.aux"
+  "Backup_202306032058.log"
+  "Backup_202306032058.pdf"
   (rewritten before read)
