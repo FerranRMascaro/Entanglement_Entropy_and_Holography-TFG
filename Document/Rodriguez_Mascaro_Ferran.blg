@@ -2,52 +2,54 @@ This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Rodriguez_Mascaro_Ferran.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
-Reallocating 'name_of_file' (item size: 1) to 6 items.
-The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: apsrev.bst
+Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: TFG.bib
 Warning--I didn't find a database entry for ""
-Warning--empty journal in kaplan_lectures_nodate
-Warning--empty year in kaplan_lectures_nodate
-Warning--empty publisher in rangamani_holographic_2017
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--empty year in kaplan_lectures_nodate; set to ????
+Warning--missing publisher in rangamani_holographic_2017
 You've used 16 entries,
-            2118 wiz_defined-function locations,
-            601 strings with 6466 characters,
-and the built_in function-call counts, 4625 in all, are:
-= -- 457
-> -- 164
-< -- 1
-+ -- 69
+            3411 wiz_defined-function locations,
+            1278 strings with 13206 characters,
+and the built_in function-call counts, 9367 in all, are:
+= -- 601
+> -- 198
+< -- 40
++ -- 142
 - -- 50
-* -- 345
-:= -- 790
-add.period$ -- 55
+* -- 1264
+:= -- 1087
+add.period$ -- 16
 call.type$ -- 16
-change.case$ -- 72
-chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 168
-empty$ -- 394
-format.name$ -- 50
-if$ -- 941
-int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 15
-newline$ -- 90
-num.names$ -- 32
-pop$ -- 59
+change.case$ -- 76
+chr.to.int$ -- 16
+cite$ -- 18
+duplicate$ -- 866
+empty$ -- 821
+format.name$ -- 140
+if$ -- 1779
+int.to.chr$ -- 1
+int.to.str$ -- 17
+missing$ -- 141
+newline$ -- 63
+num.names$ -- 48
+pop$ -- 175
 preamble$ -- 1
-purify$ -- 57
+purify$ -- 64
 quote$ -- 0
-skip$ -- 115
+skip$ -- 326
 stack$ -- 0
-substring$ -- 313
-swap$ -- 16
-text.length$ -- 1
+substring$ -- 358
+swap$ -- 671
+text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 62
-warning$ -- 3
-while$ -- 49
-width$ -- 18
-write$ -- 187
-(There were 4 warnings)
+type$ -- 94
+warning$ -- 2
+while$ -- 44
+width$ -- 0
+write$ -- 206
+(There were 3 warnings)
