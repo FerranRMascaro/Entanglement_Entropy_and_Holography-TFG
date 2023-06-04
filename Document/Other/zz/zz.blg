@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: zz.aux
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: apsrev.bst
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: zz.bib
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--empty year in bekenstein_black_1973; set to ????
+You've used 1 entry,
+            3411 wiz_defined-function locations,
+            1160 strings with 10127 characters,
+and the built_in function-call counts, 542 in all, are:
+= -- 32
+> -- 7
+< -- 2
++ -- 4
+- -- 2
+* -- 62
+:= -- 71
+add.period$ -- 1
+call.type$ -- 1
+change.case$ -- 4
+chr.to.int$ -- 1
+cite$ -- 2
+duplicate$ -- 45
+empty$ -- 48
+format.name$ -- 5
+if$ -- 97
+int.to.chr$ -- 1
+int.to.str$ -- 2
+missing$ -- 7
+newline$ -- 18
+num.names$ -- 3
+pop$ -- 15
+preamble$ -- 1
+purify$ -- 4
+quote$ -- 0
+skip$ -- 17
+stack$ -- 0
+substring$ -- 24
+swap$ -- 30
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 6
+warning$ -- 1
+while$ -- 3
+width$ -- 0
+write$ -- 25
+(There was 1 warning)

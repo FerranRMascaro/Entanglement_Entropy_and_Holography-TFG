@@ -105,9 +105,9 @@
 
 Having a finite space region, one can imagine matter being added into it and hence the entropy of it also increasing. But there is a limit of the amount of matter that can be introduced to the region, corresponding to the moment a black hole is formed. Therefore, it appears to be also a cut-off of the entropy that the region can have equal to the entropy of a black hole filling it \cite{t_hooft_dimensional_2009}. The entropy of a black hole only depends on its area \cite{bekenstein_black_1973}, so the maximum entropy that a region could contain will also be only proportional to its area.
 
-The covariant entropy bound \cite{bousso_covariant_1999} is conjectured as the representation of the universal law, in a four-dimensional space-time on which Einstein equations are satisfied, in which the entropy of a system is bounded by its area.
+The covariant entropy bound \cite{bousso_covariant_1999} is conjectured as the representation of the universal law, in a four-dimensional spacetime on which Einstein equations are satisfied, in which the entropy of a system is bounded by its area.
 
-This bound implies that the degrees of freedom inside some region grows with the area of the boundary and not as the volume of the region. This behaviour leads to the \textit{holographic principle}, which states that in a quantum gravity theory all the physics phenomena within some volume can be described in terms of a theory on the boundary of the area of the volume, which has less than one degree of freedom per Planck area \cite{t_hooft_dimensional_2009}.
+This bound implies that the degrees of freedom inside some region grows with the area of the boundary and not as the volume of the region. This behaviour leads to the \textit{holographic principle}, which states that in a quantum gravity theory all the physics phenomena within some volume can be described in terms of a theory on the boundary of the area of the volume, which must has less than one degree of freedom per Planck area \cite{t_hooft_dimensional_2009}.
 
 
 \subsection{AdS/CFT Correspondence} \label{ss:AdS/CFT}
@@ -118,7 +118,11 @@ The AdS/CFT correspondence is the complete physical equivalence between quantum 
 
 It allows us to study aspects of each of these theories through the other. The so-called \textit{holographic dictionary} relates quantities (observables) between the AdS theories and the CFT. % \cite{kaplan_lectures_nodate}
 
-An anti-de Sitter (AdS) space-time is a maximally symmetric spacetime with negative curvature, solution to Einstein field equations with a negative cosmological constant.
+An anti-de Sitter (AdS) spacetime is a maximally symmetric spacetime with negative curvature, solution to Einstein field equations with a negative cosmological constant. The metric of an AdS spacetime of $D=d+1$ dimensions using the coordinate system of the Poincaré patch is
+\eq{AdS_PP-metric}{
+    ds_{AdS_D}^2 = \frac{1}{z^2} \left( -dt^2 + dz^2 + \sum_{i=1}^{d-1} dx_i^2 \right) \ ,
+}
+with the time and space-related dimensions $t , x_i \in (-\infty,+\infty)$ and an extra dimension $z \in (0,+\infty)$ \cite{kaplan_lectures_nodate}. Fixing the coordinate $z$, one creates $d$-dimensional spacetime surfaces 'weighted' by the factor $\frac{1}{z^2}$. At constant time, this slices are hyperbolic spaces of negative curvature, conformally equivalent to Minkowski spacetimes when $z \to 0$ \cite{}.
 
 
 
@@ -128,9 +132,9 @@ An anti-de Sitter (AdS) space-time is a maximally symmetric spacetime with negat
 
 \newpage
 
-\subsection{Anti-de Sitter space-times} \label{ss:AdS}
+\subsection{Anti-de Sitter spacetimes} \label{ss:AdS}
 
-An anti-de Sitter (AdS) space-time is a maximally symmetric spacetime with negative curvature, solution to Einstein field equations with a negative cosmological constant.
+An anti-de Sitter (AdS) spacetime is a maximally symmetric spacetime with negative curvature, solution to Einstein field equations with a negative cosmological constant.
 
 % A maximally symmetric spacetime with negative curvature, solution to Einstein's equations with a negative cosmological constant, is called an anti-de Sitter (AdS) spacetime.
 
@@ -139,7 +143,7 @@ An anti-de Sitter (AdS) space-time is a maximally symmetric spacetime with negat
 %     R_{abcd} = - \frac{1}{L^2} ( g_{ac} g_{bd} - g_{ad} g_{bc} ) ,
 % \label{eq:AdS_Riemann}
 % \end{equation}
-% One can find that for these type of space-times to be solution of Einstein equations, the cosmological constant must be
+% One can find that for these type of spacetimes to be solution of Einstein equations, the cosmological constant must be
 % \begin{equation}
 %     \Lambda = - \frac{(D-1)(D-2)}{2L^2} .
 % \label{eq:AdS_cosmo-const}
@@ -155,12 +159,12 @@ with the time and space-related dimensions $t , x_i \in (-\infty,+\infty)$ and a
     \centering
     \includegraphics[width=0.1\textwidth]{../Imatges/Extern/Captura_Superficies_z.png}
     \label{fig:AdS_z-surfaces}
-    \caption{Representation of the different Minkowski space-time layers along the $z$ coordinate inside an AdS space-time.}
+    \caption{Representation of the different Minkowski spacetime layers along the $z$ coordinate inside an AdS spacetime.}
 \end{wrapfigure}
 
-Fixing the coordinate $z$, one creates $d$-dimensional space-time surfaces 'weighted' by the factor $\frac{1}{z^2}$.
+Fixing the coordinate $z$, one creates $d$-dimensional spacetime surfaces 'weighted' by the factor $\frac{1}{z^2}$.
 
-At constant time, \cite{} this metric forms hyperbolic spaces of negative curvature, conformally equivalent to Minkowski space-times at $z \to 0$. The conformal infinity of AdS is timelike, thus one needs boundary conditions to determine the future evolution uniquely.
+At constant time, \cite{} this metric forms hyperbolic spaces of negative curvature, conformally equivalent to Minkowski spacetimes at $z \to 0$. The conformal infinity of AdS is timelike, thus one needs boundary conditions to determine the future evolution uniquely.
 % \footnotetext{A conformal or angle-preserving function is the one that preserves angles between curves at a certain point, as well as preserving orientation \cite{}.}
 
 Using hyper-polar coordinates one can obtain a different expression for the metric which covers the entire space:
@@ -173,10 +177,10 @@ being $L$ ($k^2=1/L^2$) the so-called anti-de Sitter radius.
     \centering
     \includegraphics[width=0.2\textwidth]{../Imatges/Extern/Wikipedia_Half-space_Cilindric.png}
 \label{fig:AdS_cylindrical}
-\caption{Representation of the half-space region of an AdS space-time and its boundary.}
+\caption{Representation of the half-space region of an AdS spacetime and its boundary.}
 \end{wrapfigure}
 
-In Fig.~\ref{fig:AdS_cylindrical} it is represented the metric of Eq.~\ref{eq:AdS_hyper-polar-metric}. The whole cylinder corresponds to an AdS space-time, being the lateral surface the conformal boundary (where $z \to 0$, or $r \to \infty$). The marked region corresponds to the one covered by the half-space coordinates, flanked by the conformal boundary and two lightlike geodesic hyperplanes \cite{}.
+In Fig.~\ref{fig:AdS_cylindrical} it is represented the metric of Eq.~\ref{eq:AdS_hyper-polar-metric}. The whole cylinder corresponds to an AdS spacetime, being the lateral surface the conformal boundary (where $z \to 0$, or $r \to \infty$). The marked region corresponds to the one covered by the half-space coordinates, flanked by the conformal boundary and two lightlike geodesic hyperplanes \cite{}.
 
 
 \subsection{Conformal Field Theories} \label{ss:CFT}
@@ -186,16 +190,16 @@ A conformal field theory (CFT) is a quantum field theory that is invariant under
 
 \subsection{The Holographic Principle} \label{ss:Holography}
 
-The covariant entropy bound \cite{bousso_covariant_1999} is conjectured as the representation of the universal law, in a four-dimensional space-time on which Einstein equations are satisfied, in which the entropy of a system is bounded by its area. It says that the number of independent degrees of freedom on any light-sheet of a surface cannot exceed a quarter of the area of these surfaces.
+The covariant entropy bound \cite{bousso_covariant_1999} is conjectured as the representation of the universal law, in a four-dimensional spacetime on which Einstein equations are satisfied, in which the entropy of a system is bounded by its area. It says that the number of independent degrees of freedom on any light-sheet of a surface cannot exceed a quarter of the area of these surfaces.
 
 This bound implies that the degrees of freedom inside some region grows with the area of the boundary and not as the volume of the region. This behaviour leads to the \textit{holographic principle}, which states that in a quantum gravity theory all the physics phenomena within some volume can be described in terms of a theory on the boundary of the area of the volume, which has less than one degree of freedom per Planck area \cite{t_hooft_dimensional_2009}.
 
 
 \subsection{AdS/CFT Correspondence} \label{ss:AdS/CFT}
 
-A class of conformal field theories are equivalently described in certain limits in terms of anti-de Sitter space-times \cite{rangamani_holographic_2017}.
+A class of conformal field theories are equivalently described in certain limits in terms of anti-de Sitter spacetimes \cite{rangamani_holographic_2017}.
 
-The \textit{AdS/CFT Correspondence}, simply called \textit{holography} or \textit{gauge/gravity correspondence} \cite{ramallo_introduction_2013}, is an equivalence or duality between quantum gravity theories (certain string theories) at asymptotically $D$-dimensional anti-de Sitter space-times and non-gravitational conformal quantum field theories at Minkowski space-times of $D-1$ dimensions \cite{maldacena_large_1999}. It allows us to study different aspects of each of these theories through the other. The so-called \textit{holographic dictionary} relates quantities (observables) between the AdS theories and the CFT. % \cite{kaplan_lectures_nodate}
+The \textit{AdS/CFT Correspondence}, simply called \textit{holography} or \textit{gauge/gravity correspondence} \cite{ramallo_introduction_2013}, is an equivalence or duality between quantum gravity theories (certain string theories) at asymptotically $D$-dimensional anti-de Sitter spacetimes and non-gravitational conformal quantum field theories at Minkowski spacetimes of $D-1$ dimensions \cite{maldacena_large_1999}. It allows us to study different aspects of each of these theories through the other. The so-called \textit{holographic dictionary} relates quantities (observables) between the AdS theories and the CFT. % \cite{kaplan_lectures_nodate}
 
 
 \section{Entanglement Entropy} \label{s:EE}
@@ -263,10 +267,10 @@ The general expression of the entanglement entropy for a $d$-dimensional quantum
     \centering
     \includegraphics[width=0.2\textwidth]{../Imatges/Extern/EE_AdS-CFT.png}
 \label{fig:EE_AdS-CFT}
-\caption{Region $\calA$ (dark blue) and its boundary $\partial \calA$ inside a $z=\delta$ AdS slide (grey) and its respective $\gamma_{\calA}$ (light blue) inside the AdS space-time.}
+\caption{Region $\calA$ (dark blue) and its boundary $\partial \calA$ inside a $z=\delta$ AdS slide (grey) and its respective $\gamma_{\calA}$ (light blue) inside the AdS spacetime.}
 \end{wrapfigure}
 
-In a quantum field placed in a Minkowski space-time, at a given time, every point in space is entangled with the points surrounding it \cite{nishioka_entanglement_2018}. Therefore, the entanglement entropy between a subsystem and the rest of the space will be dominated by the correlations between both sides of the boundary that isolates the subsystem.
+In a quantum field placed in a Minkowski spacetime, at a given time, every point in space is entangled with the points surrounding it \cite{nishioka_entanglement_2018}. Therefore, the entanglement entropy between a subsystem and the rest of the space will be dominated by the correlations between both sides of the boundary that isolates the subsystem.
 
 % \begin{wrapfigure}{r}{0.25\textwidth}
 %     \centering
@@ -282,25 +286,25 @@ In a quantum field placed in a Minkowski space-time, at a given time, every poin
 % \label{fig:EE_Minkowski-boundary}
 % \end{figure}
 
-In a ($d+1$)-dimensional AdS space-time, being $\calA$ a region of a $d$-dimensional Minkowski space-time slice formed from fixing $z$ as $z=\delta \ll 1$, the entanglement entropy of a $d$-dimensional CFT on this Minkowski space-time will be expressed by the so-called Ryu-Takayanagi formula
+In a ($d+1$)-dimensional AdS spacetime, being $\calA$ a region of a $d$-dimensional Minkowski spacetime slice formed from fixing $z$ as $z=\delta \ll 1$, the entanglement entropy of a $d$-dimensional CFT on this Minkowski spacetime will be expressed by the so-called Ryu-Takayanagi formula
 \eq{EE_RT}{
     S_{\calA} = \frac{ \text{Area}(\gamma_{\calA}) }{ 4 G_{d+1} } \ ,
 }
-\cite{ryu_holographic_2008} where $\gamma_{\calA}$ is the surface of minimal area on the whole AdS space-time connected to the ($d-1$)-dimensional boundary $\partial \calA$ of the region $\calA$, and $G_{d+1}$ is the ($d+1$)-dimensional Newton constant (represented in Fig.~\ref{fig:EE_AdS-CFT}).
+\cite{ryu_holographic_2008} where $\gamma_{\calA}$ is the surface of minimal area on the whole AdS spacetime connected to the ($d-1$)-dimensional boundary $\partial \calA$ of the region $\calA$, and $G_{d+1}$ is the ($d+1$)-dimensional Newton constant (represented in Fig.~\ref{fig:EE_AdS-CFT}).
 
 The area of $\gamma_{\calA}$ is obtained by
 \eq{EE_RT-area}{
     \text{Area}(\gamma_{\calA}) = \int_{\gamma_{\calA}} \sqrt{h} \ d^{d}y \ ,
 }
-where $y$ are the $d$ coordinates that represent surface $\gamma_{\calA}$ and $h$ is the determinant of the metric $h_{ij} = \frac{\partial x^\mu}{\partial y^i} \frac{\partial x^\nu}{\partial y^j} g_{\mu\nu}$ induced on the surface by the surrounding space-time.
+where $y$ are the $d$ coordinates that represent surface $\gamma_{\calA}$ and $h$ is the determinant of the metric $h_{ij} = \frac{\partial x^\mu}{\partial y^i} \frac{\partial x^\nu}{\partial y^j} g_{\mu\nu}$ induced on the surface by the surrounding spacetime.
 
-The Ryu-Takayanagi formula is valid for generic systems, and gives a flavour of how the geometry of space-time can emerge from mere quantum information. As a curiosity, the Ryu-Takayanagi formula in the case of a thermalized system of particles in an AdS space-time derives to the Bekenstein-Hawking formula \cite{bekenstein_black_1973} for the entropy a black hole:
+The Ryu-Takayanagi formula is valid for generic systems, and gives a flavour of how the geometry of spacetime can emerge from mere quantum information. As a curiosity, the Ryu-Takayanagi formula in the case of a thermalized system of particles in an AdS spacetime derives to the Bekenstein-Hawking formula \cite{bekenstein_black_1973} for the entropy a black hole:
 \eq{BH}{
     S_{BH} = \frac{ A_H }{ 4 G } \ ,
 }
 that says that the entropy related to a black hole only depends on the area $A_H$ of its event horizon.
 
-From the Ryu-Takayanagi formula for a ( $d+1$ )-dimensional anti-de Sitter space-time one obtains the expected general expression of the entanglement entropy \ref{eq:EE} for a $d$-dimensional conformal field theory \cite{}.
+From the Ryu-Takayanagi formula for a ( $d+1$ )-dimensional anti-de Sitter spacetime one obtains the expected general expression of the entanglement entropy \ref{eq:EE} for a $d$-dimensional conformal field theory \cite{}.
 
 To do so, one defines the region studied $\calA$ of a layer with $z = \delta \ll 1$ in terms of an appropriate group of coordinates $x_i$. The surface of minimal area $\delta_{\calA}$ will be defined in terms of these set of coordinates, being $z = f (x_i)$. Aplying this restriction to the metric, one obtains the induced metric onto $\delta_{\calA}$. The square rood of the determinant of the induced metric, $\sqrt{h}$, is integrated to obtain the family of surface of $\delta_{\calA}$. Extremezing this functional, one obtains the surface of minimal area $\delta_{\calA}$. The induced metric will be expressed in terms of $f(x_i)$ and its derivate, so one can use the equations of Euler-Lagrange to find relations between $f (x_i)$ and its derivate to finally deduce its expression and solve the integral.
 
