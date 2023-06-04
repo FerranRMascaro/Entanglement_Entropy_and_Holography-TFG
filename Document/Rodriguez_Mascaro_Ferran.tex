@@ -114,19 +114,30 @@ This bound implies that the degrees of freedom inside some region grows with the
 
 The \textit{AdS/CFT correspondence}, simply called \textit{holography} or \textit{gauge/gravity correspondence} \cite{ramallo_introduction_2013}, is a realization of the holographic principle.
 
-The AdS/CFT correspondence is the complete physical equivalence between quantum gravity theories living in anti-de Sitter (AdS) spacetimes and certain types of conformal (with conformal symmetry) quantum field theories (CFT) living in the anti-de Sitter boundary (the \textit{conformal boundary}).
+The AdS/CFT correspondence is the complete physical equivalence between quantum gravity theories living in anti-de Sitter spacetimes and certain types of conformal (with conformal symmetry) quantum field theories (QFT) living in the anti-de Sitter boundary (the \textit{conformal boundary}).
 
-It allows us to study aspects of each of these theories through the other. The so-called \textit{holographic dictionary} relates quantities (observables) between the AdS theories and the CFT. % \cite{kaplan_lectures_nodate}
+It allows us to study aspects of each of these theories through the other. The so-called \textit{holographic dictionary} relates quantities (observables) between the anti-de Sitter (AdS) theories and the Conformal Filed Theories (CFTs). % \cite{kaplan_lectures_nodate}
 
-An anti-de Sitter (AdS) spacetime is a maximally symmetric spacetime with negative curvature, solution to Einstein field equations with a negative cosmological constant. The metric of an AdS spacetime of $D=d+1$ dimensions using the coordinate system of the Poincaré patch is
+An anti-de Sitter spacetime is a maximally symmetric spacetime with negative curvature, solution to Einstein field equations with a negative cosmological constant. The metric of an AdS spacetime of $D=d+1$ dimensions using the coordinate system of the Poincaré patch is
 \eq{AdS_PP-metric}{
     ds_{AdS_D}^2 = \frac{1}{z^2} \left( -dt^2 + dz^2 + \sum_{i=1}^{d-1} dx_i^2 \right) \ ,
 }
-with the time and space-related dimensions $t , x_i \in (-\infty,+\infty)$ and an extra dimension $z \in (0,+\infty)$ \cite{kaplan_lectures_nodate}. Fixing the coordinate $z$, one creates $d$-dimensional spacetime surfaces 'weighted' by the factor $\frac{1}{z^2}$. At constant time, this slices are hyperbolic spaces of negative curvature, conformally equivalent to Minkowski spacetimes when $z \to 0$ \cite{}.
+\cite{kaplan_lectures_nodate} with the time and space-related dimensions $t , x_i \in (-\infty,+\infty)$ and an extra dimension $z \in (0,+\infty)$. Fixing the coordinate $z$, one creates $d$-dimensional spacetime surfaces 'weighted' by the factor $\frac{1}{z^2}$. At constant time, these are hyperbolic spaces of negative curvature, conformally equivalent to Minkowski spacetimes when $z \to 0$ \cite{}.
 
+AdS$_{d+1}$ spacetimes (the subscript expresses de dimensions of the theory) can be represented as cylinders where every slice corresponds to a constant time and where the extra dimension $z$ is radial component to the center of the cylinder \cite{}. Each slice would have a $d$-dimensional boundary $\partial$AdS$_{d+1}$ where the CFT$_d$ will live (Fig.~\ref{fig:AdS}).
 
+\begin{wrapfigure}{r}{0.2\textwidth}
+    \centering
+    \includegraphics[width=0.2\textwidth]{../Imatges/empty.png}
+\label{fig:AdS}
+\caption{Cylindrical representation of an AdS$_3$ spacetime. It is represented a conformal boundary corresponding to a CFT$_2$.}
+\end{wrapfigure}
 
+Conformal Field Theories are the type of QFT that are invariant under conformal coordinate transfromations, which leave the metric invariant under scale changes preserving the angles between vectors \cite{ginsparg_applied_1988}. One notices that the Poincaré group is a subgroup of the conformal group. The number of generators of a $d$-dimensional CFT coincides with the number of isometries of a $d+1$-dimensional AdS spacetime \cite{}.
 
+The gauge/gravity correspondence is valid independently of the degree of gravitational coupling. A very gravitational coupled QFT is dual to a classical gravitational theory (Eisntein equations). In this case, it is possible to explain gravitational fenomena by quantum properties, and vice versa, using the holographic dictionary.
+
+For example, an empty AdS spacetime with no matter is dual to an empty CFT, and an AdS spacetime with a black hole inside corresponds to a thermalized CFT.
 
 
 
@@ -199,7 +210,7 @@ This bound implies that the degrees of freedom inside some region grows with the
 
 A class of conformal field theories are equivalently described in certain limits in terms of anti-de Sitter spacetimes \cite{rangamani_holographic_2017}.
 
-The \textit{AdS/CFT Correspondence}, simply called \textit{holography} or \textit{gauge/gravity correspondence} \cite{ramallo_introduction_2013}, is an equivalence or duality between quantum gravity theories (certain string theories) at asymptotically $D$-dimensional anti-de Sitter spacetimes and non-gravitational conformal quantum field theories at Minkowski spacetimes of $D-1$ dimensions \cite{maldacena_large_1999}. It allows us to study different aspects of each of these theories through the other. The so-called \textit{holographic dictionary} relates quantities (observables) between the AdS theories and the CFT. % \cite{kaplan_lectures_nodate}
+The \textit{AdS/CFT Correspondence}, simply called \textit{holography} or \textit{gauge/gravity correspondence} \cite{ramallo_introduction_2013}, is an equivalence or duality between quantum gravity theories (certain string theories) at asymptotically $D$-dimensional anti-de Sitter spacetimes and non-gravitational conformal quantum field theories at Minkowski spacetimes of $D-1$ dimensions \cite{maldacena_large_1999}. It allows us to study different aspects of each of these theories through the other. The so-called \textit{holographic dictionary} relates quantities (observables) between the AdS theories and the CFTs. % \cite{kaplan_lectures_nodate}
 
 
 \section{Entanglement Entropy} \label{s:EE}

@@ -9,60 +9,47 @@ Database file #1: TFG.bib
 Warning--I didn't find a database entry for ""
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Warning--empty year in bekenstein_black_1973; set to ????
-Warning--empty year in bousso_covariant_1999; set to ????
 Warning--empty year in kaplan_lectures_nodate; set to ????
 Warning--missing publisher in rangamani_holographic_2017
-Warning--empty year in rangamani_holographic_2017; set to ????
-Warning--empty year in maldacena_large_1999; set to ????
-Warning--empty year in schrodinger_discussion_1935; set to ????
-Warning--empty year in nishioka_entanglement_2018; set to ????
-Warning--empty year in ryu_holographic_2008; set to ????
-Warning--empty year in headrick_holographic_2007; set to ????
-Warning--empty year in bueno_holographic_2021; set to ????
-Warning--empty year in iyer_properties_1994; set to ????
-Warning--empty year in dong_holographic_2014; set to ????
-Warning--empty year in faulkner_quantum_2013; set to ????
-Warning--empty year in fareghbal_first_2019; set to ????
-You've used 16 entries,
+You've used 17 entries,
             3411 wiz_defined-function locations,
-            1264 strings with 12898 characters,
-and the built_in function-call counts, 8750 in all, are:
-= -- 541
-> -- 198
-< -- 40
-+ -- 142
-- -- 50
-* -- 1133
-:= -- 1031
-add.period$ -- 16
-call.type$ -- 16
-change.case$ -- 67
-chr.to.int$ -- 16
-cite$ -- 31
-duplicate$ -- 781
-empty$ -- 778
-format.name$ -- 140
-if$ -- 1652
+            1284 strings with 13336 characters,
+and the built_in function-call counts, 9792 in all, are:
+= -- 630
+> -- 205
+< -- 42
++ -- 146
+- -- 52
+* -- 1316
+:= -- 1143
+add.period$ -- 17
+call.type$ -- 17
+change.case$ -- 82
+chr.to.int$ -- 17
+cite$ -- 19
+duplicate$ -- 908
+empty$ -- 859
+format.name$ -- 145
+if$ -- 1857
 int.to.chr$ -- 1
-int.to.str$ -- 17
-missing$ -- 117
-newline$ -- 63
-num.names$ -- 48
-pop$ -- 266
+int.to.str$ -- 18
+missing$ -- 147
+newline$ -- 66
+num.names$ -- 51
+pop$ -- 184
 preamble$ -- 1
-purify$ -- 64
+purify$ -- 68
 quote$ -- 0
-skip$ -- 284
+skip$ -- 340
 stack$ -- 0
-substring$ -- 340
-swap$ -- 546
-text.length$ -- 26
+substring$ -- 371
+swap$ -- 698
+text.length$ -- 27
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 94
-warning$ -- 15
-while$ -- 44
+type$ -- 100
+warning$ -- 2
+while$ -- 46
 width$ -- 0
-write$ -- 192
-(There were 16 warnings)
+write$ -- 217
+(There were 3 warnings)

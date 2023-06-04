@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Rodriguez_Mascaro_Ferran"] 1685840748 "Rodriguez_Mascaro_Ferran.aux" "Rodriguez_Mascaro_Ferran.bbl" "Rodriguez_Mascaro_Ferran" 1685840750 0
-  "./TFG.bib" 1685840602 56450 5343f2eb208be4da714ff550b4ce05e3 ""
+["bibtex Rodriguez_Mascaro_Ferran"] 1685905597 "Rodriguez_Mascaro_Ferran.aux" "Rodriguez_Mascaro_Ferran.bbl" "Rodriguez_Mascaro_Ferran" 1685905599 0
+  "./TFG.bib" 1685903264 58380 59979626f86b74ac5293bbc19ff17611 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/bibtex/bst/revtex4/apsrev.bst" 996873060 44155 dc7233506a001aedcd59cfd90f9fe8d7 ""
-  "Rodriguez_Mascaro_Ferran.aux" 1685840749 6518 baf808373747f509f5c0c819d4084d74 "pdflatex"
+  "Rodriguez_Mascaro_Ferran.aux" 1685905598 6929 486782ca8fbd20f5ee7ae13919b144be "pdflatex"
   (generated)
   "Rodriguez_Mascaro_Ferran.bbl"
   "Rodriguez_Mascaro_Ferran.blg"
   (rewritten before read)
-["pdflatex"] 1685840748 "c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Rodriguez_Mascaro_Ferran.tex" "Rodriguez_Mascaro_Ferran.pdf" "Rodriguez_Mascaro_Ferran" 1685840750 0
+["pdflatex"] 1685905598 "c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Rodriguez_Mascaro_Ferran.tex" "Rodriguez_Mascaro_Ferran.pdf" "Rodriguez_Mascaro_Ferran" 1685905599 0
   "../Imatges/Extern/Captura_Superficies_z.png" 1678984597 11879 3d99f0eea35567237af370403bf96ecd ""
   "../Imatges/Extern/EE_AdS-CFT.png" 1681243071 36179 894eb83adc5b7a481c34d29f58b4d0d7 ""
   "../Imatges/Extern/Wikipedia_Half-space_Cilindric.png" 1681149989 6886 94cf9fe3c64395223b9d28f1041c4a26 ""
@@ -68,6 +68,7 @@
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb" 1256933040 30698 e53a423459271d6c5cdd91f7559396af ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb" 1256933040 119235 05e5c8d6d60439433e50047898c2c0e0 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb" 1256933040 120387 4904c2679a7b90fe9e17171d6c7c9dd0 ""
+  "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb" 1256933040 123394 992f5e87d698d9e94717394c62580ea6 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb" 1256933040 121145 00b210fbe9efd7ce850c04e64670de9a ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb" 1256933040 122174 a2d5e73f396ddbeb3bdf5c79aea0993d ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb" 1256933040 121065 ba8daf2228d9e511988917831f1e22e9 ""
@@ -144,10 +145,10 @@
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/tex/latex/tools/shellesc.sty" 1667245866 4118 0aa319c56935d7d217b6a8bf300b81b7 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
-  "Rodriguez_Mascaro_Ferran.aux" 1685840749 6518 baf808373747f509f5c0c819d4084d74 "pdflatex"
-  "Rodriguez_Mascaro_Ferran.bbl" 1685840748 6311 015ca31dc97b6388b46d3f26156ab912 "bibtex Rodriguez_Mascaro_Ferran"
-  "Rodriguez_Mascaro_Ferran.tex" 1685840743 30339 84f4c7facfb5390ce730faf5b44fc3b9 ""
-  "c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Rodriguez_Mascaro_Ferran.tex" 1685840743 30339 84f4c7facfb5390ce730faf5b44fc3b9 ""
+  "Rodriguez_Mascaro_Ferran.aux" 1685905598 6929 486782ca8fbd20f5ee7ae13919b144be "pdflatex"
+  "Rodriguez_Mascaro_Ferran.bbl" 1685905597 7694 cc70dbff2986c1868ed326083c436f59 "bibtex Rodriguez_Mascaro_Ferran"
+  "Rodriguez_Mascaro_Ferran.tex" 1685905595 31957 4220adbff0f31b1a2bd0846719b1f0cf ""
+  "c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Rodriguez_Mascaro_Ferran.tex" 1685905595 31957 4220adbff0f31b1a2bd0846719b1f0cf ""
   (generated)
   "Rodriguez_Mascaro_Ferran.aux"
   "Rodriguez_Mascaro_Ferran.log"
