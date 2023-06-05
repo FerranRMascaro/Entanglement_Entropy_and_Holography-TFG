@@ -221,7 +221,7 @@ that is equivalent to the general expression for the entanglement entropy in a 3
 
 \subsection{Strong subadditivity} \label{ss:SS}
 
-The \textit{strong subadditivity} \cite{headrick_holographic_2007} defines relations between entanglement entropies of two subsystems $\calA$ and $\calB$, and its union $\calA \cup \calB$, interception $\cal \cap \calB$ and relative complement $\calA \setminus \calB$:
+The \textit{strong subadditivity} \cite{headrick_holographic_2007} defines relations between entanglement entropies of two subsystems $\calA$ and $\calB$, and its union $\calA \cup \calB$, interception $\calA \cap \calB$, and relative complements $\calA \setminus \calB$ and $\calB \setminus \calA$ (Fig.~\ref{fig:SS}):
 \eqgat{EE_strong-subadd}{
     S(\calA) + S(\calB) \ge S(\calA \cup \calB) + S(\calA \cap \calB) \ , \nonumber \\
     S(\calA) + S(\calB) \ge S(\calA \setminus \calB) + S(\calB \setminus \calA) \ .
@@ -236,29 +236,21 @@ The \textit{strong subadditivity} \cite{headrick_holographic_2007} defines relat
 
 This properties are present in any quantum mechanical many-body theory. An important test of the validity of the Ryu-Takayanagi formula (Eq.~\ref{eq:EE_RT}) is whether it fulfills this property.
 
-Let's start proving the first inequality. Let $\gamma_{\calA}$, $\gamma_{\calB}$ be the surfaces of minimal area in the bulk connected to $\partial \calA$, $\partial \calB$ respectively, and $r_{\calA}$, $r_{\calB}$ the corresponding regions of the bulk (Fig.~\ref{fig:SS}). Thus, $\partial r_{\calA} = \calA \cup \gamma_{\calA}$, $\partial r_{\calB} = \calB \cup \gamma_{\calB}$, and we define the regions
-\eq{SS_r-1}{
-    r_{\calA \cup \calB} = r_{\calA} \cup r_{\calB} \ , \ r_{\calA \cap \calB} = r_{\calA} \cap r_{\calB} \ .
-}
-The surfaces onto the slice of these regions can be decomposed as
+Let's start poving the first inequality. The regions of the bulks corresponding to the regions $\calA$ and $\calB$ will be defined as $r_{\calA}$ and $r_{\calB}$. Their union and interception will be $r_{\calA \cup \calB} = r_{\calA} \cup r_{\calB}$ and $r_{\calA \cap \calB} = r_{\calA} \cap r_{\calB}$. The surfaces boundaring this regions will be decomposed as
 \eq{SS_dr-1}{
     \partial r_{\calA \cup \calB} = (\calA \cup \calB) \cup \gamma_{\calA \cup \calB} \ , \ \partial r_{\calA \cap \calB } = (\calA \cap \calB) \cup \gamma_{\calA \cap \calB} \ .
 }
-It is clear that $\partial (\calA \cup \calB)$ and $\partial (\calA \cap \calB)$ correspond to $\gamma_{\calA \cup \calB}$ and $\gamma_{\calA \cap \calB}$, but nothing says that they are the surfaces of minimal area $\gamma^{\text{min}}_{\calA \cup \calB}$ and $\gamma^{\text{min}}_{\calA \cap \calB}$ related to $\partial (\calA \cup \calB)$ and $\partial (\calA \cap \calB)$, they are upper bounds. This proves that
+It is clear that $\gamma_{\calA \cup \calB}$ and $\gamma_{\calA \cap \calB}$ are connected to $\partial (\calA \cup \calB)$ and $\partial (\calA \cap \calB)$, respectively, but nothing says that they are their related surfaces of minimal area $\gamma^{\text{min}}_{\calA \cup \calB}$ and $\gamma^{\text{min}}_{\calA \cap \calB}$: they are upper bounds. This proves that
 \eq{SS_gamma-1}{
     \gamma_{\calA} + \gamma_{\calB} = \gamma_{\calA \cup \calB} + \gamma_{\calA \cap \calB} \ge \gamma^{\text{min}}_{\calA \cup \calB} + \gamma^{\text{min}}_{\calA \cap \calB} \ ,
 }
 and, therefore, using the Ryu-Takayanagi formula (Eq.~\ref{eq:EE_RT}), the first inequality of Eq.~\ref{eq:EE_strong-subadd}.
 
-Regarding the second inequality, we see that
-\eq{SS_r-2}{
-    r_{\calA \setminus \calB} = r_{\calA} \cup r_{\calB} \ , \ r_{\calB \setminus \calA} = r_{\calB} \cup r_{\calA} \ .
-}
-The surface onto the slice of these regions are decomposed as
+Regarding the second inequality, let's define the bulk regions exclusive of $\calA$ and $\calB$: $r_{\calA \setminus \calB}$ and $r_{\calB \setminus \calA}$, respectively. The surfaces boundaring this regions will be decomposed as
 \eq{SS_dr-2}{
     \partial r_{\calA \setminus \calB} = (\calA \setminus \calB) \cup \gamma_{\calA \setminus \calB} \ , \ \partial r_{\calB \setminus \calA } = (\calB \setminus \calA) \cup \gamma_{\calB \setminus \calA} \ .
 }
-The $\partial (\calA \setminus \calB)$ and $\partial (\calB \setminus \calA)$ correspond to the upper bounds $\gamma_{\calA \setminus \calB}$ and $\gamma_{\calB \setminus \calA}$ of the surfaces of minimal area $\gamma^{\text{min}}_{\calA \setminus \calB}$ and $\gamma^{\text{min}}_{\calA \setminus \calB}$. So
+Again, it is clear that $\gamma_{\calA \setminus \calB}$ and $\gamma_{\calB \setminus \calA}$ correspond to upper bounds for $\partial (\calA \setminus \calB)$ and $\partial (\calB \setminus \calA)$. Hence,
 \eq{SS_gamma-2}{
     \gamma_{\calA} + \gamma_{\calB} = \gamma_{\calA \setminus \calB} + \gamma_{\calB \setminus \calA} \ge \gamma^{\text{min}}_{\calA \setminus \calB} + \gamma^{\text{min}}_{\calB \setminus \calA} \ ,
 }
@@ -339,8 +331,34 @@ In the holographic description, it has been shown that writing both sites of the
 
 ---
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 
 \section{Conclusions} \label{s:Conclusions}
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ---
 

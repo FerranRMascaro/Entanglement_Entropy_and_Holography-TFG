@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.26)  5 JUN 2023 21:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.26)  6 JUN 2023 00:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1692,12 +1692,12 @@ File: ../Imatges/empty.png Graphic file (type png)
 Package pdftex.def Info: ../Imatges/empty.png  used on input line 232.
 (pdftex.def)             Requested size: 101.99844pt x 101.99846pt.
 [3 <../Imatges/EE_AdS-CFT.png>]
-Underfull \hbox (badness 2828) in paragraph at lines 250--252
+Underfull \hbox (badness 2828) in paragraph at lines 246--248
 \T1/lmr/m/n/10 and, there-fore, us-ing the Ryu-Takayanagi for-mula
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 276--277
+Underfull \hbox (badness 2582) in paragraph at lines 268--269
 []\T1/lmr/m/n/10 One can also con-sider cor-rec-tions on the Ryu-
  []
 
@@ -1777,15 +1777,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7015 strings out of 476410
- 120140 string characters out of 5788641
+ 7012 strings out of 476410
+ 120107 string characters out of 5788641
  1875845 words of memory out of 5000000
- 27200 multiletter control sequences out of 15000+600000
+ 27197 multiletter control sequences out of 15000+600000
  575669 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,17n,45p,1137b,363s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt9.pfb>
-Output written on Rodriguez_Mascaro_Ferran.pdf (5 pages, 632237 bytes).
+Output written on Rodriguez_Mascaro_Ferran.pdf (5 pages, 632052 bytes).
 PDF statistics:
  127 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
