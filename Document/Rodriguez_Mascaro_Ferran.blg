@@ -10,46 +10,45 @@ Warning--I didn't find a database entry for ""
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Warning--empty year in kaplan_lectures_nodate; set to ????
-Warning--missing publisher in rangamani_holographic_2017
-You've used 17 entries,
+You've used 15 entries,
             3411 wiz_defined-function locations,
-            1284 strings with 13336 characters,
-and the built_in function-call counts, 9792 in all, are:
-= -- 630
-> -- 205
-< -- 42
-+ -- 146
-- -- 52
-* -- 1316
-:= -- 1143
-add.period$ -- 17
-call.type$ -- 17
-change.case$ -- 82
-chr.to.int$ -- 17
-cite$ -- 19
-duplicate$ -- 908
-empty$ -- 859
-format.name$ -- 145
-if$ -- 1857
+            1268 strings with 12899 characters,
+and the built_in function-call counts, 8603 in all, are:
+= -- 557
+> -- 181
+< -- 36
++ -- 128
+- -- 46
+* -- 1152
+:= -- 1012
+add.period$ -- 15
+call.type$ -- 15
+change.case$ -- 72
+chr.to.int$ -- 15
+cite$ -- 16
+duplicate$ -- 795
+empty$ -- 754
+format.name$ -- 127
+if$ -- 1632
 int.to.chr$ -- 1
-int.to.str$ -- 18
-missing$ -- 147
-newline$ -- 66
-num.names$ -- 51
-pop$ -- 184
+int.to.str$ -- 16
+missing$ -- 125
+newline$ -- 60
+num.names$ -- 45
+pop$ -- 155
 preamble$ -- 1
-purify$ -- 68
+purify$ -- 60
 quote$ -- 0
-skip$ -- 340
+skip$ -- 301
 stack$ -- 0
-substring$ -- 371
-swap$ -- 698
-text.length$ -- 27
+substring$ -- 330
+swap$ -- 609
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 100
-warning$ -- 2
-while$ -- 46
+type$ -- 90
+warning$ -- 1
+while$ -- 41
 width$ -- 0
-write$ -- 217
-(There were 3 warnings)
+write$ -- 192
+(There were 2 warnings)

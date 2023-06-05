@@ -26,6 +26,7 @@
 \DeclareMathOperator{\calA}{\mathcal{A}}
 \DeclareMathOperator{\calB}{\mathcal{B}}
 \DeclareMathOperator{\calH}{\mathcal{H}}
+\DeclareMathOperator{\calL}{\mathcal{L}}
 \DeclareMathOperator{\tr}{tr}
 \usepackage{fancyhdr}
 \usepackage{wrapfig}
@@ -97,8 +98,8 @@ AdS$_{d+1}$ spacetimes (the subscript expresses de dimensions of the theory) can
 \begin{wrapfigure}{r}{0.2\textwidth}
     \centering
     \includegraphics[width=0.2\textwidth]{../Imatges/empty.png}
-\label{fig:AdS}
 \caption{Cylindrical representation of an AdS$_3$ spacetime. It is represented a conformal boundary corresponding to a CFT$_2$.}
+\label{fig:AdS}
 \end{wrapfigure}
 
 Conformal Field Theories are the type of QFT that are invariant under conformal coordinate transfromations, which leave the metric invariant under scale changes preserving the angles between vectors \cite{ginsparg_applied_1988}. One notices that the Poincaré group is a subgroup of the conformal group. The number of generators of a $d$-dimensional CFT coincides with the number of isometries of a $d+1$-dimensional AdS spacetime \cite{}.
@@ -136,24 +137,11 @@ The general expression of the entanglement entropy for a $d$-dimensional QFT is
 \section{Holographic Entanglement Entropy} \label{s:EE_Holo}
 
 
-\subsection{Ryu-Takayanagui formula}
+\subsection{Ryu-Takayanagui formula} \label{ss:R-T}
 
+Generally, it is difficult to compute the entanglement entropy of a region, but it is sceptionally easy to do so using the AdS/CFT correspondence, being an entrance in the holographic dictionary. In the holographic context, an essentially quantum quantity such as entanglement entropy is found from areas within an AdS spacetime determined by its metric.
 
-
-
-
-
-
-\begin{wrapfigure}{r}{0.25\textwidth}
-    \centering
-    \includegraphics[width=0.2\textwidth]{../Imatges/Extern/EE_AdS-CFT.png}
-\label{fig:EE_AdS-CFT}
-\caption{Region $\calA$ (dark blue) and its boundary $\partial \calA$ inside a $z=\delta$ AdS slide (grey) and its respective $\gamma_{\calA}$ (light blue) inside the AdS spacetime.}
-\end{wrapfigure}
-
-In a quantum field placed in a Minkowski spacetime, at a given time, every point in space is entangled with the points surrounding it \cite{nishioka_entanglement_2018}. Therefore, the entanglement entropy between a subsystem and the rest of the space will be dominated by the correlations between both sides of the boundary that isolates the subsystem.
-
-In a ($d+1$)-dimensional AdS spacetime, being $\calA$ a region of a $d$-dimensional Minkowski spacetime slice formed from fixing $z$ as $z=\delta \ll 1$, the entanglement entropy of a $d$-dimensional CFT on this Minkowski spacetime will be expressed by the so-called Ryu-Takayanagi formula
+In a ($d+1$)-dimensional AdS spacetime, being $\calA$ a region of a $d$-dimensional Minkowski spacetime slice formed from fixing $z$ as $z=\delta \ll 1$, the entanglement entropy of a $d$-dimensional CFT on this Minkowski spacetime will be expressed by the so-called Ryu-Takayanagi formula:
 \eq{EE_RT}{
     S_{\calA} = \frac{ \text{Area}(\gamma_{\calA}) }{ 4 G_{d+1} } \ ,
 }
@@ -165,246 +153,98 @@ The area of $\gamma_{\calA}$ is obtained by
 }
 where $y$ are the $d$ coordinates that represent surface $\gamma_{\calA}$ and $h$ is the determinant of the metric $h_{ij} = \frac{\partial x^\mu}{\partial y^i} \frac{\partial x^\nu}{\partial y^j} g_{\mu\nu}$ induced on the surface by the surrounding spacetime.
 
-The Ryu-Takayanagi formula is valid for generic systems, and gives a flavour of how the geometry of spacetime can emerge from mere quantum information. As a curiosity, the Ryu-Takayanagi formula in the case of a thermalized system of particles in an AdS spacetime derives to the Bekenstein-Hawking formula \cite{bekenstein_black_1973} for the entropy a black hole:
-\eq{BH}{
-    S_{BH} = \frac{ A_H }{ 4 G } \ ,
-}
-that says that the entropy related to a black hole only depends on the area $A_H$ of its event horizon.
-
-From the Ryu-Takayanagi formula for a ( $d+1$ )-dimensional anti-de Sitter spacetime one obtains the expected general expression of the entanglement entropy \ref{eq:EE} for a $d$-dimensional conformal field theory \cite{}.
-
-To do so, one defines the region studied $\calA$ of a layer with $z = \delta \ll 1$ in terms of an appropriate group of coordinates $x_i$. The surface of minimal area $\delta_{\calA}$ will be defined in terms of these set of coordinates, being $z = f (x_i)$. Aplying this restriction to the metric, one obtains the induced metric onto $\delta_{\calA}$. The square rood of the determinant of the induced metric, $\sqrt{h}$, is integrated to obtain the family of surface of $\delta_{\calA}$. Extremezing this functional, one obtains the surface of minimal area $\delta_{\calA}$. The induced metric will be expressed in terms of $f(x_i)$ and its derivate, so one can use the equations of Euler-Lagrange to find relations between $f (x_i)$ and its derivate to finally deduce its expression and solve the integral.
-
-
-
-
-
-
-
-
-\newpage
-
-\subsection{Anti-de Sitter spacetimes} \label{ss:AdS}
-
-An anti-de Sitter (AdS) spacetime is a maximally symmetric spacetime with negative curvature, solution to Einstein field equations with a negative cosmological constant.
-
-% A maximally symmetric spacetime with negative curvature, solution to Einstein's equations with a negative cosmological constant, is called an anti-de Sitter (AdS) spacetime.
-
-% Its Riemann tensor is expressed as
-% \begin{equation}
-%     R_{abcd} = - \frac{1}{L^2} ( g_{ac} g_{bd} - g_{ad} g_{bc} ) ,
-% \label{eq:AdS_Riemann}
-% \end{equation}
-% One can find that for these type of spacetimes to be solution of Einstein equations, the cosmological constant must be
-% \begin{equation}
-%     \Lambda = - \frac{(D-1)(D-2)}{2L^2} .
-% \label{eq:AdS_cosmo-const}
-% \end{equation}
-
-One can obtain the metric of the half-space of an AdS spacetime of $D=d+1$ dimensions using the coordinate system of the Poincaré patch as
-\eq{AdS_PP-metric}{
-    ds_{AdS_D}^2 = \frac{1}{z^2} \left( -dt^2 + dz^2 + \sum_{i=1}^{d-1} dx_i^2 \right) \ ,
-}
-with the time and space-related dimensions $t , x_i \in (-\infty,+\infty)$ and an extra dimension $z \in (0,+\infty)$ \cite{kaplan_lectures_nodate}.
-
-\begin{wrapfigure}{r}{0.25\textwidth}
-    \centering
-    \includegraphics[width=0.1\textwidth]{../Imatges/Extern/Captura_Superficies_z.png}
-    \label{fig:AdS_z-surfaces}
-    \caption{Representation of the different Minkowski spacetime layers along the $z$ coordinate inside an AdS spacetime.}
-\end{wrapfigure}
-
-Fixing the coordinate $z$, one creates $d$-dimensional spacetime surfaces 'weighted' by the factor $\frac{1}{z^2}$.
-
-At constant time, \cite{} this metric forms hyperbolic spaces of negative curvature, conformally equivalent to Minkowski spacetimes at $z \to 0$. The conformal infinity of AdS is timelike, thus one needs boundary conditions to determine the future evolution uniquely.
-% \footnotetext{A conformal or angle-preserving function is the one that preserves angles between curves at a certain point, as well as preserving orientation \cite{}.}
-
-Using hyper-polar coordinates one can obtain a different expression for the metric which covers the entire space:
-\eq{AdS_hyper-polar-metric}{
-    ds_{AdS_D}^2 = \left [ - \left ( 1 + \frac{r^2}{L^2} \right ) dt^2 + \frac{dr^2}{\left ( 1+ \frac{r^2}{L^2} \right )} + r^2 d \Omega_{D-2}^2 \right ] \ ,
-}
-being $L$ ($k^2=1/L^2$) the so-called anti-de Sitter radius.
-
-\begin{wrapfigure}{r}{0.25\textwidth}
-    \centering
-    \includegraphics[width=0.2\textwidth]{../Imatges/Extern/Wikipedia_Half-space_Cilindric.png}
-\label{fig:AdS_cylindrical}
-\caption{Representation of the half-space region of an AdS spacetime and its boundary.}
-\end{wrapfigure}
-
-In Fig.~\ref{fig:AdS_cylindrical} it is represented the metric of Eq.~\ref{eq:AdS_hyper-polar-metric}. The whole cylinder corresponds to an AdS spacetime, being the lateral surface the conformal boundary (where $z \to 0$, or $r \to \infty$). The marked region corresponds to the one covered by the half-space coordinates, flanked by the conformal boundary and two lightlike geodesic hyperplanes \cite{}.
-
-
-\subsection{Conformal Field Theories} \label{ss:CFT}
-
-A conformal field theory (CFT) is a quantum field theory that is invariant under transformations that locally preserve angles.
-
-
-\subsection{The Holographic Principle} \label{ss:Holography}
-
-The covariant entropy bound \cite{bousso_covariant_1999} is conjectured as the representation of the universal law, in a four-dimensional spacetime on which Einstein equations are satisfied, in which the entropy of a system is bounded by its area. It says that the number of independent degrees of freedom on any light-sheet of a surface cannot exceed a quarter of the area of these surfaces.
-
-This bound implies that the degrees of freedom inside some region grows with the area of the boundary and not as the volume of the region. This behaviour leads to the \textit{holographic principle}, which states that in a quantum gravity theory all the physics phenomena within some volume can be described in terms of a theory on the boundary of the area of the volume, which has less than one degree of freedom per Planck area \cite{t_hooft_dimensional_2009}.
-
-
-\subsection{AdS/CFT Correspondence} \label{ss:AdS/CFT}
-
-A class of conformal field theories are equivalently described in certain limits in terms of anti-de Sitter spacetimes \cite{rangamani_holographic_2017}.
-
-The \textit{AdS/CFT Correspondence}, simply called \textit{holography} or \textit{gauge/gravity correspondence} \cite{ramallo_introduction_2013}, is an equivalence or duality between quantum gravity theories (certain string theories) at asymptotically $D$-dimensional anti-de Sitter spacetimes and non-gravitational conformal quantum field theories at Minkowski spacetimes of $D-1$ dimensions \cite{maldacena_large_1999}. It allows us to study different aspects of each of these theories through the other. The so-called \textit{holographic dictionary} relates quantities (observables) between the AdS theories and the CFTs. % \cite{kaplan_lectures_nodate}
-
-
-\section{Entanglement Entropy} \label{s:EE}
-
-When two quantum systems enter into temporary physical interaction, they can no longer be described in the same way after a time of mutual influence \cite{schrodinger_discussion_1935}. One can no longer describe neither of those systems independently without losing global information, because the state of each system knows is influenced and correlated by the other system. This is the so-called \textit{quantum entanglement}.
-
-Being two quantum systems represented by the corresponding Hillberg spaces $\calH_A$ and $\calH_B$, and a state $\ket{\Psi} \in \calH = \calH_A \otimes \calH_B$, this would be an entangled state if
-\eq{entanglement}{
-    \ket{\Psi} \neq \ket{\Psi_A} \otimes \ket{\Psi_B} \ \longrightarrow \ \ket{\Psi} = \sum_{i,j} c_{ij} \ket{i}_A \otimes \ket{j}_B \ ,
-}
-being $\ket{\Psi_{A,B}}$ the possible different substates in which one could separate $\ket{\Psi}$ if it was separable, substates expressed in each orthonormal bases $\{ \ket{k}_{A,B} \}$ of $\calH_{A,B}$ \cite{}.
-
-The \textit{entanglement entropy} is a measure of the degree of quantum entanglement between the two subsystems composing a full quantum system \cite{nishioka_entanglement_2018}. It is defined by the von
-Neumann entropy of the reduced density matrix $\rho_A$ of one of the subsystems as
-\eq{EE}{
-    S_{EE}(A) = - \tr_A ( \rho_A \log \rho_A ) \ ,
-}
-being $\rho_A = \tr_B \ket{\Psi}\bra{\Psi}$. If $\rho_A$ is diagonalized ($\rho_A = \sum_i \lambda_i \ket{i}\bra{i}$), then the entanglement entropy would take the simplified form $S_{EE} = - \sum_i \lambda_i \log \lambda_i$.
-
-If there is no entanglement between both subsystems, the entanglement entropy is null ($S_{EE} = 0$).
-
-
-\subsection{Entanglement entropy in CFT} \label{ss:EE_CFT}
-
-The general expression of the entanglement entropy for a $d$-dimensional quantum field theory is
-
-\eqgat{EE}{
-    S_{QFT_d} = c_{d-2} \left( \frac{H}{\delta} \right) ^{d-2} + c_{d-1} \left( \frac{H}{\delta} \right) ^{d-4} + ... + \nonumber \\
-    + \begin{dcases}
-        c_1 \frac{H}{\delta} + (-1)^{\frac{d-1}{2}} s_{\text{non-loc}}
-        \qquad \qquad \qquad \quad \ \text{for odd } d \\
-        c_2 \left ( \frac{H}{\delta} \right ) + (-1)^{\frac{d-2}{2}} s_{\text{loc}} \log \left ( \frac{H}{\delta} \right ) + c_0
-        \quad \text{for even } d
-    \end{dcases} \ ,
-}
-% \begin{equation*}
-%     S_{QFT_d} = c_{d-2} \left( \frac{H}{\delta} \right) ^{d-2} + c_{d-1} \left( \frac{H}{\delta} \right) ^{d-4} + ... +
-% \end{equation*}
-% \eq{EE}{
-%     +
-%     \begin{dcases}
-%         c_1 \frac{H}{\delta} + (-1)^{\frac{d-1}{2}} s_{\text{non-loc}}
-%         & \text{for odd } d \\
-%         c_2 \left ( \frac{H}{\delta} \right ) + (-1)^{\frac{d-2}{2}} s_{\text{loc}} \log \left ( \frac{H}{\delta} \right ) + c_0
-%         & \text{for even } d
-%     \end{dcases} \ ,
-% }
-% \eq{EE}{
-%     \begin{array}{cc}
-%         {S_{QFT_d} = c_{d-2} \left( \frac{H}{\delta} \right) ^{d-2} + c_{d-1} \left( \frac{H}{\delta} \right) ^{d-4} + ... + } \\ \\
-%         {+ \left \{ \begin{array}{cl} 
-%         c_1 \frac{H}{\delta} + (-1)^{\frac{d-1}{2}} s_{\text{non-loc}}
-%         & \text{for odd } d \\
-%         c_2 \left ( \frac{H}{\delta} \right ) + (-1)^{\frac{d-2}{2}} s_{\text{loc}} \log \left ( \frac{H}{\delta} \right ) + c_0
-%         & \text{for even } d
-%         \end{array} \right . \ ,}
-%     \end{array}
-% }
-\cite{nishioka_entanglement_2018} in which $H$ is the characteristic length of the region studied, $c_i$ are coefficients that are non-universal (not well-defined in the continuum, dependent on the definition of $\delta$) and local, and $s_{\text{loc},\text{non-loc}}$ are universal coefficients (the suffixes refer to if they are local or non-local) that contain information about the corresponding CFT.
-
-
-\subsection{Entanglement entropy in AdS/CFT} \label{ss:EE_AdS/CFT}
-
 \begin{wrapfigure}{r}{0.25\textwidth}
     \centering
     \includegraphics[width=0.2\textwidth]{../Imatges/Extern/EE_AdS-CFT.png}
-\label{fig:EE_AdS-CFT}
 \caption{Region $\calA$ (dark blue) and its boundary $\partial \calA$ inside a $z=\delta$ AdS slide (grey) and its respective $\gamma_{\calA}$ (light blue) inside the AdS spacetime.}
+\label{fig:EE_AdS-CFT}
 \end{wrapfigure}
 
-In a quantum field placed in a Minkowski spacetime, at a given time, every point in space is entangled with the points surrounding it \cite{nishioka_entanglement_2018}. Therefore, the entanglement entropy between a subsystem and the rest of the space will be dominated by the correlations between both sides of the boundary that isolates the subsystem.
+The Ryu-Takayanagi formula is valid for generic systems, and gives a flavour of how the geometry of spacetime can emerge from mere quantum information. 
 
-% \begin{wrapfigure}{r}{0.25\textwidth}
-%     \centering
-%     \includegraphics[width=0.24\textwidth]{../Imatges/Captura_EE_Frontera.png}
-% \caption{Bipartition of a system in two complementary regions A and B.}
-% \label{fig:EE_Minkowski-boundary}
-% \end{wrapfigure}
+From the Ryu-Takayanagi formula for a ( $d+1$ )-dimensional anti-de Sitter spacetime one obtains the expected general expression of the entanglement entropy (Eq.~\ref{eq:EE}) for a $d$-dimensional conformal field theory \cite{}.
 
-% \begin{figure}[h!]
-%     \centering
-%     \includegraphics[scale=0.2]{../Imatges/Captura_EE_Frontera.png}
-% \caption{Bipartition of a system in two complementary regions A and B.}
-% \label{fig:EE_Minkowski-boundary}
-% \end{figure}
+In the next subsection (Sec.~\ref{ss:EE-disk}) it is developed the procedure to compute the entanglement entropy for a circular region of a CFT$_3$.
 
-In a ($d+1$)-dimensional AdS spacetime, being $\calA$ a region of a $d$-dimensional Minkowski spacetime slice formed from fixing $z$ as $z=\delta \ll 1$, the entanglement entropy of a $d$-dimensional CFT on this Minkowski spacetime will be expressed by the so-called Ryu-Takayanagi formula
-\eq{EE_RT}{
-    S_{\calA} = \frac{ \text{Area}(\gamma_{\calA}) }{ 4 G_{d+1} } \ ,
+
+\subsection{Entanglement Entropy for a Disk in CFT$_3$} \label{ss:EE-disk}
+
+A circuilar region $\calA$ with radius $R$ inside a 2-dimensional layer $z = \delta \ll 1$ and the corresponding surface of minimal area $\delta_{\calA}$ are represented by polar coordinates as:
+\eqgat{1A}{
+    \calA = \{ ( r, \theta, z, t ) \ | \ t = 0, z = \delta, r \le R \} \nonumber \\
+    \gamma_{\calA} = \{ ( r, \theta, z, t ) \ | \ t = 0, z = f (r, \theta) \} \ .
 }
-\cite{ryu_holographic_2008} where $\gamma_{\calA}$ is the surface of minimal area on the whole AdS spacetime connected to the ($d-1$)-dimensional boundary $\partial \calA$ of the region $\calA$, and $G_{d+1}$ is the ($d+1$)-dimensional Newton constant (represented in Fig.~\ref{fig:EE_AdS-CFT}).
+There is no property on the AdS spacetime theory that will make the symmetry of $\partial \calA$ on the coordinate $\theta$ not being transfered to $\gamma_{\calA}$. Hence, $z = f (r)$.
 
-The area of $\gamma_{\calA}$ is obtained by
-\eq{EE_RT-area}{
-    \text{Area}(\gamma_{\calA}) = \int_{\gamma_{\calA}} \sqrt{h} \ d^{d}y \ ,
+The metric corresponding to a ($d+1$)-dimensional AdS spacetime will be
+\eq{1Ametric}{
+    ds^2_{\text{AdS}_4} = g_{\mu \nu} dx^\mu dx^\nu = 
+    \frac{L^2}{z^2} [ -dt^2 + dz^2 + dr^2 + r^2 d\theta^2 ] \ .
 }
-where $y$ are the $d$ coordinates that represent surface $\gamma_{\calA}$ and $h$ is the determinant of the metric $h_{ij} = \frac{\partial x^\mu}{\partial y^i} \frac{\partial x^\nu}{\partial y^j} g_{\mu\nu}$ induced on the surface by the surrounding spacetime.
 
-The Ryu-Takayanagi formula is valid for generic systems, and gives a flavour of how the geometry of spacetime can emerge from mere quantum information. As a curiosity, the Ryu-Takayanagi formula in the case of a thermalized system of particles in an AdS spacetime derives to the Bekenstein-Hawking formula \cite{bekenstein_black_1973} for the entropy a black hole:
-\eq{BH}{
-    S_{BH} = \frac{ A_H }{ 4 G } \ ,
+Applying the restrictions on the coordinates for the definition of $\gamma_{\calA}$, it is obtained the induced metric of the surface:
+\eq{1gammaAmetric}{
+    ds^2_{\gamma_{\calA}} = h_{\rho \sigma} dx^\rho dx^\sigma = 
+    \frac{L^2}{f(r)^2} \left[ \left( 1+ \dot{f}(r)^2 \right) dr^2 + r^2 d\theta^2 \right] \ ,
 }
-that says that the entropy related to a black hole only depends on the area $A_H$ of its event horizon.
+being $dz = \partial_\rho z \ dx^\rho = \partial f(r)_r \ dr = \dot{f}(r) dr$.
 
-From the Ryu-Takayanagi formula for a ( $d+1$ )-dimensional anti-de Sitter spacetime one obtains the expected general expression of the entanglement entropy \ref{eq:EE} for a $d$-dimensional conformal field theory \cite{}.
-
-To do so, one defines the region studied $\calA$ of a layer with $z = \delta \ll 1$ in terms of an appropriate group of coordinates $x_i$. The surface of minimal area $\delta_{\calA}$ will be defined in terms of these set of coordinates, being $z = f (x_i)$. Aplying this restriction to the metric, one obtains the induced metric onto $\delta_{\calA}$. The square rood of the determinant of the induced metric, $\sqrt{h}$, is integrated to obtain the family of surface of $\delta_{\calA}$. Extremezing this functional, one obtains the surface of minimal area $\delta_{\calA}$. The induced metric will be expressed in terms of $f(x_i)$ and its derivate, so one can use the equations of Euler-Lagrange to find relations between $f (x_i)$ and its derivate to finally deduce its expression and solve the integral.
-
-
-\section{Strong subadditivity} \label{s:SS}
-
-Being $S(\rho)$ the von Neumann entropy (Eq.~\ref{eq:EE}) of a system with density matrix $\rho$, two entanglement subsystems $\rho_1$ and $\rho_2$ forming a whole system with $\rho_{full}$ generally obey the inequalities
-\eq{EE_subadd}{
-    \abs{S(\rho_1)-S(\rho_2)} \le S(\rho_{full}) \le S(\rho_1) + S(\rho_2) \ .
+The determinant of the induced metric will be
+\eq{1h}{
+    h = \left( \frac{L}{f(r)} \right) ^4 r^2 ( 1 + \dot{f}(r)^2 ) \ .
 }
-This property of the entanglement entropy is known as \textit{subadditivity} \cite{headrick_holographic_2007}.
 
-These relations between entanglement entropies of the different subsystems can be extended to a higher number of subsystems. For example, in the case of three subsystems we have that
+The minimal value of the integral over the polar coordinates of the square rood of the induced metric will correspond to the area of $\gamma_{\calA}$. So, by the Ryu-Takayanagi formula, the entanglement entropy related to the region $\calA$ will be
+\eqgat{1EEA}{
+    S_{\calA} = \frac{1}{4G} \text{min} \int_{\gamma_{\calA}} \sqrt{h} dx^\rho \nonumber \\
+    = \frac{\pi L^2}{2G} \text{min} \int_0^R dr \frac{r}{f(r)^2} \sqrt{ 1 + \dot{f}(r)^2 } \ .
+}
+
+The interior of this final integral looks like some type of Lagrangian $\calL [r,f(r),\dot{f}(r)]$. Thus, the Euler-Lagrange equation can be aplied to find relations to find the extreme of this functional:
+\eqgat{1EL}{
+    \frac{\partial \calL}{\partial f} - \frac{d}{dr} \left[ \frac{\partial \calL}{\partial \dot{f}} \right] = 0 \nonumber \\
+    \longrightarrow \left( 1+\dot{f}^2 \right) \left( -2r-f\dot{f}-rf\ddot{f} \right) + rf\dot{f}^2\ddot{f} = 0 \ .
+}
+
+One can prove that $f(r) = \sqrt{R^2 - r^2}$ is solution of the previous relation and corresponds to the function that minimise the functional of the entanglement entropy. Hence, the surface of minimal area is found to be a half sphere.
+
+The entanglement entropy of the disk will be
+\eq{1sol}{
+    S_{\calA} = \frac{\pi L^2}{2G} \frac{R}{\delta} - F \ ,
+}
+that is equivalent to the general expression for the entanglement entropy in a 3-dimensional QFT.
+
+
+\subsection{Strong subadditivity} \label{ss:SS}
+
+The \textit{strong subadditivity} \cite{headrick_holographic_2007} defines relations between entanglement entropies of two subsystems $\calA$ and $\calB$, and its union $\calA \cup \calB$, interception $\cal \cap \calB$ and relative complement $\calA \setminus \calB$:
 \eqgat{EE_strong-subadd}{
-    S(\rho_{12}) + S(\rho_{23}) \ge S(\rho_2) + S(\rho_{123}) \ , \nonumber \\
-    S(\rho_{12}) + S(\rho_{23}) \ge S(\rho_1) + S(\rho_3) \ ,
+    S(\calA) + S(\calB) \ge S(\calA \cup \calB) + S(\calA \cap \calB) \ , \nonumber \\
+    S(\calA) + S(\calB) \ge S(\calA \setminus \calB) + S(\calB \setminus \calA) \ .
 }
-or equivalently
-\eqgat{EE_strong-subadd-2}{
-    S(\rho_{A}) + S(\rho_{B}) \ge S(A \cup B) + S(A \cap B) \ , \nonumber \\
-    S(\rho_{A}) + S(\rho_{B}) \ge S(A \setminus B) + S(B \setminus A) \ .
-}
-This is called \textit{strong subadditivity}.
 
 \begin{wrapfigure}{r}{0.2\textwidth}
     \centering
     \includegraphics[width=0.2\textwidth]{../Imatges/empty.png}
-\label{fig:}
 \caption{}
+\label{fig:SS}
 \end{wrapfigure}
 
-An important test of the validity of the Ryu-Takayanagi formula (Eq.~\ref{eq:EE_RT}) is whether it has the property of strong subadditivity, that should be fulfilled in any quantum mechanical theory.
+This properties are present in any quantum mechanical many-body theory. An important test of the validity of the Ryu-Takayanagi formula (Eq.~\ref{eq:EE_RT}) is whether it fulfills this property.
 
-Generally, this property is very difficult to demonstrate, but is extremely easy to do so using the Ryu-Takayanagi formula only using geometric relations.
-
-Let's start proving the first inequality. Let $\gamma_{\calA}$, $\gamma_{\calB}$ be the surfaces of minimal area in the bulk connected to $\partial \calA$, $\partial \calB$ respectively, and $r_{\calA}$, $r_{\calB}$ the corresponding regions of the bulk. Thus, $\partial r_{\calA} = \calA \cup \gamma_{\calA}$, $\partial r_{\calB} = \calB \cup \gamma_{\calB}$, and we define the regions
+Let's start proving the first inequality. Let $\gamma_{\calA}$, $\gamma_{\calB}$ be the surfaces of minimal area in the bulk connected to $\partial \calA$, $\partial \calB$ respectively, and $r_{\calA}$, $r_{\calB}$ the corresponding regions of the bulk (Fig.~\ref{fig:SS}). Thus, $\partial r_{\calA} = \calA \cup \gamma_{\calA}$, $\partial r_{\calB} = \calB \cup \gamma_{\calB}$, and we define the regions
 \eq{SS_r-1}{
     r_{\calA \cup \calB} = r_{\calA} \cup r_{\calB} \ , \ r_{\calA \cap \calB} = r_{\calA} \cap r_{\calB} \ .
 }
 The surfaces onto the slice of these regions can be decomposed as
 \eq{SS_dr-1}{
     \partial r_{\calA \cup \calB} = (\calA \cup \calB) \cup \gamma_{\calA \cup \calB} \ , \ \partial r_{\calA \cap \calB } = (\calA \cap \calB) \cup \gamma_{\calA \cap \calB} \ .
-    }
+}
 It is clear that $\partial (\calA \cup \calB)$ and $\partial (\calA \cap \calB)$ correspond to $\gamma_{\calA \cup \calB}$ and $\gamma_{\calA \cap \calB}$, but nothing says that they are the surfaces of minimal area $\gamma^{\text{min}}_{\calA \cup \calB}$ and $\gamma^{\text{min}}_{\calA \cap \calB}$ related to $\partial (\calA \cup \calB)$ and $\partial (\calA \cap \calB)$, they are upper bounds. This proves that
 \eq{SS_gamma-1}{
     \gamma_{\calA} + \gamma_{\calB} = \gamma_{\calA \cup \calB} + \gamma_{\calA \cap \calB} \ge \gamma^{\text{min}}_{\calA \cup \calB} + \gamma^{\text{min}}_{\calA \cap \calB} \ ,
 }
-and, therefore, using the Ryu-Takayanagi formula (Eq.~\ref{eq:EE_RT}), the first inequality of Eq.~\ref{eq:EE_strong-subadd-2}.
+and, therefore, using the Ryu-Takayanagi formula (Eq.~\ref{eq:EE_RT}), the first inequality of Eq.~\ref{eq:EE_strong-subadd}.
 
 Regarding the second inequality, we see that
 \eq{SS_r-2}{
@@ -418,49 +258,38 @@ The $\partial (\calA \setminus \calB)$ and $\partial (\calB \setminus \calA)$ co
 \eq{SS_gamma-2}{
     \gamma_{\calA} + \gamma_{\calB} = \gamma_{\calA \setminus \calB} + \gamma_{\calB \setminus \calA} \ge \gamma^{\text{min}}_{\calA \setminus \calB} + \gamma^{\text{min}}_{\calB \setminus \calA} \ ,
 }
-and, through the Ryu-Takayanagi formula, the second inequality of \ref{eq:EE_strong-subadd-2} it is proven.
+and, through the Ryu-Takayanagi formula, the second inequality of \ref{eq:EE_strong-subadd} it is proven.
 
-Using this simple geometric proof, it is shown that holography presents the strong subadditivity property that should be true in any quantum mechanical many-body system, playing the extra dimension in the holographic dual an essential role.
-
-In the holographic context, the only examples where these inequalities saturate involve only two disjoint regions, and therefore reduce to the saturation of weak subadditivity.
-
-The first inequality of Eq.~\ref{eq:EE_subadd}, called Araki-Lieb inequality, is saturated when the full system is pure, and the entanglement entropy of each subsystem are due only to correlations between each other and not because the full system is in a mixed state.
-
-Another case where this inequality is saturated is when there is a black hole inside the bulk, $\calA$ corresponds to a region outside the black hole and $\calB$ includes two connected components: $\calA$ and the event horizon, being $\partial \calA = \partial \calB$. In this case, $S(\calB) = S(\calA) + S_{BH}$, where $S_{BH}$ is the black hole's Bekenstein-Hawking entropy. Since due to the limit of the information that the bulk can contain $S_{full} = S_{BH}$, the Araki-Lieb inequality is saturated.
-
-The second inequality is saturated when the mutual information
-\eq{Mutual-Info}{
-    I(\calA,\calB) = S(\calA) + S(\calB) - S(\calA \cup \calB)
-}
-is zero. In this case, the two regions are sufficiently far apart that their union's surface is simply the union of their minimal surfaces. The mutual information only vanishes when the two subsystems are uncorrelated. It is interesting that the correlations between subsystems can go strictly to zero in a field theory in the limit of large number of subsystems.
+Using this simple geometric proof, it is shown that holography fulfills the strong subadditivity property that should be true in any quantum mechanical many-body system, playing the extra dimension in the holographic dual an essential role.
 
 
-\section{Entanglement entropy for higher orders} \label{s:EE_HO}
+\subsection{Entanglement entropy for higher orders} \label{s:EE_HO}
+
+
+
+
+
+    
+\newpage
+
+
+
+\subsection{Entanglement entropy for higher orders} \label{s:EE_HO}
 
 It has been shown that the Ryu-takayanagi formula (\ref{eq:EE_RT}) as the entanglement entropy for holographic theories dual to Einstein gravity. Nevertheless, working with effective actions makes higher-order terms appear as stringy and quantum corrections \cite{bueno_holographic_2021}.
 
-
-\subsection{Higher curvatures} \label{ss:StringyC}
-
-For higher-curvature gravities (or stringy corrections), the area functional needs to be modified, similarly to the way the Bekenstein-Hawking formula for the entropy of a black hole (\ref{eq:BH}) is replaced by Wald formula \cite{iyer_properties_1994}. But replacing the functional of the entanglement entropy for the Wald's one does not work \cite{bueno_holographic_2021}. Additional "anomaly" terms corresponding to extrinsic curvatures of the generalized surface involving arbitrary contractions of Riemann tensors and metrics are required \cite{dong_holographic_2014}. Schematically:
+For higher-curvature gravities (or stringy corrections), the area functional needs to be modified, similarly to how the Bekenstein-Hawking formula for the entropy of a black hole (\ref{eq:BH}) is replaced by Wald formula \cite{iyer_properties_1994}. But replacing the functional of the entanglement entropy for the Wald's one does not work \cite{bueno_holographic_2021}. Additional "anomaly" terms corresponding to extrinsic curvatures of the generalized surface involving arbitrary contractions of Riemann tensors and metrics are required \cite{dong_holographic_2014}. Schematically:
 \eq{EE_HO}{
     S_{\text{HO}}(\calA) = S_{\text{Wald}} + S_{\text{Anomaly}} \ .
 }
 
-In the same way that one finds the entanglement entropy with the Ryu-Takayanagi formula (explained in Section \ref{ss:EE_AdS/CFT}), the generalized holographic surface should be obtained by extremizing the new functional with the corrections of the previous expression. In the anomaly term, each of the Riemann tensor components resulting has to be split into summatories of different weighted terms. The way that these terms are weighted is non-unique, leading to the so-called \textit{splitting problem}.
-
-
-\subsection{Quantum corrections} \label{ss:QuantumC}
+In the same way that one finds the entanglement entropy with the Ryu-Takayanagi formula (Sec.~\ref{ss:R-T}), the generalized holographic surface should be obtained by extremizing the new functional with the corrections of the previous expression. In the anomaly term, each of the Riemann tensor components resulting has to be split into summatories of different weighted terms. The way that these terms are weighted is non-unique, leading to the so-called \textit{splitting problem}.
 
 One can also consider corrections on the Ryu-Takayanagi formula related to quantum mechanical effects in the bulk \cite{faulkner_quantum_2013}.
 
 This quantum corrections are essentially given by the entanglement entropy between the bulk bounded by the minimal area surface and the outside region. One can see the bulk region as an effective field theory itself living on a fixed background geometry and compute its entanglement entropy as in any quantum field.
 
 One has to be cautious and do not confuse this entanglement entropy with the one computed by the Ryu-Takayanagi formula, which is intended to be generalized.
-
-
-
-
 
 
 
@@ -502,6 +331,12 @@ In the holographic description, it has been shown that writing both sites of the
 \section{Conclusions} \label{s:Conclusions}
 
 ---
+
+the Ryu-Takayanagi formula in the case of a thermalized system of particles in an AdS space-time derives to the Bekenstein-Hawking formula \cite{bekenstein_black_1973} for the entropy a black hole:
+\eq{BH}{
+    S_{BH} = \frac{ A_H }{ 4 G } \ ,
+}
+that says that the entropy related to a black hole only depends on the area $A_H$ of its event horizon.
 
 ---
 

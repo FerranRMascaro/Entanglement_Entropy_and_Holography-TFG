@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{15}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -68,22 +68,6 @@
   \bibinfo{pages}{181602} (\bibinfo{year}{2008}), ISSN
   \bibinfo{issn}{0031-9007, 1079-7114}, \bibinfo{note}{arXiv:hep-th/0603001},
   \urlprefix\url{http://arxiv.org/abs/hep-th/0603001}.
-
-\bibitem[{\citenamefont{Rangamani and
-  Takayanagi}(2017)}]{rangamani_holographic_2017}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Rangamani}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Takayanagi}},
-  \emph{\bibinfo{title}{Holographic {Entanglement} {Entropy}}}, vol.
-  \bibinfo{volume}{931} (\bibinfo{year}{2017}), \bibinfo{note}{arXiv:1609.01287
-  [gr-qc, physics:hep-th, physics:quant-ph]},
-  \urlprefix\url{http://arxiv.org/abs/1609.01287}.
-
-\bibitem[{\citenamefont{Maldacena}(1999)}]{maldacena_large_1999}
-\bibinfo{author}{\bibfnamefont{J.~M.} \bibnamefont{Maldacena}},
-  \bibinfo{journal}{International Journal of Theoretical Physics}
-  \textbf{\bibinfo{volume}{38}}, \bibinfo{pages}{1113} (\bibinfo{year}{1999}),
-  ISSN \bibinfo{issn}{00207748}, \bibinfo{note}{arXiv:hep-th/9711200},
-  \urlprefix\url{http://arxiv.org/abs/hep-th/9711200}.
 
 \bibitem[{\citenamefont{Headrick and
   Takayanagi}(2007)}]{headrick_holographic_2007}
