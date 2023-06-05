@@ -64,6 +64,10 @@
 \section{Introduction} \label{s:Intro}
 
 
+
+
+
+
 \newpage
 
 
@@ -95,9 +99,9 @@ An anti-de Sitter spacetime is a maximally symmetric spacetime with negative cur
 
 AdS$_{d+1}$ spacetimes (the subscript expresses de dimensions of the theory) can be represented as cylinders where every slice corresponds to a constant time and where the extra dimension $z$ is radial component to the center of the cylinder \cite{}. Each slice would have a $d$-dimensional boundary $\partial$AdS$_{d+1}$ where the CFT$_d$ will live (Fig.~\ref{fig:AdS}).
 
-\begin{wrapfigure}{r}{0.2\textwidth}
+\begin{wrapfigure}{r}{0.25\textwidth}
     \centering
-    \includegraphics[width=0.2\textwidth]{../Imatges/empty.png}
+    \includegraphics[width=0.25\textwidth]{../Imatges/AdS_Cylindric.png}
 \caption{Cylindrical representation of an AdS$_3$ spacetime. It is represented a conformal boundary corresponding to a CFT$_2$.}
 \label{fig:AdS}
 \end{wrapfigure}
@@ -155,14 +159,14 @@ where $y$ are the $d$ coordinates that represent surface $\gamma_{\calA}$ and $h
 
 \begin{wrapfigure}{r}{0.25\textwidth}
     \centering
-    \includegraphics[width=0.2\textwidth]{../Imatges/Extern/EE_AdS-CFT.png}
+    \includegraphics[width=0.25\textwidth]{../Imatges/EE_AdS-CFT.png}
 \caption{Region $\calA$ (dark blue) and its boundary $\partial \calA$ inside a $z=\delta$ AdS slide (grey) and its respective $\gamma_{\calA}$ (light blue) inside the AdS spacetime.}
 \label{fig:EE_AdS-CFT}
 \end{wrapfigure}
 
 The Ryu-Takayanagi formula is valid for generic systems, and gives a flavour of how the geometry of spacetime can emerge from mere quantum information. 
 
-From the Ryu-Takayanagi formula for a ( $d+1$ )-dimensional anti-de Sitter spacetime one obtains the expected general expression of the entanglement entropy (Eq.~\ref{eq:EE}) for a $d$-dimensional conformal field theory \cite{}.
+From the Ryu-Takayanagi formula for a ($d+1$)-dimensional anti-de Sitter spacetime one obtains the expected general expression of the entanglement entropy (Eq.~\ref{eq:EE}) for a $d$-dimensional conformal field theory \cite{}.
 
 In the next subsection (Sec.~\ref{ss:EE-disk}) it is developed the procedure to compute the entanglement entropy for a circular region of a CFT$_3$.
 
@@ -265,49 +269,28 @@ Using this simple geometric proof, it is shown that holography fulfills the stro
 
 \subsection{Entanglement entropy for higher orders} \label{s:EE_HO}
 
+It has been shown that the Ryu-takayanagi formula (\ref{eq:EE_RT}) as the entanglement entropy for holographic theories dual to Einstein gravity. Nevertheless, considering strings and not fields, and taking into account quantum properties, higher-order terms appear \cite{bueno_holographic_2021}.
 
+For stringy corrections, the area functional needs to be modified, similarly to how the Bekenstein-Hawking formula for the entropy of a black hole (\ref{eq:BH}) is replaced by Wald formula \cite{iyer_properties_1994}. But replacing the functional of the entanglement entropy for the Wald's one does not work \cite{bueno_holographic_2021}. Additional "anomaly" terms corresponding to extrinsic curvatures of the generalized surface involving arbitrary contractions of Riemann tensors and metrics are required \cite{dong_holographic_2014}. In the anomaly term, each of the Riemann tensor components resulting has to be split into summatories of different weighted terms. The way that these terms are weighted is non-unique, leading to the so-called \textit{splitting problem}.
 
-
-
-    
-\newpage
-
-
-
-\subsection{Entanglement entropy for higher orders}
-
-It has been shown that the Ryu-takayanagi formula (\ref{eq:EE_RT}) as the entanglement entropy for holographic theories dual to Einstein gravity. Nevertheless, working with effective actions makes higher-order terms appear as stringy and quantum corrections \cite{bueno_holographic_2021}.
-
-For higher-curvature gravities (or stringy corrections), the area functional needs to be modified, similarly to how the Bekenstein-Hawking formula for the entropy of a black hole (\ref{eq:BH}) is replaced by Wald formula \cite{iyer_properties_1994}. But replacing the functional of the entanglement entropy for the Wald's one does not work \cite{bueno_holographic_2021}. Additional "anomaly" terms corresponding to extrinsic curvatures of the generalized surface involving arbitrary contractions of Riemann tensors and metrics are required \cite{dong_holographic_2014}. Schematically:
-\eq{EE_HO}{
-    S_{\text{HO}}(\calA) = S_{\text{Wald}} + S_{\text{Anomaly}} \ .
-}
-
-In the same way that one finds the entanglement entropy with the Ryu-Takayanagi formula (Sec.~\ref{ss:R-T}), the generalized holographic surface should be obtained by extremizing the new functional with the corrections of the previous expression. In the anomaly term, each of the Riemann tensor components resulting has to be split into summatories of different weighted terms. The way that these terms are weighted is non-unique, leading to the so-called \textit{splitting problem}.
-
-One can also consider corrections on the Ryu-Takayanagi formula related to quantum mechanical effects in the bulk \cite{faulkner_quantum_2013}.
-
-This quantum corrections are essentially given by the entanglement entropy between the bulk bounded by the minimal area surface and the outside region. One can see the bulk region as an effective field theory itself living on a fixed background geometry and compute its entanglement entropy as in any quantum field.
-
-One has to be cautious and do not confuse this entanglement entropy with the one computed by the Ryu-Takayanagi formula, which is intended to be generalized.
-
-
+One can also consider corrections on the Ryu-Takayanagi formula related to quantum mechanical effects in the bulk \cite{faulkner_quantum_2013}. This quantum corrections are essentially given by the entanglement entropy between the bulk bounded by the minimal area surface and the outside region. One can see the bulk region as an effective field theory itself living on a fixed background geometry and compute its entanglement entropy as in any quantum field. One has to be cautious and do not confuse this entanglement entropy with the one computed by the Ryu-Takayanagi formula, which is intended to be generalized.
 
 
 \section{Duality with Einstein field equations} \label{s:EQ}
 
+
 \subsection{First law of entanglement entropy} \label{ss:FLEE}
 
-For a small perturbation of a quantum field theory state $\ket{\psi(\varepsilon)}$ to the initial state $\ket{\psi(0)}$, the \textit{First Law of Entanglement Entropy} is defined as
+The \textit{first law of entanglement entropy} is a generalization of the first law of thermodynamics for any arbitrary small perturbation, quantum state or subsystem.
+
+For a small perturbation of a quantum field theory state $\ket{\psi(\varepsilon)}$ to the initial state $\ket{\psi(0)}$, the First Law of Entanglement Entropy is defined as
 \eq{FLEE}{
     \delta S_{\calA} = \frac{d}{d \varepsilon} S_{\calA} = \frac{d}{d \varepsilon} \abs{H_{\calA}} = \frac{d}{d \varepsilon} \tr (H_{\calA} \rho_{\calA}) \equiv \delta E_{calA}
 }
-for the entanglement entropy of a subsystem $\calA$ \cite{fareghbal_first_2019}. The modular Hamiltonian $H_{\calA}$ is independent of the perturbation and is defined by
+for the entanglement entropy of a subsystem $\calA$ \cite{fareghbal_first_2019}. The modular Hamiltonian $H_{\calA}$ is independent of the perturbation, and is defined by
 \eq{modularH}{
     \rho_{\calA} (\varepsilon) = e^{-H_{\calA}}.
 }
-
-The first law of entanglement entropy is a generalization of the first law of thermodynamics for any arbitrary small perturbation, quantum state or subsystem.
 
 When $H_{\calA}$ is a local operator, $\rho_{\calA}$ can be mapped to a thermal one, $\rho_{\calH}$, by a unitary transformation, being the resultant entropy thermal. Hence, $\rho_{\calH}$ can be written as
 \eq{modularH2}{
@@ -317,6 +300,7 @@ where $H_{\calH}$ is the associated charge of the so-called modular flow $\xi$.
 
 In the holographic description, it has been shown that writing both sites of the first law of entanglement entropy in terms of the corresponding bulk parameters leads to a constraint on the bulk geometry that is exactly the Einstein field equations \cite{fareghbal_first_2019}. If this was an intrinsic property of any gauge/gravity theory, one could use entanglement entropy in an arbitrary field theory to find a dual gravitational geometry.
 
+
 \subsection{First law of entanglement entropy applied to holography} \label{ss:FLEE_H}
 
 ---
@@ -325,14 +309,46 @@ In the holographic description, it has been shown that writing both sites of the
 
 ---
 
+---
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 
 \section{Conclusions} \label{s:Conclusions}
 
 ---
 
-the Ryu-Takayanagi formula in the case of a thermalized system of particles in an AdS space-time derives to the Bekenstein-Hawking formula \cite{bekenstein_black_1973} for the entropy a black hole:
+---
+
+---
+
+The Ryu-Takayanagi formula in the case of a thermalized system of particles in an AdS space-time derives to the Bekenstein-Hawking formula \cite{bekenstein_black_1973} for the entropy a black hole:
 \eq{BH}{
     S_{BH} = \frac{ A_H }{ 4 G } \ ,
 }
@@ -342,7 +358,9 @@ that says that the entropy related to a black hole only depends on the area $A_H
 
 ---
 
+---
 
+---
 
 
 \begin{acknowledgments}
