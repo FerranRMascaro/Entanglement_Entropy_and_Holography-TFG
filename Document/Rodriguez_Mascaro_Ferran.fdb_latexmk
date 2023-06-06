@@ -1,16 +1,16 @@
 # Fdb version 4
-["bibtex Rodriguez_Mascaro_Ferran"] 1686002410 "Rodriguez_Mascaro_Ferran.aux" "Rodriguez_Mascaro_Ferran.bbl" "Rodriguez_Mascaro_Ferran" 1686002413 0
+["bibtex Rodriguez_Mascaro_Ferran"] 1686012984 "Rodriguez_Mascaro_Ferran.aux" "Rodriguez_Mascaro_Ferran.bbl" "Rodriguez_Mascaro_Ferran" 1686012986 0
   "./TFG.bib" 1685980875 58380 59979626f86b74ac5293bbc19ff17611 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/bibtex/bst/revtex4/apsrev.bst" 996873060 44155 dc7233506a001aedcd59cfd90f9fe8d7 ""
-  "Rodriguez_Mascaro_Ferran.aux" 1686002412 5311 32090eb6dbd4f50dbf6d425fe9f5153b "pdflatex"
+  "Rodriguez_Mascaro_Ferran.aux" 1686012985 5311 32090eb6dbd4f50dbf6d425fe9f5153b "pdflatex"
   (generated)
   "Rodriguez_Mascaro_Ferran.bbl"
   "Rodriguez_Mascaro_Ferran.blg"
   (rewritten before read)
-["pdflatex"] 1686002411 "c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Rodriguez_Mascaro_Ferran.tex" "Rodriguez_Mascaro_Ferran.pdf" "Rodriguez_Mascaro_Ferran" 1686002413 0
-  "../Imatges/AdS_Cylindric.png" 1685992992 222222 be355cfd581c121e3e6cc70646740808 ""
-  "../Imatges/EE_AdS-CFT.png" 1685986872 62946 9bc7c7391989238506f3462b212d43fb ""
-  "../Imatges/empty.png" 1684687152 1532 33cb47ac0e13bc9f9b74048932c72119 ""
+["pdflatex"] 1686012984 "c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Rodriguez_Mascaro_Ferran.tex" "Rodriguez_Mascaro_Ferran.pdf" "Rodriguez_Mascaro_Ferran" 1686012986 0
+  "../Imatges/AdS_Cylindric.png" 1686003088 217727 0e2f5384790d4ecf59e78d67578b6943 ""
+  "../Imatges/EE_AdS-CFT.png" 1686003038 61902 63aa6414a02deb2b54a9bcdd81550209 ""
+  "../Imatges/SS_D.png" 1686012898 117144 1a241543e5281541a7c7721ae4ec8a5e ""
   "C:/Users/ferran/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1685836766 83358 a8328cf182cf32ae8c92cd2e930e6977 ""
   "C:/Users/ferran/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1685054334 23186028 76ebf4dd811f93e228ee88d814534336 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256933040 2375 baa924870cfb487815765f9094cf3728 ""
@@ -144,10 +144,10 @@
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/tex/latex/tools/shellesc.sty" 1667245866 4118 0aa319c56935d7d217b6a8bf300b81b7 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/ferran/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
-  "Rodriguez_Mascaro_Ferran.aux" 1686002412 5311 32090eb6dbd4f50dbf6d425fe9f5153b "pdflatex"
-  "Rodriguez_Mascaro_Ferran.bbl" 1686002411 6800 5a0190fb13fdd90b8c025a5bb4ef5565 "bibtex Rodriguez_Mascaro_Ferran"
-  "Rodriguez_Mascaro_Ferran.tex" 1686002409 22727 279a5577c3386354df90a9a92373d04f ""
-  "c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Rodriguez_Mascaro_Ferran.tex" 1686002409 22727 279a5577c3386354df90a9a92373d04f ""
+  "Rodriguez_Mascaro_Ferran.aux" 1686012985 5311 32090eb6dbd4f50dbf6d425fe9f5153b "pdflatex"
+  "Rodriguez_Mascaro_Ferran.bbl" 1686012984 6800 5a0190fb13fdd90b8c025a5bb4ef5565 "bibtex Rodriguez_Mascaro_Ferran"
+  "Rodriguez_Mascaro_Ferran.tex" 1686012981 22728 04e4b8c95196cd8d6ff36c8c280b81f0 ""
+  "c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Document/Rodriguez_Mascaro_Ferran.tex" 1686012981 22728 04e4b8c95196cd8d6ff36c8c280b81f0 ""
   (generated)
   "Rodriguez_Mascaro_Ferran.aux"
   "Rodriguez_Mascaro_Ferran.log"
