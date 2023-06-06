@@ -12,24 +12,24 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Warning--empty year in kaplan_lectures_nodate; set to ????
 You've used 15 entries,
             3411 wiz_defined-function locations,
-            1268 strings with 12899 characters,
-and the built_in function-call counts, 8603 in all, are:
-= -- 557
+            1271 strings with 12956 characters,
+and the built_in function-call counts, 8614 in all, are:
+= -- 558
 > -- 181
 < -- 36
 + -- 128
 - -- 46
-* -- 1152
-:= -- 1012
+* -- 1153
+:= -- 1013
 add.period$ -- 15
 call.type$ -- 15
 change.case$ -- 72
 chr.to.int$ -- 15
 cite$ -- 16
 duplicate$ -- 795
-empty$ -- 754
+empty$ -- 755
 format.name$ -- 127
-if$ -- 1632
+if$ -- 1635
 int.to.chr$ -- 1
 int.to.str$ -- 16
 missing$ -- 125
@@ -39,9 +39,9 @@ pop$ -- 155
 preamble$ -- 1
 purify$ -- 60
 quote$ -- 0
-skip$ -- 301
+skip$ -- 302
 stack$ -- 0
-substring$ -- 330
+substring$ -- 333
 swap$ -- 609
 text.length$ -- 23
 text.prefix$ -- 0

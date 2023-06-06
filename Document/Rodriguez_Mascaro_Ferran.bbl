@@ -12,31 +12,30 @@
 \providecommand{\bibinfo}[2]{#2}
 \providecommand{\eprint}[2][]{\url{#2}}
 
-\bibitem[{\citenamefont{'t~Hooft}(2009)}]{t_hooft_dimensional_2009}
-\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{'t~Hooft}},
-  \emph{\bibinfo{title}{Dimensional {Reduction} in {Quantum} {Gravity}}}
-  (\bibinfo{year}{2009}), \bibinfo{note}{arXiv:gr-qc/9310026},
-  \urlprefix\url{http://arxiv.org/abs/gr-qc/9310026}.
-
 \bibitem[{\citenamefont{Bekenstein}(1973)}]{bekenstein_black_1973}
 \bibinfo{author}{\bibfnamefont{J.~D.} \bibnamefont{Bekenstein}},
   \bibinfo{journal}{Physical Review D} \textbf{\bibinfo{volume}{7}},
   \bibinfo{pages}{2333} (\bibinfo{year}{1973}), ISSN \bibinfo{issn}{0556-2821},
   \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.7.2333}.
 
-\bibitem[{\citenamefont{Bousso}(1999)}]{bousso_covariant_1999}
-\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Bousso}},
-  \bibinfo{journal}{Journal of High Energy Physics}
-  \textbf{\bibinfo{volume}{1999}}, \bibinfo{pages}{004} (\bibinfo{year}{1999}),
-  ISSN \bibinfo{issn}{1029-8479}, \bibinfo{note}{arXiv:hep-th/9905177},
-  \urlprefix\url{http://arxiv.org/abs/hep-th/9905177}.
+\bibitem[{\citenamefont{'t~Hooft}(2009)}]{t_hooft_dimensional_2009}
+\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{'t~Hooft}},
+  \emph{\bibinfo{title}{Dimensional {Reduction} in {Quantum} {Gravity}}}
+  (\bibinfo{year}{2009}), \bibinfo{note}{arXiv:gr-qc/9310026},
+  \urlprefix\url{http://arxiv.org/abs/gr-qc/9310026}.
 
-\bibitem[{\citenamefont{Ramallo}(2013)}]{ramallo_introduction_2013}
-\bibinfo{author}{\bibfnamefont{A.~V.} \bibnamefont{Ramallo}},
-  \emph{\bibinfo{title}{Introduction to the {AdS}/{CFT} correspondence}}
-  (\bibinfo{year}{2013}), \bibinfo{note}{arXiv:1310.4319 [cond-mat,
-  physics:hep-ph, physics:hep-th]},
-  \urlprefix\url{http://arxiv.org/abs/1310.4319}.
+\bibitem[{\citenamefont{Maldacena}(1999)}]{maldacena_large_1999}
+\bibinfo{author}{\bibfnamefont{J.~M.} \bibnamefont{Maldacena}},
+  \bibinfo{journal}{International Journal of Theoretical Physics}
+  \textbf{\bibinfo{volume}{38}}, \bibinfo{pages}{1113} (\bibinfo{year}{1999}),
+  ISSN \bibinfo{issn}{00207748}, \bibinfo{note}{arXiv:hep-th/9711200},
+  \urlprefix\url{http://arxiv.org/abs/hep-th/9711200}.
+
+\bibitem[{\citenamefont{Witten}(1998)}]{witten_anti_1998}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Witten}},
+  \emph{\bibinfo{title}{Anti {De} {Sitter} {Space} {And} {Holography}}}
+  (\bibinfo{year}{1998}), \bibinfo{note}{arXiv:hep-th/9802150},
+  \urlprefix\url{http://arxiv.org/abs/hep-th/9802150}.
 
 \bibitem[{\citenamefont{Kaplan}()}]{kaplan_lectures_nodate}
 \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Kaplan}} (????).
