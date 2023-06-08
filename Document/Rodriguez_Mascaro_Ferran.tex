@@ -54,7 +54,7 @@
 
 
 \begin{abstract}
-    {\bf Abstract:} The AdS/CFT correspondence, also called Holography, is a duality which relates quantum gravity theories in anti-de Sitter (AdS) spacetimes with quantum field theories (QFTs) with conformal symmetry defined in the boundary of such space. The so-called holographic principle describes how quantities from each of these theories can be translated into quantities of the other. An important magnitude of the holographic dictionary is the entanglement entropy (EE) of a region in the boundary theory. This measures the degree of quantum entanglement between this region and its surroundings. In this work, we study various aspects of entanglement entropy in the holographic context. After a quick review of AdS/CFT and of general aspects of EE in QFT, we introduce the Ryu-Takayanagi formula, which computes the holographic EE of some boundary region in the semiclassical limit. We perform explicit calculations and general checks of the formula, review its generalizations to account for stringy and quantum corrections, and comment on its relation with black hole thermodynamics and the emergence of gravitational dynamics.
+    {\bf Abstract:} The AdS/CFT correspondence, also called "Holography", is a physical duality between quantum gravity theories in anti-de Sitter (AdS) spacetimes and certain quantum field theories (QFTs) with conformal symmetry defined in the boundary of such space. The so-called holographic dictionary describes how quantities from each of these theories can be translated into quantities of the other. An important magnitude of the holographic dictionary is the entanglement entropy (EE) of boundary regions. This measures the degree of quantum entanglement between such regions and their complements. In this work, we study various aspects of entanglement entropy in the holographic context. After a quick review of AdS/CFT and of general aspects of EE in QFT, we introduce the Ryu-Takayanagi formula, which computes the holographic EE of boundary regions in the semiclassical limit of the gravity side of the duality. We perform explicit calculations and general checks of the formula, review its generalizations to account for stringy and quantum corrections, and comment on its relation with black hole thermodynamics and the emergence of gravitational dynamics.
 \end{abstract}
 
 
@@ -76,44 +76,48 @@
 
 \subsection{The Holographic Principle} \label{ss:Holography}
 
-Given a finite space region, one can imagine a process in which matter is added into it making the entropy increase. However, there is a limit to the amount of matter that can be introduced in the region, corresponding to the moment in which black hole is formed. The entropy of a black hole only depends on its surface area, namely, it is given by
+Given a finite space region, one can imagine a process in which matter is added into it making the entropy increase. However, there is a limit to the amount of matter that can be introduced in the region, corresponding to the moment in which a black hole is formed. The entropy of a black hole only depends on its surface area, and it is given by \cite{bekenstein_black_1973}
 \eq{BH}{
     S_{BH} = \frac{ A_H }{ 4 G } \ ,
 }
-\cite{bekenstein_black_1973} so the maximum entropy that a region can contain is given by its area divided by $4G$.
+where $A_H$ is the area of the event horizon of the black hole and $G$ is Newton's gravitational constant.
 
-This bound implies that the degrees of freedom inside some region grow with the area of the boundary and not with the volume of the region as one might have expected. This behaviour leads to the \textit{holographic principle}, which states that in a quantum gravity theory all the physics phenomena within some volume can be described in terms of a theory on the boundary of the area of the volume, which must has less than one degree of freedom per Planck area \cite{t_hooft_dimensional_2009}.
+As a consequence, the maximum entropy that a region can contain is given by its area divided by $4G$ in Planck units.
+
+This bound implies that the degrees of freedom inside some region grow with the area of the boundary and not with the volume of the region, as one might have expected. This behaviour leads to the \textit{holographic principle}, which states that in a quantum gravity theory all physics phenomena within some volume must be describable in terms of a theory defined on the boundary of the region \cite{t_hooft_dimensional_2009}.
 
 
 \subsection{AdS/CFT Correspondence} \label{ss:AdS/CFT}
 
-The \textit{AdS/CFT correspondence}, simply called \textit{holography} or \textit{gauge/gravity correspondence} \cite{maldacena_large_1999, witten_anti_1998}, is an explicit realization of the holographic principle.
+The \textit{AdS/CFT correspondence}, sometimes simply called \textit{holography} or \textit{gauge/gravity correspondence} \cite{maldacena_large_1999, witten_anti_1998}, is an explicit realization of the holographic principle.
 
-The AdS/CFT correspondence is the complete physical equivalence between quantum gravity theories living in anti-de Sitter spacetimes and certain types of conformal (with conformal symmetry) quantum field theories (QFT) living in the anti-de Sitter boundary (the \textit{conformal boundary}). It allows us to study aspects of each of these theories through the other. The so-called \textit{holographic dictionary} relates quantities (observables) between the anti-de Sitter (AdS) theories and the Conformal Filed Theories (CFTs). For example, an empty AdS spacetime with no matter is dual to an empty CFT, and an AdS spacetime with a black hole inside corresponds to a thermal state in the CFT.
+The AdS/CFT correspondence is the complete physical equivalence between quantum gravity theories living in anti-de Sitter spacetimes and certain types of conformal (with conformal symmetry) quantum field theories (QFT) living in the anti-de Sitter boundary (the \textit{conformal boundary}). If the gravitational theory is defined in $d+1$ spacetime dimensions, the dual conformal field theory (CFT) will be defined in $d$ spacetime dimensions and, in a precise sense, the gravity theory will be a "hologram" of the CFT. AdS/CFT correspondence allows us to study aspects of each of these theories through the other. The so-called \textit{holographic dictionary} relates quantities (observables) between the gravity theories and their dual CFTs. For example, an empty AdS spacetime with no matter is dual to the vacuum state of the CFT, and an AdS spacetime with a black hole inside corresponds to a thermal state in the CFT.
 
-An anti-de Sitter spacetime is a maximally symmetric spacetime with negative curvature, which solves Einstein's field equations with a negative cosmological constant. The metric of an AdS spacetime of $D=d+1$ dimensions in Poincaré coordinates is
+An anti-de Sitter spacetime is a maximally symmetric spacetime with negative curvature, which solves Einstein's field equations with a negative cosmological constant. The metric of an AdS spacetime of $D=d+1$ dimensions in Poincaré coordinates is \cite{kaplan_lectures_nodate}
 \eq{AdS_PP-metric}{
-    ds_{AdS_D}^2 = \frac{1}{z^2} \left( -dt^2 + dz^2 + \sum_{i=1}^{d-1} dx_i^2 \right) \ ,
+    ds_{AdS_D}^2 = \frac{L^2}{z^2} \left( -dt^2 + dz^2 + \sum_{i=1}^{d-1} dx_i^2 \right) \ ,
 }
-\cite{kaplan_lectures_nodate} with the time and space-related dimensions $t , x_i \in (-\infty,+\infty)$ and an extra dimension $z \in (0,+\infty)$. Fixing the coordinate $z$, one creates $d$-dimensional spacetime surfaces 'weighted' by the factor $\frac{1}{z^2}$. At constant $z$, the result is a Minkowski spacetime in $d$ dimensions.
+with the time and spatial dimensions $t , x_i \in (-\infty,+\infty)$, an extra dimension $z \in (0,+\infty)$, and $L$ as the \textit{AdS radius}. Fixing the coordinate $z$, one creates $d$-dimensional spacetime surfaces "weighted" by the factor $\frac{1}{z^2}$. At constant $z$, the result is a Minkowski spacetime in $d$ dimensions.
 
-AdS$_{d+1}$ spacetimes (the subscript expresses de dimensions of the theory) can be represented as cylinders where every slice corresponds to a constant time and where the extra dimension $z$ grows radially towards the center of the cylinder \cite{}. Each slice has a $d$-dimensional boundary $\partial$AdS$_{d+1}$ where the CFT$_d$ lives (Fig.~\ref{fig:AdS}).
-
-\begin{wrapfigure}[14]{r}{0.25\textwidth}
+\begin{wrapfigure}[13]{r}{0.25\textwidth}
     \centering
     \includegraphics[width=0.25\textwidth]{../Imatges/AdS_Cylindric.png}
 \caption{AdS$_3$ spacetime. In the conformal boundary lives the CFT$_2$.}
 \label{fig:AdS}
 \end{wrapfigure}
 
-Conformal Field Theories are QFTs that are invariant under conformal coordinate transfromations, which leave the metric invariant under scale changes preserving the angles between vectors \cite{ginsparg_applied_1988}. One notices that the Poincaré group is a subgroup of the conformal group. The number of generators of a $d$-dimensional CFT coincides with the number of isometries of a $d+1$-dimensional AdS spacetime \cite{}.
+AdS$_{d+1}$ spacetimes can be represented as cylinders where every slice corresponds to a constant time and where the extra dimension $z$ grows radially towards the center of the cylinder \cite{}. Each slice has a $d$-dimensional boundary $\partial$AdS$_{d+1}$ where the CFT$_d$ lives (Fig.~\ref{fig:AdS}).
 
-The gauge/gravity correspondence is valid independently of the intensity of the gravitational coupling. A strongly coupled QFT is dual to a classical gravitational theory. In this case, it is possible to explain classical gravitational fenomena by quantum properties, and vice versa, using the holographic dictionary.
+Conformal Field Theories are QFTs that are invariant under conformal coordinate transfromations, which leave the metric invariant under scale changes preserving the angles between vectors \cite{ginsparg_applied_1988}. In particular, the Poincaré group is a subgroup of the conformal group, but there are additional transformations corresponding to dilatations and special conformal transformations. The number of generators of a $d$-dimensional CFT coincides with the number of isometries of a $d+1$-dimensional AdS spacetime, which can be seen as a first hint of the duality \cite{}.
+
+The first instance of the AdS/CFT correspondance ever described was the duality between $N=4$ super Yang-Mills theory and type IIB string theory on AdS$_5 \times $S$_5$ \cite{maldacena_large_1999}, but many other examples are known by now. Many general rules of the duality can be exploited without specifying the full field content of the theories.
+
+The gauge/gravity correspondence is valid independently of the intensity of the gravitational coupling. Interestingly, a strongly coupled CFT is dual to a classical gravitational theory.As it will be seen shortly, in this situation, it is possible to explain classical gravitational fenomena by quantum properties, and vice versa, using the holographic dictionary.
 
 
 \section{Entanglement Entropy in CFT} \label{s:EE_CFT}
 
-When two quantum systems enter into temporary physical interaction, they can no longer be described in the same way after a time of mutual influence \cite{schrodinger_discussion_1935}. One can no longer describe neither of those systems independently without losing information, the two form an inseparable entity. This is the so-called \textit{quantum entanglement}.
+When two quantum systems enter into temporary physical interaction, they can no longer be described in the same way after a time of mutual influence \cite{schrodinger_discussion_1935}. One can no longer describe neither of those systems independently without losing information. The two form an inseparable entity. This is the so-called \textit{quantum entanglement}.
 
 The \textit{entanglement entropy} is a measure of the degree of quantum entanglement between two subsystems composing a full quantum system \cite{nishioka_entanglement_2018}. It is defined by the von Neumann entropy of the reduced density matrix $\rho_A$ of one of the subsystems as
 \eq{EE}{
@@ -123,9 +127,9 @@ being $\rho_A = \tr_B \ket{\Psi}\bra{\Psi}$. If $\lambda_i$ are the eigenvalues 
 
 The von Neumann entropy is always positive, and is null for a pure state (as in that case there is no entanglement).
 
-For a QFT living in Minkowski spacetime, one can define operator algebras that define spacetime regions. Discretizing the lattice, a density matrix is associated to the region that only depends on its algebra and its surroundings. From this density matrix, an entanglement entropy can be defined. The entanglement entropy will diverge, since the region is separed from its vicinity by a zero-dimensional boundary.
+For a QFT living in Minkowski spacetime, one can define operator algebras that define spacetime regions. Discretizing the lattice, a density matrix is associated to the region that only depends on its algebra and its surroundings. From this density matrix, an entanglement entropy can be defined. The entanglement entropy is intrinsically divergent, since the region is separed from its vicinity by a zero-dimensional boundary. Nonetheless, we can regulate it and obtain physically meaningful results.
 
-The general expression of the entanglement entropy for a $d$-dimensional QFT is
+The general expression of the entanglement entropy for a $d$-dimensional QFT is \cite{nishioka_entanglement_2018}
 \eqgat{EE}{
     S_{QFT_d} = c_{d-2} \left( \frac{H}{\delta} \right) ^{d-2} + c_{d-1} \left( \frac{H}{\delta} \right) ^{d-4} + ... + \nonumber \\
     + \begin{dcases}
@@ -135,7 +139,7 @@ The general expression of the entanglement entropy for a $d$-dimensional QFT is
         \quad \text{for even } d
     \end{dcases} \ ,
 }
-\cite{nishioka_entanglement_2018} in which $H$ is the characteristic length of the region studied, $\delta$ is the ultraviolet cut-off, $c_i$ are coefficients that are non-universal (not well-defined in the continuum, dependent on the definition of $\delta$), and $s_{\text{univ}}$ are universal coefficients that contain well-defined ("universal") information about the corresponding QFT.
+where $H$ is the characteristic length of the region studied, $\delta$ is an ultraviolet cut-off, $c_i$ are coefficients that are non-universal (not well-defined in the continuum, i.e., dependent on the definition of $\delta$), and $s_{\text{univ}}$ are universal coefficients that contain well-defined ("universal") information about the corresponding QFT.
 
 
 \section{Holographic Entanglement Entropy} \label{s:EE_Holo}
@@ -143,13 +147,13 @@ The general expression of the entanglement entropy for a $d$-dimensional QFT is
 
 \subsection{Ryu-Takayanagi formula} \label{ss:R-T}
 
-Generally, it is difficult to compute the entanglement entropy of a region, but it is sceptionally easy to do so using the AdS/CFT correspondence, being an entrance in the holographic dictionary. In the holographic context, an essentially quantum quantity such as entanglement entropy is found from areas within an AdS spacetime determined by its metric.
+For general CFTs, it is difficult to compute the entanglement entropy of a region. On the other hand, it turns out to be rather easy to do it for holographic CFTs. In the holographic context, an essentially quantum quantity such as entanglement entropy can be obtained from areas of extremal surfaces on AdS spacetime.
 
-In a ($d+1$)-dimensional AdS spacetime, being $\calA$ a region of a $d$-dimensional Minkowski spacetime slice formed from fixing $z$ as $z=\delta \ll 1$, the entanglement entropy of a $d$-dimensional CFT on this Minkowski spacetime will be expressed by the so-called Ryu-Takayanagi formula:
+In a ($d+1$)-dimensional AdS spacetime, being $\calA$ a region of a $d$-dimensional Minkowski spacetime slice formed from fixing $z$ as $z=\delta \ll 1$, the entanglement entropy for a $d$-dimensional CFT dual to Einstein gravity can be computed using the so-called Ryu-Takayanagi formula \cite{ryu_holographic_2008}:
 \eq{EE_RT}{
     S_{\calA} = \frac{ \text{Area}(\gamma_{\calA}) }{ 4 G_{d+1} } \ ,
 }
-\cite{ryu_holographic_2008} where $\gamma_{\calA}$ is the surface of minimal area on the whole AdS spacetime connected to the ($d-1$)-dimensional boundary $\partial \calA$ of the region $\calA$, and $G_{d+1}$ is the ($d+1$)-dimensional Newton constant (represented in Fig.~\ref{fig:EE_AdS-CFT}).
+where $\gamma_{\calA}$ is the surface of minimal area defined on AdS spacetime connected to the ($d-1$)-dimensional boundary $\partial \calA$ of the region $\calA$, and $G_{d+1}$ is the ($d+1$)-dimensional Newton constant (see Fig.~\ref{fig:EE_AdS-CFT}).
 
 The area of $\gamma_{\calA}$ is obtained by
 \eq{EE_RT-area}{
@@ -164,64 +168,64 @@ where $y$ are the $d$ coordinates that represent surface $\gamma_{\calA}$ and $h
 \label{fig:EE_AdS-CFT}
 \end{wrapfigure}
 
-The Ryu-Takayanagi formula is valid for generic systems, and gives a flavour of how the geometry of spacetime can emerge from mere quantum information. 
+The Ryu-Takayanagi formula is valid for generic systems, and provides a hint on how the geometry of spacetime can emerge from mere quantum information. 
 
-From the Ryu-Takayanagi formula for a ($d+1$)-dimensional anti-de Sitter spacetime one obtains the expected general expression of the entanglement entropy (Eq.~\ref{eq:EE}) for a $d$-dimensional conformal field theory \cite{}.
+As one can verify, the Ryu-Takayanagi formula for a ($d+1$)-dimensional anti-de Sitter reproduces the expected general behaviour of the entanglement entropy (Eq.~\ref{eq:EE}) for a $d$-dimensional conformal field theory \cite{}. Let us see this explicitly with an example.
 
 
 \subsection{Entanglement Entropy for a Disk in CFT$_3$} \label{ss:EE-disk}
 
-In this section, it is developed the procedure to compute the entanglement entropy for a circular region of a CFT$_3$.
+In this section, we compute the entanglement entropy for a circular region in a holographic CFT$_3$ dual to Einstein gravity.
 
-A circuilar region $\calA$ with radius $R$ inside a 2-dimensional layer $z = \delta \ll 1$ and the corresponding surface of minimal area $\delta_{\calA}$ are represented by polar coordinates as:
-\eqgat{1A}{
-    \calA = \{ ( r, \theta, z, t ) \ | \ t = 0, z = \delta, r \le R \} \nonumber \\
-    \gamma_{\calA} = \{ ( r, \theta, z, t ) \ | \ t = 0, z = f (r, \theta) \} \ .
+Let $\calA$ be a disk-shaped region of radius $R$ defined in the conformal boundary of an AdS$_4$. This 2-dimensional region is defined in polar coordinates as
+\eq{1A}{
+    \calA = \{ ( r, \theta, z, t ) \ | \ t = 0, z = \delta, r \le R \}
 }
-There is no property on the AdS spacetime theory that will make the symmetry of $\partial \calA$ on the coordinate $\theta$ not being transfered to $\gamma_{\calA}$. Hence, $z = f (r)$.
+The corresponding surface of minimal area $\gamma_{\calA}$ of the region $\calA$, defined in the bulk and adjacent to $\partial \calA$, is parametrized as:
+\eq{1gA}{
+    \gamma_{\calA} = \{ ( r, \theta, z, t ) \ | \ t = 0, z = f (r, \theta) \} \ ,
+}
+where $f(r,\theta)$ is a certain function we need to identify. There is no property on the AdS spacetime theory that could prevent the symmetry of $\partial \calA$ on the coordinate $\theta$ from being transfered to $\gamma_{\calA}$. Hence, $z=f(r)$.
 
-The metric corresponding to a ($d+1$)-dimensional AdS spacetime will be
+The metric corresponding to AdS$_4$ spacetime reads
 \eq{1Ametric}{
     ds^2_{\text{AdS}_4} = g_{\mu \nu} dx^\mu dx^\nu = 
     \frac{L^2}{z^2} [ -dt^2 + dz^2 + dr^2 + r^2 d\theta^2 ] \ .
 }
-
-Applying the restrictions on the coordinates for the definition of $\gamma_{\calA}$, it is obtained the induced metric of the surface:
+The induced metric of the surface $\gamma_{\calA}$ reads:
 \eq{1gammaAmetric}{
-    ds^2_{\gamma_{\calA}} = h_{\rho \sigma} dx^\rho dx^\sigma = 
+    ds^2_{\gamma_{\calA}} = h_{i j} dx^i dx^j = 
     \frac{L^2}{f(r)^2} \left[ \left( 1+ \dot{f}(r)^2 \right) dr^2 + r^2 d\theta^2 \right] \ ,
 }
-being $dz = \partial_\rho z \ dx^\rho = \partial f(r)_r \ dr = \dot{f}(r) dr$.
-
-The determinant of the induced metric will be
+being $dz = \partial_\rho z \ dx^\rho = \partial f(r)_r \ dr = \dot{f}(r) dr$. The determinant of the induced metric will be
 \eq{1h}{
     h = \left( \frac{L}{f(r)} \right) ^4 r^2 ( 1 + \dot{f}(r)^2 ) \ .
 }
-
-The minimal value of the integral over the polar coordinates of the square rood of the induced metric will correspond to the area of $\gamma_{\calA}$. So, by the Ryu-Takayanagi formula, the entanglement entropy related to the region $\calA$ will be
+The minimal value of the integral over the polar coordinates of the square root of the induced metric will correspond to the area of $\gamma_{\calA}$. So, by the Ryu-Takayanagi formula, the entanglement entropy related to the region $\calA$ will be
 \eqgat{1EEA}{
     S_{\calA} = \frac{1}{4G} \text{min} \int_{\gamma_{\calA}} \sqrt{h} dx^\rho \nonumber \\
-    = \frac{\pi L^2}{2G} \text{min} \int_0^R dr \frac{r}{f(r)^2} \sqrt{ 1 + \dot{f}(r)^2 } \ .
+    = \frac{\pi L^2}{2G} \text{min} \int_\delta^R dr \frac{r}{f(r)^2} \sqrt{ 1 + \dot{f}(r)^2 } \ .
 }
-
-The interior of this final integral looks like some type of Lagrangian $\calL [r,f(r),\dot{f}(r)]$. Thus, the Euler-Lagrange equation can be aplied to find relations to find the extreme of this functional:
+The interior of this final integral looks like some type of Lagrangian $\calL [r,f(r),\dot{f}(r)]$, whose Euler-Lagrange equation reads:
 \eqgat{1EL}{
     \frac{\partial \calL}{\partial f} - \frac{d}{dr} \left[ \frac{\partial \calL}{\partial \dot{f}} \right] = 0 \nonumber \\
     \longrightarrow \left( 1+\dot{f}^2 \right) \left( -2r-f\dot{f}-rf\ddot{f} \right) + rf\dot{f}^2\ddot{f} = 0 \ .
 }
-
-One can prove that $f(r) = \sqrt{R^2 - r^2}$ is solution of the previous relation and corresponds to the function that minimizes the functional of the entanglement entropy. Hence, the surface of minimal area is found to be a half sphere.
+One can prove that $f(r) = \sqrt{R^2 - r^2}$ is solution of the previous relation and corresponds to the function that minimizes the functional of the entanglement entropy and connects to the boundary region $\calA$. Hence, the surface of minimal area is found to be a half sphere.
 
 The entanglement entropy of the disk will be
 \eq{1sol}{
     S_{\calA} = \frac{\pi L^2}{2G} \frac{R}{\delta} - F \ ,
 }
-that is equivalent to the general expression for the entanglement entropy in a 3-dimensional QFT.
+that is equivalent to the general expression for the entanglement entropy in a 3-dimensional QFT, finding that
+\eq{F}{
+    F = \frac{\pi}{2} \frac{L^2}{G} \ .
+}
 
 
 \subsection{Strong subadditivity} \label{ss:SS}
 
-The \textit{strong subadditivity} \cite{headrick_holographic_2007} defines relations between entanglement entropies of two subsystems $\calA$ and $\calB$, and its union $\calA \cup \calB$, interception $\calA \cap \calB$, and relative complements $\calA \setminus \calB$ and $\calB \setminus \calA$ (Fig.~\ref{fig:SS}):
+The \textit{strong subadditivity} \cite{headrick_holographic_2007} is a fundamental general property of EE. Defines relations between entanglement entropies of two subsystems $\calA$ and $\calB$, and its union $\calA \cup \calB$, intersection $\calA \cap \calB$, and relative complements $\calA \setminus \calB$ and $\calB \setminus \calA$ (Fig.~\ref{fig:SS}):
 \eqgat{EE_strong-subadd}{
     S(\calA) + S(\calB) \ge S(\calA \cup \calB) + S(\calA \cap \calB) \ , \nonumber \\
     S(\calA) + S(\calB) \ge S(\calA \setminus \calB) + S(\calB \setminus \calA) \ .
