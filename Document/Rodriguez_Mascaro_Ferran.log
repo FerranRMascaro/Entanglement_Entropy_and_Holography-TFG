@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.26)  8 JUN 2023 02:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.26)  8 JUN 2023 15:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1563,7 +1563,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 61
  (C:\Users\ferran\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 2334) in paragraph at lines 92--93
+Underfull \hbox (badness 2334) in paragraph at lines 91--92
 []\T1/lmr/m/n/10 The \T1/lmr/m/it/10 AdS/CFT cor-re-spon-dence\T1/lmr/m/n/10 , some-times sim-ply
  []
 
@@ -1571,54 +1571,52 @@ Underfull \hbox (badness 2334) in paragraph at lines 92--93
 <../Imatges/AdS_Cylindric.png, id=18, 973.38657pt x 654.94687pt>
 File: ../Imatges/AdS_Cylindric.png Graphic file (type png)
 <use ../Imatges/AdS_Cylindric.png>
-Package pdftex.def Info: ../Imatges/AdS_Cylindric.png  used on input line 104.
-(pdftex.def)             Requested size: 127.5pt x 85.78568pt.
+Package pdftex.def Info: ../Imatges/AdS_Cylindric.png  used on input line 101.
+(pdftex.def)             Requested size: 132.5972pt x 89.2135pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 105.
+(Font)              <9> on input line 102.
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-[][]\T1/lmr/m/n/10 AdS$[]$ space-times
+Underfull \hbox (badness 3989) in paragraph at lines 106--107
+\T1/lmr/m/n/10 cylin-ders where ev-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-\T1/lmr/m/n/10 can be rep-re-sented
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-\T1/lmr/m/n/10 as cylin-ders where
- []
-
-
-Underfull \hbox (badness 6542) in paragraph at lines 109--110
+Underfull \hbox (badness 2735) in paragraph at lines 106--107
 \T1/lmr/m/n/10 to a con-stant time
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 109--110
-\T1/lmr/m/n/10 and where the ex-tra
+Underfull \hbox (badness 3758) in paragraph at lines 106--107
+\T1/lmr/m/n/10 and where the ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-\T1/lmr/m/n/10 di-men-sion $\OML/lmm/m/it/10 z$ \T1/lmr/m/n/10 grows
- []
-
-
-Underfull \hbox (badness 5771) in paragraph at lines 109--110
+Underfull \hbox (badness 1275) in paragraph at lines 106--107
 \T1/lmr/m/n/10 ra-di-ally to-wards the
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 109--110
-\T1/lmr/m/n/10 dimensional bound-ary
+Underfull \hbox (badness 1701) in paragraph at lines 106--107
+\T1/lmr/m/n/10 cen-ter of the cylin-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-\OML/lmm/m/it/10 @$\T1/lmr/m/n/10 AdS$[]$ where the
+Underfull \hbox (badness 1867) in paragraph at lines 106--107
+\T1/lmr/m/n/10 der []. Each slice
  []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 106--107
+\T1/lmr/m/n/10 has a $\OML/lmm/m/it/10 d$\T1/lmr/m/n/10 -dimensional
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 106--107
+\T1/lmr/m/n/10 bound-ary $\OML/lmm/m/it/10 @$\T1/lmr/m/n/10 AdS$[]$
+ []
+
+\@endnoteout=\write4
+\openout4 = `Rodriguez_Mascaro_Ferran.end'.
 
 
 Overfull \hbox (3.53166pt too wide) detected at line 141
@@ -1817,23 +1815,23 @@ Underfull \hbox (badness 3108) in paragraph at lines 119--125
  []\T1/lmr/m/n/9 R. Faregh-bal and M. Hakami Sha-la-mzari, Phys-i-
  []
 
-) [5] (Rodriguez_Mascaro_Ferran.aux)
+(Rodriguez_Mascaro_Ferran.end) [5]) [6] (Rodriguez_Mascaro_Ferran.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7018 strings out of 476410
- 120118 string characters out of 5788641
- 1875845 words of memory out of 5000000
- 27202 multiletter control sequences out of 15000+600000
+ 7025 strings out of 476410
+ 120387 string characters out of 5788641
+ 1872845 words of memory out of 5000000
+ 27206 multiletter control sequences out of 15000+600000
  575669 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,17n,45p,1348b,363s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 44i,17n,45p,1332b,421s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt9.pfb>
-Output written on Rodriguez_Mascaro_Ferran.pdf (5 pages, 663945 bytes).
+Output written on Rodriguez_Mascaro_Ferran.pdf (6 pages, 665691 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
+ 131 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

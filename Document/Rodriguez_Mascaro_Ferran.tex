@@ -54,7 +54,7 @@
 
 
 \begin{abstract}
-    {\bf Abstract:} The AdS/CFT correspondence, also called "Holography", is a physical duality between quantum gravity theories in anti-de Sitter (AdS) spacetimes and certain quantum field theories (QFTs) with conformal symmetry defined in the boundary of such space. The so-called holographic dictionary describes how quantities from each of these theories can be translated into quantities of the other. An important magnitude of the holographic dictionary is the entanglement entropy (EE) of boundary regions. This measures the degree of quantum entanglement between such regions and their complements. In this work, we study various aspects of entanglement entropy in the holographic context. After a quick review of AdS/CFT and of general aspects of EE in QFT, we introduce the Ryu-Takayanagi formula, which computes the holographic EE of boundary regions in the semiclassical limit of the gravity side of the duality. We perform explicit calculations and general checks of the formula, review its generalizations to account for stringy and quantum corrections, and comment on its relation with black hole thermodynamics and the emergence of gravitational dynamics.
+    {\bf Abstract:} The AdS/CFT correspondence, also called ``holography'', is a physical duality between quantum gravity theories in anti-de Sitter (AdS) spacetimes and certain quantum field theories (QFTs) with conformal symmetry defined in the boundary of such space. The so-called holographic dictionary describes how quantities from each of these theories can be translated into quantities of the other. An important magnitude of the holographic dictionary is the entanglement entropy (EE) of boundary regions. This measures the degree of quantum entanglement between such regions and their complements. In this work, we study various aspects of EE in the holographic context. After a quick review of AdS/CFT and of general aspects of EE in QFT, we introduce the Ryu-Takayanagi formula, which computes the holographic EE of boundary regions in the semiclassical limit of the gravity side of the duality. We perform explicit calculations and general checks of the formula, review its generalizations to account for stringy and quantum corrections, and comment on its relation with black hole thermodynamics and the emergence of gravitational dynamics.
 \end{abstract}
 
 
@@ -76,43 +76,40 @@
 
 \subsection{The Holographic Principle} \label{ss:Holography}
 
-Given a finite space region, one can imagine a process in which matter is added into it making the entropy increase. However, there is a limit to the amount of matter that can be introduced in the region, corresponding to the moment in which a black hole is formed. The entropy of a black hole only depends on its surface area, and it is given by \cite{bekenstein_black_1973}
+Given a finite space region, one can imagine a process in which matter is continuously added into it. This will make the entropy increase. However, there is a limit to the amount of matter that can be introduced in the region, corresponding to the moment in which a black hole is formed. The entropy of a black hole only depends on its surface area and it is given, in Planck units, by \cite{bekenstein_black_1973}
 \eq{BH}{
     S_{BH} = \frac{ A_H }{ 4 G } \ ,
 }
 where $A_H$ is the area of the event horizon of the black hole and $G$ is Newton's gravitational constant.
-
-As a consequence, the maximum entropy that a region can contain is given by its area divided by $4G$ in Planck units.
+As a consequence, the maximum entropy that a region can contain is given by its area divided by $4G$.
 
 This bound implies that the degrees of freedom inside some region grow with the area of the boundary and not with the volume of the region, as one might have expected. This behaviour leads to the \textit{holographic principle}, which states that in a quantum gravity theory all physics phenomena within some volume must be describable in terms of a theory defined on the boundary of the region \cite{t_hooft_dimensional_2009}.
 
 
 \subsection{AdS/CFT Correspondence} \label{ss:AdS/CFT}
 
-The \textit{AdS/CFT correspondence}, sometimes simply called \textit{holography} or \textit{gauge/gravity correspondence} \cite{maldacena_large_1999, witten_anti_1998}, is an explicit realization of the holographic principle.
+The \textit{AdS/CFT correspondence}, sometimes simply called \textit{holography} or \textit{gauge/gravity correspondence} \cite{maldacena_large_1999}, is an explicit realization of the holographic principle. It establishes the complete physical equivalence between quantum gravity theories living in anti-de Sitter spacetimes and certain types of conformal quantum field theories (CFTs) living in the boundary of  such spacetimes. If the gravitational theory is defined in $(d+1)$ spacetime dimensions, the dual CFT will be defined in $d$ spacetime dimensions and, in a precise sense, the gravity theory will be a ``hologram'' of the CFT. AdS/CFT correspondence allows us to study aspects of each of these theories through the other. The so-called \textit{holographic dictionary} relates quantities (observables) between the gravity theories and their dual CFTs \cite{witten_anti_1998}. For example, an empty AdS spacetime with no matter is dual to the vacuum state of the CFT, and an AdS spacetime with a black hole inside corresponds to a thermal state in the CFT.
 
-The AdS/CFT correspondence is the complete physical equivalence between quantum gravity theories living in anti-de Sitter spacetimes and certain types of conformal (with conformal symmetry) quantum field theories (QFT) living in the anti-de Sitter boundary (the \textit{conformal boundary}). If the gravitational theory is defined in $d+1$ spacetime dimensions, the dual conformal field theory (CFT) will be defined in $d$ spacetime dimensions and, in a precise sense, the gravity theory will be a "hologram" of the CFT. AdS/CFT correspondence allows us to study aspects of each of these theories through the other. The so-called \textit{holographic dictionary} relates quantities (observables) between the gravity theories and their dual CFTs. For example, an empty AdS spacetime with no matter is dual to the vacuum state of the CFT, and an AdS spacetime with a black hole inside corresponds to a thermal state in the CFT.
-
-An anti-de Sitter spacetime is a maximally symmetric spacetime with negative curvature, which solves Einstein's field equations with a negative cosmological constant. The metric of an AdS spacetime of $D=d+1$ dimensions in Poincaré coordinates is \cite{kaplan_lectures_nodate}
+An anti-de Sitter spacetime is a maximally symmetric spacetime with negative curvature, which solves Einstein's field equations with a negative cosmological constant. The metric of an AdS spacetime of $(d+1)$ dimensions in Poincaré coordinates is \cite{kaplan_lectures_nodate}
 \eq{AdS_PP-metric}{
-    ds_{AdS_D}^2 = \frac{L^2}{z^2} \left( -dt^2 + dz^2 + \sum_{i=1}^{d-1} dx_i^2 \right) \ ,
+    ds_{\text{AdS}_{(d+1)}}^2 = \frac{L^2}{z^2} \left( -dt^2 + dz^2 + \sum_{i=1}^{d-1} dx_i^2 \right) \ ,
 }
-with the time and spatial dimensions $t , x_i \in (-\infty,+\infty)$, an extra dimension $z \in (0,+\infty)$, and $L$ as the \textit{AdS radius}. Fixing the coordinate $z$, one creates $d$-dimensional spacetime surfaces "weighted" by the factor $\frac{1}{z^2}$. At constant $z$, the result is a Minkowski spacetime in $d$ dimensions.
+with the time and spatial dimensions $t , x_i \in (-\infty,+\infty)$, an extra dimension $z \in (0,+\infty)$, sometimes called ``holographic coordinate'', and where $L$ is the \textit{AdS radius}. Fixing the coordinate $z$, the metric reduces to the one of $d$-dimensional Minkowski spacetime ``weighted'' by the constant factor $1/z^2$. Hence, we can foliate AdS by Minkowski spacetimes living at different values of $z$.
 
-\begin{wrapfigure}[13]{r}{0.25\textwidth}
+\begin{wrapfigure}[13]{r}{0.26\textwidth}
     \centering
-    \includegraphics[width=0.25\textwidth]{../Imatges/AdS_Cylindric.png}
+    \includegraphics[width=0.26\textwidth]{../Imatges/AdS_Cylindric.png}
 \caption{AdS$_3$ spacetime. In the conformal boundary lives the CFT$_2$.}
 \label{fig:AdS}
 \end{wrapfigure}
 
-AdS$_{d+1}$ spacetimes can be represented as cylinders where every slice corresponds to a constant time and where the extra dimension $z$ grows radially towards the center of the cylinder \cite{}. Each slice has a $d$-dimensional boundary $\partial$AdS$_{d+1}$ where the CFT$_d$ lives (Fig.~\ref{fig:AdS}).
+AdS$_{d+1}$ spacetimes can be represented as cylinders where every slice corresponds to a constant time and where the extra dimension $z$ grows radially towards the center of the cylinder \cite{}. Each slice has a $d$-dimensional boundary $\partial$AdS$_{(d+1)}$ where the CFT$_d$ lives (Fig.~\ref{fig:AdS}).
 
-Conformal Field Theories are QFTs that are invariant under conformal coordinate transfromations, which leave the metric invariant under scale changes preserving the angles between vectors \cite{ginsparg_applied_1988}. In particular, the Poincaré group is a subgroup of the conformal group, but there are additional transformations corresponding to dilatations and special conformal transformations. The number of generators of a $d$-dimensional CFT coincides with the number of isometries of a $d+1$-dimensional AdS spacetime, which can be seen as a first hint of the duality \cite{}.
+Conformal field theories, on the other hand, are QFTs that are invariant under conformal transformations. These are angle-preserving transformations which leave the metric invariant up to an overall factor \cite{ginsparg_applied_1988}. In particular, the Poincaré group is a subgroup of the conformal group, but there are additional transformations corresponding to dilatations and special conformal transformations. The number of generators of a $d$-dimensional CFT coincides with the number of isometries of a $(d+1)$-dimensional AdS spacetime, which can be seen as a first hint of the holographic duality.
 
-The first instance of the AdS/CFT correspondance ever described was the duality between $N=4$ super Yang-Mills theory and type IIB string theory on AdS$_5 \times $S$_5$ \cite{maldacena_large_1999}, but many other examples are known by now. Many general rules of the duality can be exploited without specifying the full field content of the theories.
+The first instance of the AdS/CFT correspondance ever described was the duality between $d=4$, $\mathcal{N}=4$ Super Yang-Mills theory and type-IIB string theory on AdS$_5 \times $S$_5$ \cite{maldacena_large_1999}, but many other examples are known by now. Many general rules of the duality can be exploited without specifying the full field content of the theories and here we will make use of this fact.
 
-The gauge/gravity correspondence is valid independently of the intensity of the gravitational coupling. Interestingly, a strongly coupled CFT is dual to a classical gravitational theory.As it will be seen shortly, in this situation, it is possible to explain classical gravitational fenomena by quantum properties, and vice versa, using the holographic dictionary.
+The gauge/gravity correspondence is valid independently of the intensity of the gravitational coupling. Interestingly, a strongly coupled CFT with a large number of colors is dual to a classical gravitational theory. As it will be seen shortly, in this situation, it is possible to explain classical gravitational fenomena by highly quantum features, and vice versa, using the holographic dictionary.
 
 
 \section{Entanglement Entropy in CFT} \label{s:EE_CFT}
@@ -125,9 +122,12 @@ The \textit{entanglement entropy} is a measure of the degree of quantum entangle
 }
 being $\rho_A = \tr_B \ket{\Psi}\bra{\Psi}$. If $\lambda_i$ are the eigenvalues of $\rho_{\calA}$, then the entanglement entropy would take the simplified form $S_{EE} = - \sum_i \lambda_i \log \lambda_i$.
 
-The von Neumann entropy is always positive, and is null for a pure state (as in that case there is no entanglement).
+The von Neumann entropy is always positive, and is null for a pure state. Hence, the entanglement entropy of separable states vanishes, as it should. 
 
-For a QFT living in Minkowski spacetime, one can define operator algebras that define spacetime regions. Discretizing the lattice, a density matrix is associated to the region that only depends on its algebra and its surroundings. From this density matrix, an entanglement entropy can be defined. The entanglement entropy is intrinsically divergent, since the region is separed from its vicinity by a zero-dimensional boundary. Nonetheless, we can regulate it and obtain physically meaningful results.
+
+The natural subsystems in QFT are spacetime regions. For any QFT, given a global state and some region $A$, there is a sense in which it induces a density matrix $\rho_A$ from which we can compute its EE with respect to its causal complement.\footnote{Strictly speaking, the density matrix of a region is not a well-defined quantity in the continuum} 
+%For a QFT living in Minkowski spacetime, one can define operator algebras that define spacetime regions. Discretizing the lattice, a density matrix is associated to the region that only depends on its algebra and its surroundings. From this density matrix, an entanglement entropy can be defined. 
+This EE is intrinsically divergent, since the region is separated from its vicinity by a zero-dimensional boundary. Nonetheless, we can regulate it and obtain physically meaningful results.
 
 The general expression of the entanglement entropy for a $d$-dimensional QFT is \cite{nishioka_entanglement_2018}
 \eqgat{EE}{
