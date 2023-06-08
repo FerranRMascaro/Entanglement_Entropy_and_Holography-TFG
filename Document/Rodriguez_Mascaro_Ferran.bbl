@@ -1,4 +1,4 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{18}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -17,6 +17,14 @@
   \bibinfo{journal}{Physical Review D} \textbf{\bibinfo{volume}{7}},
   \bibinfo{pages}{2333} (\bibinfo{year}{1973}), ISSN \bibinfo{issn}{0556-2821},
   \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.7.2333}.
+
+\bibitem[{\citenamefont{Hawking}(1975)}]{hawking_particle_1975}
+\bibinfo{author}{\bibfnamefont{S.~W.} \bibnamefont{Hawking}},
+  \bibinfo{journal}{Communications in Mathematical Physics}
+  \textbf{\bibinfo{volume}{43}}, \bibinfo{pages}{199} (\bibinfo{year}{1975}),
+  ISSN \bibinfo{issn}{0010-3616, 1432-0916}, \bibinfo{note}{publisher:
+  Springer},
+  \urlprefix\url{https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-43/issue-3/Particle-creation-by-black-holes/cmp/1103899181.full}.
 
 \bibitem[{\citenamefont{'t~Hooft}(2009)}]{t_hooft_dimensional_2009}
 \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{'t~Hooft}},
@@ -37,8 +45,30 @@
   (\bibinfo{year}{1998}), \bibinfo{note}{arXiv:hep-th/9802150},
   \urlprefix\url{http://arxiv.org/abs/hep-th/9802150}.
 
+\bibitem[{\citenamefont{Gubser et~al.}(1998)\citenamefont{Gubser, Klebanov, and
+  Polyakov}}]{gubser_gauge_1998}
+\bibinfo{author}{\bibfnamefont{S.~S.} \bibnamefont{Gubser}},
+  \bibinfo{author}{\bibfnamefont{I.~R.} \bibnamefont{Klebanov}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{A.~M.}
+  \bibnamefont{Polyakov}}, \bibinfo{journal}{Physics Letters B}
+  \textbf{\bibinfo{volume}{428}}, \bibinfo{pages}{105} (\bibinfo{year}{1998}),
+  ISSN \bibinfo{issn}{03702693}, \bibinfo{note}{arXiv:hep-th/9802109},
+  \urlprefix\url{http://arxiv.org/abs/hep-th/9802109}.
+
 \bibitem[{\citenamefont{Kaplan}()}]{kaplan_lectures_nodate}
 \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Kaplan}} (????).
+
+\bibitem[{\citenamefont{Hawking et~al.}(2008)\citenamefont{Hawking, Ellis,
+  Hawking, and Ellis}}]{hawking_large_2008}
+\bibinfo{author}{\bibfnamefont{S.~W.} \bibnamefont{Hawking}},
+  \bibinfo{author}{\bibfnamefont{G.~F.~R.} \bibnamefont{Ellis}},
+  \bibinfo{author}{\bibfnamefont{S.~W.} \bibnamefont{Hawking}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{G.~F.~R.}
+  \bibnamefont{Ellis}}, \emph{\bibinfo{title}{The large scale structure of
+  space-time}}, Cambridge monographs on mathematical physics
+  (\bibinfo{publisher}{Cambridge Univ. Press}, \bibinfo{address}{Cambridge},
+  \bibinfo{year}{2008}), \bibinfo{edition}{21st} ed., ISBN
+  \bibinfo{isbn}{978-0-521-09906-6 978-0-521-20016-5}.
 
 \bibitem[{\citenamefont{Ginsparg}(1988)}]{ginsparg_applied_1988}
 \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Ginsparg}},

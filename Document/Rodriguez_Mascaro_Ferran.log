@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.26)  8 JUN 2023 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.26)  9 JUN 2023 00:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1486,23 +1486,23 @@ LaTeX Warning: Label `eq:EE' multiply defined.
 )
 \openout1 = `Rodriguez_Mascaro_Ferran.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-Class revtex4 Info: Unrecognized LaTeX tabular. Please update this document class! (Proceeding with fingers crossed.) on input line 38.
-Class revtex4 Info: cite was not loaded (OK!) on input line 38.
-Class revtex4 Info: multicol was not loaded (OK!) on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+Class revtex4 Info: Unrecognized LaTeX tabular. Please update this document class! (Proceeding with fingers crossed.) on input line 37.
+Class revtex4 Info: cite was not loaded (OK!) on input line 37.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 37.
  ABD: EveryShipout initializing macros (C:\Users\ferran\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count303
@@ -1525,93 +1525,88 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 
 Class revtex4 Warning: Assuming \noaffiliation for Advisor: Pablo Bueno GÃ³mez.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 61.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 60.
 (C:\Users\ferran\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 61.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 60.
  (C:\Users\ferran\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 61.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 60.
  (C:\Users\ferran\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 61.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 60.
  (C:\Users\ferran\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 61.
+(Font)              <10> on input line 60.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 61.
+(Font)              <7> on input line 60.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 61.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
+(Font)              <5> on input line 60.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
  (C:\Users\ferran\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
  (C:\Users\ferran\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 61.
+(Font)              <8> on input line 60.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 61.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 61.
+(Font)              <6> on input line 60.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 60.
  (C:\Users\ferran\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 2334) in paragraph at lines 91--92
+Underfull \hbox (badness 2334) in paragraph at lines 89--90
 []\T1/lmr/m/n/10 The \T1/lmr/m/it/10 AdS/CFT cor-re-spon-dence\T1/lmr/m/n/10 , some-times sim-ply
  []
 
 [1{C:/Users/ferran/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
-<../Imatges/AdS_Cylindric.png, id=18, 973.38657pt x 654.94687pt>
-File: ../Imatges/AdS_Cylindric.png Graphic file (type png)
-<use ../Imatges/AdS_Cylindric.png>
-Package pdftex.def Info: ../Imatges/AdS_Cylindric.png  used on input line 101.
+<../imatges/AdS_Cylindric.png, id=18, 973.38657pt x 654.94687pt>
+File: ../imatges/AdS_Cylindric.png Graphic file (type png)
+<use ../imatges/AdS_Cylindric.png>
+Package pdftex.def Info: ../imatges/AdS_Cylindric.png  used on input line 99.
 (pdftex.def)             Requested size: 132.5972pt x 89.2135pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 102.
+(Font)              <9> on input line 100.
 
-Underfull \hbox (badness 3989) in paragraph at lines 106--107
+Underfull \hbox (badness 3989) in paragraph at lines 104--105
 \T1/lmr/m/n/10 cylin-ders where ev-
  []
 
 
-Underfull \hbox (badness 2735) in paragraph at lines 106--107
+Underfull \hbox (badness 2735) in paragraph at lines 104--105
 \T1/lmr/m/n/10 to a con-stant time
  []
 
 
-Underfull \hbox (badness 3758) in paragraph at lines 106--107
+Underfull \hbox (badness 3758) in paragraph at lines 104--105
 \T1/lmr/m/n/10 and where the ex-
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 106--107
+Underfull \hbox (badness 1275) in paragraph at lines 104--105
 \T1/lmr/m/n/10 ra-di-ally to-wards the
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 106--107
+Underfull \hbox (badness 1701) in paragraph at lines 104--105
 \T1/lmr/m/n/10 cen-ter of the cylin-
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 106--107
-\T1/lmr/m/n/10 der []. Each slice
- []
-
-
-Underfull \hbox (badness 1946) in paragraph at lines 106--107
+Underfull \hbox (badness 1946) in paragraph at lines 104--105
 \T1/lmr/m/n/10 has a $\OML/lmm/m/it/10 d$\T1/lmr/m/n/10 -dimensional
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 106--107
+Underfull \hbox (badness 2922) in paragraph at lines 104--105
 \T1/lmr/m/n/10 bound-ary $\OML/lmm/m/it/10 @$\T1/lmr/m/n/10 AdS$[]$
  []
 
@@ -1619,61 +1614,61 @@ Underfull \hbox (badness 2922) in paragraph at lines 106--107
 \openout4 = `Rodriguez_Mascaro_Ferran.end'.
 
 
-Overfull \hbox (3.53166pt too wide) detected at line 141
+Overfull \hbox (3.53166pt too wide) detected at line 139
 []
  []
 
-[2{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc} <../Imatges/AdS_Cylindric.png>]
-<../Imatges/EE_AdS-CFT.png, id=33, 1062.97125pt x 598.48593pt>
-File: ../Imatges/EE_AdS-CFT.png Graphic file (type png)
-<use ../Imatges/EE_AdS-CFT.png>
-Package pdftex.def Info: ../Imatges/EE_AdS-CFT.png  used on input line 166.
+[2{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc} <../imatges/AdS_Cylindric.png>]
+<../imatges/EE_AdS-CFT.png, id=33, 1062.97125pt x 598.48593pt>
+File: ../imatges/EE_AdS-CFT.png Graphic file (type png)
+<use ../imatges/EE_AdS-CFT.png>
+Package pdftex.def Info: ../imatges/EE_AdS-CFT.png  used on input line 164.
 (pdftex.def)             Requested size: 127.5pt x 71.77867pt.
 
-Underfull \hbox (badness 4366) in paragraph at lines 171--172
+Underfull \hbox (badness 4366) in paragraph at lines 169--170
 \T1/lmr/m/n/10 for-mula is valid for
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 171--172
+Underfull \hbox (badness 2245) in paragraph at lines 169--170
 \T1/lmr/m/n/10 generic sys-tems, and
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 171--172
+Underfull \hbox (badness 2828) in paragraph at lines 169--170
 \T1/lmr/m/n/10 mere quan-tum in-for-
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 173--174
+Underfull \hbox (badness 1609) in paragraph at lines 171--172
 []\T1/lmr/m/n/10 As one can ver-ify,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 \T1/lmr/m/n/10 the Ryu-Takayanagi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 \T1/lmr/m/n/10 dimensional anti-de
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 173--174
+Underfull \hbox (badness 1603) in paragraph at lines 171--172
 \T1/lmr/m/n/10 Sit-ter re-pro-duces the
  []
 
 
-Underfull \hbox (badness 3343) in paragraph at lines 173--174
+Underfull \hbox (badness 3343) in paragraph at lines 171--172
 \T1/lmr/m/n/10 ex-pected gen-eral be-
  []
 
-[3 <../Imatges/EE_AdS-CFT.png>]
-<../Imatges/SS_D.png, id=41, 1044.90375pt x 490.83376pt>
-File: ../Imatges/SS_D.png Graphic file (type png)
-<use ../Imatges/SS_D.png>
-Package pdftex.def Info: ../Imatges/SS_D.png  used on input line 236.
+[3 <../imatges/EE_AdS-CFT.png>]
+<../imatges/SS_D.png, id=41, 1044.90375pt x 490.83376pt>
+File: ../imatges/SS_D.png Graphic file (type png)
+<use ../imatges/SS_D.png>
+Package pdftex.def Info: ../imatges/SS_D.png  used on input line 236.
 (pdftex.def)             Requested size: 127.5pt x 59.88612pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 241--242
@@ -1725,111 +1720,146 @@ Underfull \hbox (badness 2582) in paragraph at lines 272--273
 []\T1/lmr/m/n/10 One can also con-sider cor-rec-tions on the Ryu-
  []
 
-[4 <../Imatges/SS_D.png>] (Rodriguez_Mascaro_Ferran.bbl
-Underfull \hbox (badness 3240) in paragraph at lines 28--33
+[4 <../imatges/SS_D.png>] (Rodriguez_Mascaro_Ferran.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 22--28
+ []\T1/lmr/m/n/9 S. W. Hawk-ing, Com-mu-ni-ca-tions in Math-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--28
+ \T1/lmr/m/n/9 e-mat-i-cal Physics \T1/lmr/bx/n/9 43\T1/lmr/m/n/9 , 199 (1975), ISSN
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--28
+ \T1/lmr/m/n/9 0010-3616, 1432-0916, pub-lisher: Springer,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--28
+ \T1/lmr/m/n/9 URL $\T1/lmtt/m/n/9 https : / / projecteuclid . org / journals /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--28
+ \T1/lmtt/m/n/9 communications-[]in-[]mathematical-[]physics /
+ []
+
+
+Overfull \hbox (16.36354pt too wide) in paragraph at lines 22--28
+ \T1/lmtt/m/n/9 volume-[]43 / issue-[]3 / Particle-[]creation-[]by-[]black-[]holes /
+ []
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 36--41
  []\T1/lmr/m/n/9 J. M. Mal-da-cena, In-ter-na-tional Jour-nal of The-o-
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 28--33
+Underfull \hbox (badness 3815) in paragraph at lines 36--41
  \T1/lmr/m/n/9 ret-i-cal Physics \T1/lmr/bx/n/9 38\T1/lmr/m/n/9 , 1113 (1999), ISSN 00207748,
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 28--33
+Underfull \hbox (badness 3849) in paragraph at lines 36--41
  \T1/lmr/m/n/9 arXiv:hep-th/9711200, URL $\T1/lmtt/m/n/9 http : / / arxiv . org / abs /
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 35--39
+Underfull \hbox (badness 2503) in paragraph at lines 43--47
  []\T1/lmr/m/n/9 E. Wit-ten, \T1/lmr/m/it/9 Anti De Sit-ter Space And Holog-ra-phy
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 44--48
+Underfull \hbox (badness 3849) in paragraph at lines 50--57
+ \T1/lmr/m/n/9 arXiv:hep-th/9802109, URL $\T1/lmtt/m/n/9 http : / / arxiv . org / abs /
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 74--78
  \T1/lmr/m/n/9 arXiv:hep-th/9108028, URL $\T1/lmtt/m/n/9 http : / / arxiv . org / abs /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--55
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
  []\T1/lmr/m/n/9 E. Schrödinger, Math-e-mat-i-cal Pro-ceed-ings of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--55
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
  \T1/lmr/m/n/9 the Cam-bridge Philo-soph-i-cal So-ci-ety \T1/lmr/bx/n/9 31\T1/lmr/m/n/9 , 555
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 50--55
+Underfull \hbox (badness 3954) in paragraph at lines 80--85
  \T1/lmr/m/n/9 (1935), ISSN 0305-0041, 1469-8064, URL $\T1/lmtt/m/n/9 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--55
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
  \T1/lmtt/m/n/9 / / www . cambridge . org / core / product / identifier /
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 64--70
+Underfull \hbox (badness 1874) in paragraph at lines 94--100
  []\T1/lmr/m/n/9 S. Ryu and T. Takayanagi, Phys-i-cal Re-view Let-
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 64--70
+Underfull \hbox (badness 3849) in paragraph at lines 94--100
  \T1/lmr/m/n/9 arXiv:hep-th/0603001, URL $\T1/lmtt/m/n/9 http : / / arxiv . org / abs /
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 73--80
+Underfull \hbox (badness 2158) in paragraph at lines 103--110
  []\T1/lmr/m/n/9 M. Head-rick and T. Takayanagi, Phys-i-cal Re-view
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--80
+Underfull \hbox (badness 10000) in paragraph at lines 103--110
  \T1/lmr/m/n/9 D \T1/lmr/bx/n/9 76\T1/lmr/m/n/9 , 106013 (2007), ISSN 1550-7998, 1550-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--80
+Underfull \hbox (badness 10000) in paragraph at lines 103--110
  \T1/lmr/m/n/9 2368, arXiv:0704.3719 [cond-mat, physics:hep-th,
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 92--98
+Underfull \hbox (badness 1199) in paragraph at lines 122--128
  []\T1/lmr/m/n/9 V. Iyer and R. M. Wald, Phys-i-cal Re-view D \T1/lmr/bx/n/9 50\T1/lmr/m/n/9 ,
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 92--98
+Underfull \hbox (badness 1990) in paragraph at lines 122--128
  \T1/lmr/m/n/9 846 (1994), pub-lisher: Amer-i-can Phys-i-cal So-ci-ety,
  []
 
 
-Underfull \hbox (badness 7685) in paragraph at lines 92--98
+Underfull \hbox (badness 7685) in paragraph at lines 122--128
  \T1/lmr/m/n/9 URL $\T1/lmtt/m/n/9 https : / / link . aps . org / doi / 10 . 1103 / PhysRevD .
  []
 
-
-Underfull \hbox (badness 3108) in paragraph at lines 119--125
+[5]
+Underfull \hbox (badness 3108) in paragraph at lines 149--155
  []\T1/lmr/m/n/9 R. Faregh-bal and M. Hakami Sha-la-mzari, Phys-i-
  []
 
-(Rodriguez_Mascaro_Ferran.end) [5]) [6] (Rodriguez_Mascaro_Ferran.aux)
+(Rodriguez_Mascaro_Ferran.end)) [6] (Rodriguez_Mascaro_Ferran.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7025 strings out of 476410
- 120387 string characters out of 5788641
+ 7034 strings out of 476410
+ 120668 string characters out of 5788641
  1872845 words of memory out of 5000000
- 27206 multiletter control sequences out of 15000+600000
+ 27215 multiletter control sequences out of 15000+600000
  575669 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,17n,45p,1332b,421s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt9.pfb>
-Output written on Rodriguez_Mascaro_Ferran.pdf (6 pages, 665691 bytes).
+ 44i,17n,45p,1337b,409s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt9.pfb>
+Output written on Rodriguez_Mascaro_Ferran.pdf (6 pages, 668065 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
