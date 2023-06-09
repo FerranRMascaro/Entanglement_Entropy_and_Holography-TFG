@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.2)  3 MAR 2023 01:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.26)  9 JUN 2023 12:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/ferran/Documents/Ferran/AA_Universitat/8è Semestre/Treball de Fi de Grau/Plantilla LaTeX/TFG.tex"
-(c:/Users/ferran/Documents/Ferran/AA_Universitat/8è Semestre/Treball de Fi de Grau/Plantilla LaTeX/TFG.tex
+**"c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Plantilla LaTeX/TFG.tex"
+(c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Plantilla LaTeX/TFG.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-07> (C:\Users\ferran\AppData\Local\Programs\MiKTeX\tex/latex/revtex4\revtex4.cls
+L3 programming layer <2023-05-15> (C:\Users\ferran\AppData\Local\Programs\MiKTeX\tex/latex/revtex4\revtex4.cls
 Document Class: revtex4 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documentation)
  Copyright (c) 2001 The American Physical Society.
  mailto:revtex@aps.org
@@ -173,7 +173,7 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@olf=\skip62
 \f@nch@O@orf=\skip63
 )
-c:/Users/ferran/Documents/Ferran/AA_Universitat/8è Semestre/Treball de Fi de Grau/Plantilla LaTeX/TFG.tex:18: Extra \endgroup.
+c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Plantilla LaTeX/TFG.tex:18: Extra \endgroup.
 \document ->\endgroup 
                       \init@documenthook \set@typesize@hook \normalsize \set...
 l.18 \begin{document}
@@ -181,7 +181,7 @@ l.18 \begin{document}
 Things are pretty mixed up, but I think the worst is over.
 
 
-c:/Users/ferran/Documents/Ferran/AA_Universitat/8è Semestre/Treball de Fi de Grau/Plantilla LaTeX/TFG.tex:18: LaTeX Error: Missing \begin{document}.
+c:/Users/ferran/Documents/Ferran/_Universitat/8è Semestre/Treball de Fi de Grau/Entanglement_Entropy_and_Holography-TFG/Plantilla LaTeX/TFG.tex:18: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -193,7 +193,7 @@ You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 (C:\Users\ferran\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count277
 \l__pdf_internal_box=\box61
 ) (TFG.aux)
@@ -314,13 +314,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
 
  ) 
 Here is how much of TeX's memory you used:
- 4048 strings out of 476339
- 59796 string characters out of 5787648
- 1947340 words of memory out of 5000000
- 24434 multiletter control sequences out of 15000+600000
+ 4076 strings out of 476410
+ 60739 string characters out of 5788641
+ 1948845 words of memory out of 5000000
+ 24397 multiletter control sequences out of 15000+600000
  523474 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,62p,321b,338s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,62p,359b,338s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ferran\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on TFG.pdf (5 pages, 323495 bytes).
 PDF statistics:
