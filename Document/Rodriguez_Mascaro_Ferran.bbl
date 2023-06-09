@@ -1,4 +1,4 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{19}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -22,9 +22,8 @@
 \bibinfo{author}{\bibfnamefont{S.~W.} \bibnamefont{Hawking}},
   \bibinfo{journal}{Communications in Mathematical Physics}
   \textbf{\bibinfo{volume}{43}}, \bibinfo{pages}{199} (\bibinfo{year}{1975}),
-  ISSN \bibinfo{issn}{0010-3616, 1432-0916}, \bibinfo{note}{publisher:
-  Springer},
-  \urlprefix\url{https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-43/issue-3/Particle-creation-by-black-holes/cmp/1103899181.full}.
+  ISSN \bibinfo{issn}{1432-0916},
+  \urlprefix\url{https://doi.org/10.1007/BF02345020}.
 
 \bibitem[{\citenamefont{'t~Hooft}(2009)}]{t_hooft_dimensional_2009}
 \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{'t~Hooft}},
@@ -76,13 +75,6 @@
   (\bibinfo{year}{1988}), \bibinfo{note}{arXiv:hep-th/9108028},
   \urlprefix\url{http://arxiv.org/abs/hep-th/9108028}.
 
-\bibitem[{\citenamefont{Schrödinger}(1935)}]{schrodinger_discussion_1935}
-\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Schrödinger}},
-  \bibinfo{journal}{Mathematical Proceedings of the Cambridge Philosophical
-  Society} \textbf{\bibinfo{volume}{31}}, \bibinfo{pages}{555}
-  (\bibinfo{year}{1935}), ISSN \bibinfo{issn}{0305-0041, 1469-8064},
-  \urlprefix\url{https://www.cambridge.org/core/product/identifier/S0305004100013554/type/journal_article}.
-
 \bibitem[{\citenamefont{Nishioka}(2018)}]{nishioka_entanglement_2018}
 \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Nishioka}},
   \bibinfo{journal}{Reviews of Modern Physics} \textbf{\bibinfo{volume}{90}},
@@ -97,6 +89,25 @@
   \bibinfo{pages}{181602} (\bibinfo{year}{2008}), ISSN
   \bibinfo{issn}{0031-9007, 1079-7114}, \bibinfo{note}{arXiv:hep-th/0603001},
   \urlprefix\url{http://arxiv.org/abs/hep-th/0603001}.
+
+\bibitem[{\citenamefont{Ryu and Takayanagi}(2006)}]{ryu_aspects_2006}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Ryu}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Takayanagi}},
+  \bibinfo{journal}{Journal of High Energy Physics}
+  \textbf{\bibinfo{volume}{2006}}, \bibinfo{pages}{045} (\bibinfo{year}{2006}),
+  ISSN \bibinfo{issn}{1029-8479}, \bibinfo{note}{arXiv:hep-th/0605073},
+  \urlprefix\url{http://arxiv.org/abs/hep-th/0605073}.
+
+\bibitem[{\citenamefont{Nishioka et~al.}(2009)\citenamefont{Nishioka, Ryu, and
+  Takayanagi}}]{nishioka_holographic_2009}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Nishioka}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Ryu}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Takayanagi}},
+  \bibinfo{journal}{Journal of Physics A: Mathematical and Theoretical}
+  \textbf{\bibinfo{volume}{42}}, \bibinfo{pages}{504008}
+  (\bibinfo{year}{2009}), ISSN \bibinfo{issn}{1751-8113, 1751-8121},
+  \bibinfo{note}{arXiv:0905.0932 [cond-mat, physics:gr-qc, physics:hep-th,
+  physics:quant-ph]}, \urlprefix\url{http://arxiv.org/abs/0905.0932}.
 
 \bibitem[{\citenamefont{Headrick and
   Takayanagi}(2007)}]{headrick_holographic_2007}

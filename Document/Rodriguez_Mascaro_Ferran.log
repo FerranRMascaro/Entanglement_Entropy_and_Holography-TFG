@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.26)  9 JUN 2023 00:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.26)  9 JUN 2023 14:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1571,277 +1571,242 @@ Underfull \hbox (badness 2334) in paragraph at lines 89--90
 <../imatges/AdS_Cylindric.png, id=18, 1001.24063pt x 646.66594pt>
 File: ../imatges/AdS_Cylindric.png Graphic file (type png)
 <use ../imatges/AdS_Cylindric.png>
-Package pdftex.def Info: ../imatges/AdS_Cylindric.png  used on input line 99.
+Package pdftex.def Info: ../imatges/AdS_Cylindric.png  used on input line 101.
 (pdftex.def)             Requested size: 132.5972pt x 85.63841pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 100.
+(Font)              <9> on input line 102.
 
-Underfull \hbox (badness 3989) in paragraph at lines 104--105
+Underfull \hbox (badness 3989) in paragraph at lines 106--107
 \T1/lmr/m/n/10 cylin-ders where ev-
  []
 
 
-Underfull \hbox (badness 2735) in paragraph at lines 104--105
+Underfull \hbox (badness 2735) in paragraph at lines 106--107
 \T1/lmr/m/n/10 to a con-stant time
  []
 
 
-Underfull \hbox (badness 3758) in paragraph at lines 104--105
+Underfull \hbox (badness 3758) in paragraph at lines 106--107
 \T1/lmr/m/n/10 and where the ex-
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 104--105
+Underfull \hbox (badness 1275) in paragraph at lines 106--107
 \T1/lmr/m/n/10 ra-di-ally to-wards the
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 104--105
+Underfull \hbox (badness 1701) in paragraph at lines 106--107
 \T1/lmr/m/n/10 cen-ter of the cylin-
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 104--105
+Underfull \hbox (badness 1946) in paragraph at lines 106--107
 \T1/lmr/m/n/10 has a $\OML/lmm/m/it/10 d$\T1/lmr/m/n/10 -dimensional
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 104--105
+Underfull \hbox (badness 2922) in paragraph at lines 106--107
 \T1/lmr/m/n/10 bound-ary $\OML/lmm/m/it/10 @$\T1/lmr/m/n/10 AdS$[]$
  []
 
 \@endnoteout=\write4
 \openout4 = `Rodriguez_Mascaro_Ferran.end'.
 
-
-Overfull \hbox (3.53166pt too wide) detected at line 139
-[]
- []
-
 [2{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc} <../imatges/AdS_Cylindric.png>]
 <../imatges/EE_AdS-CFT.png, id=33, 1062.97125pt x 598.48593pt>
 File: ../imatges/EE_AdS-CFT.png Graphic file (type png)
 <use ../imatges/EE_AdS-CFT.png>
-Package pdftex.def Info: ../imatges/EE_AdS-CFT.png  used on input line 164.
+Package pdftex.def Info: ../imatges/EE_AdS-CFT.png  used on input line 170.
 (pdftex.def)             Requested size: 127.5pt x 71.77867pt.
 
-Underfull \hbox (badness 4366) in paragraph at lines 169--170
+Underfull \hbox (badness 4366) in paragraph at lines 175--176
 \T1/lmr/m/n/10 for-mula is valid for
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 169--170
+Underfull \hbox (badness 2245) in paragraph at lines 175--176
 \T1/lmr/m/n/10 generic sys-tems, and
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 169--170
+Underfull \hbox (badness 2828) in paragraph at lines 175--176
 \T1/lmr/m/n/10 mere quan-tum in-for-
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 171--172
+Underfull \hbox (badness 1609) in paragraph at lines 177--178
 []\T1/lmr/m/n/10 As one can ver-ify,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 \T1/lmr/m/n/10 the Ryu-Takayanagi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 \T1/lmr/m/n/10 dimensional anti-de
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 171--172
+Underfull \hbox (badness 1603) in paragraph at lines 177--178
 \T1/lmr/m/n/10 Sit-ter re-pro-duces the
- []
-
-
-Underfull \hbox (badness 3343) in paragraph at lines 171--172
-\T1/lmr/m/n/10 ex-pected gen-eral be-
  []
 
 [3 <../imatges/EE_AdS-CFT.png>]
 <../imatges/SS_D.png, id=41, 1044.90375pt x 490.83376pt>
 File: ../imatges/SS_D.png Graphic file (type png)
 <use ../imatges/SS_D.png>
-Package pdftex.def Info: ../imatges/SS_D.png  used on input line 236.
+Package pdftex.def Info: ../imatges/SS_D.png  used on input line 243.
 (pdftex.def)             Requested size: 127.5pt x 59.88612pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
-[][]\T1/lmr/m/n/10 This prop-er-ties
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+[][]\T1/lmr/m/n/10 This in-equal-i-ties
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
-\T1/lmr/m/n/10 are present in any
+Underfull \hbox (badness 7133) in paragraph at lines 248--249
+\T1/lmr/m/n/10 are ful-filled in any
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
 \T1/lmr/m/n/10 quan-tum me-chan-i-cal
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 241--242
-\T1/lmr/m/n/10 va-lid-ity of the Ryu-
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+\T1/lmr/m/n/10 many-body the-ory.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
-\T1/lmr/m/n/10 Takayanagi for-mula
+Underfull \hbox (badness 5878) in paragraph at lines 248--249
+\T1/lmr/m/n/10 Thus, an im-por-tant
  []
 
 
-Underfull \hbox (badness 5548) in paragraph at lines 243--246
-[]\T1/lmr/m/n/10 Let's start pov-ing
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+\T1/lmr/m/n/10 the Ryu-Takayanagi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--246
-\T1/lmr/m/n/10 the first in-equal-ity.
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+\T1/lmr/m/n/10 for-mula (Eq. 5[]) is
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 243--246
-\T1/lmr/m/n/10 The re-gions of the
+Underfull \hbox (badness 2020) in paragraph at lines 250--253
+[]\T1/lmr/m/n/10 Let's start prov-ing
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 250--252
+Underfull \hbox (badness 2828) in paragraph at lines 257--260
 \T1/lmr/m/n/10 and, there-fore, us-ing the Ryu-Takayanagi for-mula
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 272--273
+Underfull \hbox (badness 2582) in paragraph at lines 282--283
 []\T1/lmr/m/n/10 One can also con-sider cor-rec-tions on the Ryu-
  []
 
 [4 <../imatges/SS_D.png>] (Rodriguez_Mascaro_Ferran.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 22--28
- []\T1/lmr/m/n/9 S. W. Hawk-ing, Com-mu-ni-ca-tions in Math-
+Underfull \hbox (badness 2460) in paragraph at lines 22--27
+ []\T1/lmr/m/n/9 S. W. Hawk-ing, Com-mu-ni-ca-tions in Math-e-mat-i-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--28
- \T1/lmr/m/n/9 e-mat-i-cal Physics \T1/lmr/bx/n/9 43\T1/lmr/m/n/9 , 199 (1975), ISSN
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--28
- \T1/lmr/m/n/9 0010-3616, 1432-0916, pub-lisher: Springer,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--28
- \T1/lmr/m/n/9 URL $\T1/lmtt/m/n/9 https : / / projecteuclid . org / journals /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--28
- \T1/lmtt/m/n/9 communications-[]in-[]mathematical-[]physics /
- []
-
-
-Overfull \hbox (16.36354pt too wide) in paragraph at lines 22--28
- \T1/lmtt/m/n/9 volume-[]43 / issue-[]3 / Particle-[]creation-[]by-[]black-[]holes /
- []
-
-
-Underfull \hbox (badness 3240) in paragraph at lines 36--41
+Underfull \hbox (badness 3240) in paragraph at lines 35--40
  []\T1/lmr/m/n/9 J. M. Mal-da-cena, In-ter-na-tional Jour-nal of The-o-
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 36--41
+Underfull \hbox (badness 3815) in paragraph at lines 35--40
  \T1/lmr/m/n/9 ret-i-cal Physics \T1/lmr/bx/n/9 38\T1/lmr/m/n/9 , 1113 (1999), ISSN 00207748,
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 36--41
+Underfull \hbox (badness 3849) in paragraph at lines 35--40
  \T1/lmr/m/n/9 arXiv:hep-th/9711200, URL $\T1/lmtt/m/n/9 http : / / arxiv . org / abs /
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 43--47
+Underfull \hbox (badness 2503) in paragraph at lines 42--46
  []\T1/lmr/m/n/9 E. Wit-ten, \T1/lmr/m/it/9 Anti De Sit-ter Space And Holog-ra-phy
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 50--57
+Underfull \hbox (badness 3849) in paragraph at lines 49--56
  \T1/lmr/m/n/9 arXiv:hep-th/9802109, URL $\T1/lmtt/m/n/9 http : / / arxiv . org / abs /
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 74--78
+Underfull \hbox (badness 3849) in paragraph at lines 73--77
  \T1/lmr/m/n/9 arXiv:hep-th/9108028, URL $\T1/lmtt/m/n/9 http : / / arxiv . org / abs /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--85
- []\T1/lmr/m/n/9 E. Schrödinger, Math-e-mat-i-cal Pro-ceed-ings of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--85
- \T1/lmr/m/n/9 the Cam-bridge Philo-soph-i-cal So-ci-ety \T1/lmr/bx/n/9 31\T1/lmr/m/n/9 , 555
- []
-
-
-Underfull \hbox (badness 3954) in paragraph at lines 80--85
- \T1/lmr/m/n/9 (1935), ISSN 0305-0041, 1469-8064, URL $\T1/lmtt/m/n/9 https :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--85
- \T1/lmtt/m/n/9 / / www . cambridge . org / core / product / identifier /
- []
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 94--100
+Underfull \hbox (badness 1874) in paragraph at lines 86--92
  []\T1/lmr/m/n/9 S. Ryu and T. Takayanagi, Phys-i-cal Re-view Let-
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 94--100
+Underfull \hbox (badness 3849) in paragraph at lines 86--92
  \T1/lmr/m/n/9 arXiv:hep-th/0603001, URL $\T1/lmtt/m/n/9 http : / / arxiv . org / abs /
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 103--110
+Underfull \hbox (badness 1946) in paragraph at lines 94--100
+ []\T1/lmr/m/n/9 S. Ryu and T. Takayanagi, Jour-nal of High En-
+ []
+
+
+Underfull \hbox (badness 3449) in paragraph at lines 94--100
+ \T1/lmr/m/n/9 ergy Physics \T1/lmr/bx/n/9 2006\T1/lmr/m/n/9 , 045 (2006), ISSN 1029-8479,
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 94--100
+ \T1/lmr/m/n/9 arXiv:hep-th/0605073, URL $\T1/lmtt/m/n/9 http : / / arxiv . org / abs /
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 103--111
+ \T1/lmr/m/n/9 (2009), ISSN 1751-8113, 1751-8121, arXiv:0905.0932
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 114--121
  []\T1/lmr/m/n/9 M. Head-rick and T. Takayanagi, Phys-i-cal Re-view
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--110
+Underfull \hbox (badness 10000) in paragraph at lines 114--121
  \T1/lmr/m/n/9 D \T1/lmr/bx/n/9 76\T1/lmr/m/n/9 , 106013 (2007), ISSN 1550-7998, 1550-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--110
+Underfull \hbox (badness 10000) in paragraph at lines 114--121
  \T1/lmr/m/n/9 2368, arXiv:0704.3719 [cond-mat, physics:hep-th,
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 122--128
+Underfull \hbox (badness 1199) in paragraph at lines 133--139
  []\T1/lmr/m/n/9 V. Iyer and R. M. Wald, Phys-i-cal Re-view D \T1/lmr/bx/n/9 50\T1/lmr/m/n/9 ,
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 122--128
+Underfull \hbox (badness 1990) in paragraph at lines 133--139
  \T1/lmr/m/n/9 846 (1994), pub-lisher: Amer-i-can Phys-i-cal So-ci-ety,
  []
 
 
-Underfull \hbox (badness 7685) in paragraph at lines 122--128
+Underfull \hbox (badness 7685) in paragraph at lines 133--139
  \T1/lmr/m/n/9 URL $\T1/lmtt/m/n/9 https : / / link . aps . org / doi / 10 . 1103 / PhysRevD .
  []
 
 [5]
-Underfull \hbox (badness 3108) in paragraph at lines 149--155
+Underfull \hbox (badness 3108) in paragraph at lines 160--166
  []\T1/lmr/m/n/9 R. Faregh-bal and M. Hakami Sha-la-mzari, Phys-i-
  []
 
@@ -1851,15 +1816,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7034 strings out of 476410
- 120668 string characters out of 5788641
- 1872845 words of memory out of 5000000
- 27215 multiletter control sequences out of 15000+600000
+ 7037 strings out of 476410
+ 120734 string characters out of 5788641
+ 1870845 words of memory out of 5000000
+ 27218 multiletter control sequences out of 15000+600000
  575669 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,17n,45p,1337b,409s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 44i,17n,45p,1337b,411s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt9.pfb>
-Output written on Rodriguez_Mascaro_Ferran.pdf (6 pages, 672075 bytes).
+Output written on Rodriguez_Mascaro_Ferran.pdf (6 pages, 670820 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
