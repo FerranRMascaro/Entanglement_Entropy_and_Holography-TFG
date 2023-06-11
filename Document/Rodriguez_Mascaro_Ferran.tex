@@ -53,7 +53,7 @@
 
 
 \begin{abstract}
-    {\bf Abstract:} The AdS/CFT correspondence, also called \textit{holography}, is a physical duality between quantum gravity theories in anti-de Sitter (AdS) spacetimes and certain quantum field theories (QFTs) with conformal symmetry defined in the boundary of such space. The so-called holographic dictionary describes how quantities from each of these theories can be translated into quantities of the other. An important magnitude of the holographic dictionary is the entanglement entropy (EE) of boundary regions. This measures the degree of quantum entanglement between such regions and their complements. In this work, we study various aspects of EE in the holographic context. After a quick review of AdS/CFT and of general aspects of EE in QFT, we introduce the Ryu-Takayanagi formula, which computes the holographic EE of boundary regions in the semiclassical limit of the gravity side of the duality. We perform explicit calculations and general checks of the formula, review its generalizations to account for stringy and quantum corrections, and comment on its relation with black hole thermodynamics and the emergence of gravitational dynamics.
+    {\bf Abstract:} The AdS/CFT correspondence, also called \emph{holography}, is a physical duality between quantum gravity theories in anti-de Sitter (AdS) spacetimes and certain quantum field theories (QFTs) with conformal symmetry defined in the boundary of such space. The so-called holographic dictionary describes how quantities from each of these theories can be translated into quantities of the other. An important magnitude of the holographic dictionary is the entanglement entropy (EE) of boundary regions. This measures the degree of quantum entanglement between such regions and their complements. In this work, we study various aspects of EE in the holographic context. After a quick review of AdS/CFT and of general aspects of EE in QFT, we introduce the Ryu-Takayanagi formula, which computes the holographic EE of boundary regions in the semiclassical limit of the gravity side of the duality. We perform explicit calculations and general checks of the formula, review its generalizations to account for stringy and quantum corrections, and comment on its relation with black hole thermodynamics and the emergence of gravitational dynamics.
 \end{abstract}
 
 
@@ -62,15 +62,18 @@
 
 \section{Introduction} \label{s:Intro}
 
+The search for a unification of quantum theories and gravity has been a long-standing challenge in theoretical physics since the second half of the last century. The AdS/CFT correspondence appeared at late 1990s in the context of string theory as a breakthrough in the research on the fundamental principles that govern our universe.
+
+In traditional quantum field theories, gravity is not directly incorporated into the framework, and the gravitational force is typically treated classically. However, AdS/CFT allows us to study the quantum behavior of gravity by relating it to a well-defined and well-understood quantum field theory.
+
+One of the main motivations behind it is to better understand the behavior of strongly coupled quantum field theories, which are notoriously difficult to study. AdS/CFT provides a powerful tool to explore the dynamics of such systems by mapping them to classical gravitational theories in AdS spaces.
+
+AdS/CFT reveals that the entanglement structure of a quantum field theory corresponds to the gravitational interactions and curvature of AdS. The spacetime geometry emergence from entanglement becomes evident.
+
+In this work, we start introducing the holographic principle and the AdS/CFT correspondance (Sec.~\ref{s:Holo_AdS/CFT}). The entanglement entropy (EE) and its first law are presented, and it is displaied in the context of conformal field theories (CFTs) (Sec.~\ref{s:EE_CFT}). We introduce the highly significant Ryu-Takayanagi formula for the holographic EE and use it to compute the EE in the case of a circular region in CFT$_3$, to prove that AdS/CFT fulfills the fundamental property of {\it strong subadditivity} and we provide an overview of higher order corrections (Sec.~\ref{s:EE_Holo}).
 
 
-
-
-
-\newpage
-
-
-\section{Holography and AdS/CFT}
+\section{Holography and AdS/CFT} \label{s:Holo_AdS/CFT}
 
 
 \subsection{The Holographic Principle} \label{ss:Holography}
@@ -81,18 +84,18 @@ Given a finite space region, one can imagine a process in which matter is contin
 }
 where $A_\text{H}$ is the area of the event horizon of the black hole and $G$ is Newton's gravitational constant. As a consequence, the maximum entropy that a region can contain is given by its area divided by $4G$.
 
-This bound implies that the degrees of freedom inside some region grow with the area of the boundary and not with the volume of the region, as one might have expected. This behaviour leads to the \textit{holographic principle}, which states that in a quantum gravity theory all physics phenomena within some volume must be describable in terms of a theory defined on the boundary of the region \cite{t_hooft_dimensional_2009}.
+This bound implies that the degrees of freedom inside some region grow with the area of the boundary and not with the volume of the region, as one might have expected. This behaviour leads to the \emph{holographic principle}, which states that in a quantum gravity theory all physics phenomena within some volume must be describable in terms of a theory defined on the boundary of the region \cite{t_hooft_dimensional_2009}.
 
 
 \subsection{AdS/CFT Correspondence} \label{ss:AdS/CFT}
 
-The \textit{AdS/CFT correspondence}, sometimes simply called \textit{holography} or \textit{gauge/gravity correspondence} \cite{maldacena_large_1999}, is an explicit realization of the holographic principle. It establishes the complete physical equivalence between quantum gravity theories living in anti-de Sitter spacetimes and certain types of conformal quantum field theories (CFTs) living in the boundary of such spacetimes. If the gravitational theory is defined in $(d+1)$ spacetime dimensions, the dual CFT will be defined in $d$ spacetime dimensions and, in a precise sense, the gravity theory will be a ``hologram'' of the CFT. AdS/CFT correspondence allows us to study aspects of each of these theories through the other. The so-called \textit{holographic dictionary} relates quantities (observables) between the gravity theories and their dual CFTs \cite{witten_anti_1998, gubser_gauge_1998}. For example, an empty AdS spacetime with no matter is dual to the vacuum state of the CFT, and an AdS spacetime with a black hole inside corresponds to a thermal state in the CFT.
+The \emph{AdS/CFT correspondence}, sometimes simply called \emph{holography} or \emph{gauge/gravity correspondence} \cite{maldacena_large_1999}, is an explicit realization of the holographic principle. It establishes the complete physical equivalence between quantum gravity theories living in anti-de Sitter spacetimes and certain types of CFTs living in the boundary of such spacetimes. If the gravitational theory is defined in $(d+1)$ spacetime dimensions, the dual CFT will be defined in $d$ spacetime dimensions and, in a precise sense, the gravity theory will be a ``hologram'' of the CFT. AdS/CFT correspondence allows us to study aspects of each of these theories through the other. The so-called \emph{holographic dictionary} relates quantities (observables) between the gravity theories and their dual CFTs \cite{witten_anti_1998, gubser_gauge_1998}. For example, an empty AdS spacetime with no matter is dual to the vacuum state of the CFT, and an AdS spacetime with a black hole inside corresponds to a thermal state in the CFT.
 
 An anti-de Sitter spacetime is a maximally symmetric spacetime with negative curvature, which solves Einstein's field equations with a negative cosmological constant. The metric of an AdS spacetime of $(d+1)$ dimensions in Poincar\'e coordinates is \cite{kaplan_lectures_nodate}
 \eq{AdS_PP-metric}{
     \mathrm{d} s_{\text{AdS}_{(d+1)}}^2 = \frac{L^2}{z^2} \left( -\mathrm{d} t^2 + \mathrm{d} z^2 + \sum_{i=1}^{d-1} \mathrm{d} x_i^2 \right) \ ,
 }
-with the time and spatial dimensions $t , x_i \in (-\infty,+\infty)$, an extra dimension $z \in (0,+\infty)$, sometimes called \textit{holographic coordinate}, and where $L$ is the \textit{AdS radius}. Fixing the coordinate $z$, the metric reduces to the one of $d$-dimensional Minkowski spacetime ``weighted'' by the constant factor $1/z^2$. Hence, AdS can be foliate by Minkowski spacetimes living at different values of $z$.
+with the time and spatial dimensions $t , x_i \in (-\infty,+\infty)$, an extra dimension $z \in (0,+\infty)$, sometimes called \emph{holographic coordinate}, and where $L$ is the \emph{AdS radius}. Fixing the coordinate $z$, the metric reduces to the one of $d$-dimensional Minkowski spacetime ``weighted'' by the constant factor $1/z^2$. Hence, AdS can be foliate by Minkowski spacetimes living at different values of $z$.
 
 % La citación a Kaplan no funciona. ¿Referencia para AdS en Poincaré patch?
 
@@ -115,10 +118,10 @@ The gauge/gravity correspondence is valid independently of the intensity of the 
 \section{Entanglement Entropy in CFT} \label{s:EE_CFT}
 
 Given some quantum system composed of two subsystems $A$ and $B$ in a pure state $\ket{\Psi}$, there are two possibilities. If one can write $\ket{\Psi}$ as a single tensor product of pure states, $\ket{\Psi} = \ket{\Phi}_A \otimes \ket{\tilde{\Phi}}_B$, one say that the state is separable. If this is not possible, $\ket{\Psi} \neq \ket{\Phi}_A \otimes \ket{\tilde{\Phi}}_B$, one say that the state is entangled.
-%of a system, two subsystems $A$ and $B$ that divides this system will be separable if it is possible define the state $\ket{\Psi}$ as a combination of one individual state for each subsystem ($\ket{\Psi} = \ket{\Phi}_A \otimes \ket{\tilde{\Phi}}_B$), and \textit{entanglet} if it is not ($\ket{\Psi} \neq \ket{\Phi}_A \otimes \ket{\tilde{\Phi}}_B$) -~see e.g., \cite{schrodinger_discussion_1935}. 
+%of a system, two subsystems $A$ and $B$ that divides this system will be separable if it is possible define the state $\ket{\Psi}$ as a combination of one individual state for each subsystem ($\ket{\Psi} = \ket{\Phi}_A \otimes \ket{\tilde{\Phi}}_B$), and \emph{entanglet} if it is not ($\ket{\Psi} \neq \ket{\Phi}_A \otimes \ket{\tilde{\Phi}}_B$) -~see e.g., \cite{schrodinger_discussion_1935}. 
 In the latter case, one cannot describe neither of them independently without losing information (in other words, if one trace over one of the subsystems, the reduced state of the other will not be pure). The two form an inseparable entity.
 
-The \textit{entanglement entropy} (EE) is a measure of the degree of quantum entanglement between two subsystems \cite{nishioka_entanglement_2018}. It is defined by the von Neumann entropy of the reduced density matrix $\rho_A$ of one of the subsystems as
+The \emph{entanglement entropy} (EE) is a measure of the degree of quantum entanglement between two subsystems \cite{nishioka_entanglement_2018}. It is defined by the von Neumann entropy of the reduced density matrix $\rho_A$ of one of the subsystems as
 \eq{EE}{
     S(A) \equiv - \tr_A ( \rho_A \log \rho_A ) \ ,
 }
@@ -132,7 +135,7 @@ The natural subsystems in QFT are spacetime regions. For any QFT, given a global
 This EE is intrinsically divergent, since the region is separated from its vicinity by a zero-dimensional boundary. Nonetheless, one can regulate it and obtain physically meaningful results.
 
 The general expression of the entanglement entropy for an arbitrary region in a $d$-dimensional CFT is ---see {\emph{e.g.,}} \cite{nishioka_entanglement_2018},
-\eqgat{EE}{
+\eqgat{EE_CFT}{
     S_{\text{CFT}_d} = c_{d-2} \left( \frac{H}{\delta} \right) ^{d-2} + c_{d-1} \left( \frac{H}{\delta} \right) ^{d-4} + \dots  \\
     + \begin{dcases}
         c_1 \frac{H}{\delta} + (-1)^{\frac{d-1}{2}} s_{\text{univ}}
@@ -144,12 +147,38 @@ The general expression of the entanglement entropy for an arbitrary region in a 
 where $H$ is the characteristic length of the region studied, $\delta$ is an ultraviolet cut-off, $c_i$ are coefficients that are non-universal (not well-defined in the continuum, i.e., dependent on the definition of $\delta$), and $s_{\text{univ}}$ are universal coefficients that contain well-defined (``universal'') information about the corresponding QFT.
 
 
+\subsection{The first law of entanglement entropy}
+
+The \emph{first law of entanglement entropy} is an important direct outcome of the definition of the EE (Eq.~\ref{eq:EE}) \cite{blanco_relative_2013}.
+
+Consider a family of states $\ket{\Psi(\lambda)}$ defined by the parameter $\lambda$ of a general quantum system with a subsystem $A$. The first order variation in the EE of $A$ is \cite{van_raamsdonk_lectures_2017}
+\eqgat{varEE}{
+    \frac{\mathrm{d}}{\mathrm{d} \lambda} S_A = - \frac{\mathrm{d}}{\mathrm{d} \lambda} (\rho_A \log \rho_A) = \nonumber \\
+    = - \tr \left( \log \rho_A \frac{\mathrm{d}}{\mathrm{d} \lambda} \rho_A \right) - \tr \left( \frac{\mathrm{d}}{\mathrm{d} \lambda} \rho_A \right) \ ,
+}
+where in the last term is null since the trace of the density matrix is the unit for any state.
+
+The \emph{modular hamiltonian} is defined as $H_A = - \log \rho_A (\lambda=0)$, related to the density matrix with no perturbation $\rho_A (\lambda=0)$. Using this, the last equation can be rewrited as
+\eq{1law}{
+    \frac{\mathrm{d}}{\mathrm{d} \lambda} S_A = \frac{\mathrm{d}}{\mathrm{d} \lambda} \braket{H_A} \ ,
+}
+where $\braket{H_A} \equiv \tr (H_A \rho_A)$. This is the first law of EE, called like this because it represents a quantum generalization of the first law of thermodynamics. One can see this considering the specific case where the unperturbed density matrix is thermal respect to some Hamiltonian $H$:
+\eq{thermal_matrix}{
+    \rho_A = \frac{1}{Z} e^{-H/T} \ .
+}
+Applying Eq.~\ref{eq:1law} and the definition of the modular hamiltonian, it is immidiate to obtain that, in this case,
+\eq{1law_thermo}{
+    \frac{\mathrm{d}}{\mathrm{d} \lambda} S_A = \frac{1}{T}\frac{\mathrm{d}}{\mathrm{d} \lambda} \braket{H} \ .
+}
+In other words, $\mathrm{d} E = T \, \mathrm{d} S$. Therefore, it is seen that the usual first law of thermodynamics can be obtained from the first law of EE.
+
+
 \section{Holographic Entanglement Entropy} \label{s:EE_Holo}
 
 
 \subsection{Ryu-Takayanagi formula} \label{ss:R-T}
 
-For general CFTs, it is difficult to compute the EE of a region. On the other hand, it turns out to be rather easy to do it for holographic CFTs. Remarkably, in the holographic context, an essentially quantum quantity such as EE can be obtained from areas of extremal surfaces on AdS spacetime.
+For general CFTs, it is very difficult to compute the EE of a region. On the other hand, it turns out to be rather easy to do it for holographic CFTs. Remarkably, in the holographic context, an essentially quantum quantity such as EE can be obtained from areas of extremal surfaces on AdS spacetime.
 
 Given a gravity theory defined on ($d+1$)-dimensional AdS spacetime, the dual CFT will live at its conformal boundary. This is a $d$-dimensional Minkowski space, which lies, in Poincar\'e coordinates, at 
 %given a region $A$ in its boundary $d$-dimensional Minkowski spacetime slice formed from fixing $z$ as 
@@ -174,7 +203,7 @@ where $y$ are the $d$ coordinates that represent the surface $\gamma_A$ and $h$ 
 
 The Ryu-Takayanagi formula is valid for generic systems, and provides a hint on how the geometry of spacetime can emerge from mere quantum information. We will see more about this later.
 
-As one can verify, the Ryu-Takayanagi formula for a ($d+1$)-dimensional anti-de Sitter reproduces the expected general behaviour of the EE (Eq.~\ref{eq:EE}) for a $d$-dimensional conformal field theory \cite{ryu_aspects_2006, nishioka_holographic_2009}. Let us see this explicitly with an example.
+As one can verify, the Ryu-Takayanagi formula for a ($d+1$)-dimensional anti-de Sitter reproduces the expected general behaviour of the EE (Eq.~\ref{eq:EE_CFT}) for a $d$-dimensional conformal field theory \cite{ryu_aspects_2006, nishioka_holographic_2009}. Let us see this explicitly with an example.
 
 
 \subsection{Entanglement Entropy for a Disk in CFT$_3$} \label{ss:EE-disk}
@@ -183,7 +212,7 @@ In this section, we compute the EE for a circular region in a holographic CFT$_3
 
 Let $A$ be a disk-shaped region of radius $R$ defined in the conformal boundary of pure AdS$_4$. This 2-dimensional region is defined in polar coordinates as
 \eq{1A}{
-    A = \{ ( r, \theta, z, t ) \ | \ t = 0, z = \delta, r \le R \} \nonumber
+    A = \{ ( r, \theta, z, t ) \ | \ t = 0, z = \delta, r \le R \} \nonumber \ .
 }
 We parametrize the bulk surface of minimal area $\gamma_A$ as:
 \eq{1gA}{
@@ -205,34 +234,39 @@ where $ \dot{f}(r) \equiv \partial f/\partial r$. The determinant of the induced
 \eq{1h}{
     h = \left( \frac{L}{f(r)} \right) ^4 r^2 ( 1 + \dot{f}(r)^2 ) \ , \nonumber
 }
-where in the second line we performed the angular integration.
 The minimal value of the integral over the polar coordinates of the square root of the induced metric will correspond to the area of $\gamma_A$. So, by the Ryu-Takayanagi formula, the entanglement entropy related to the region $A$ will be
 \eqgat{1EEA}{
     S_A = \frac{1}{4G} \, \text{min} \int_{\gamma_A} \sqrt{h} \ \mathrm{d}x^\rho \nonumber \\
     = \frac{\pi L^2}{2G} \, \text{min} \int_r \mathrm{d}r \frac{r}{f(r)^2} \sqrt{ 1 + \dot{f}(r)^2 } \ .\nonumber
 }
-The interior of this final definite integral looks like some type of Lagrangian $\calL [r,f(r),\dot{f}(r)]$, whose Euler-Lagrange equation reads:
+where in the second line we performed the angular integration. The resulting integral in $r$ must be evaluated on the minimal surface. In order to find it, we extremize the functional using the 
+%The interior of this final definite integral looks like some type of Lagrangian , whose 
+Euler-Lagrange equations for the effective Lagrangian $\calL [r,f(r),\dot{f}(r)]$. They read
 \eqgat{1EL}{
     \frac{\partial \calL}{\partial f} - \frac{\mathrm{d}}{\mathrm{d}r} \left[ \frac{\partial \calL}{\partial \dot{f}} \right] = 0 \nonumber \\
     \longrightarrow \left( 1+\dot{f}^2 \right) \left( -2r-f\dot{f}-rf\ddot{f} \right) + rf\dot{f}^2\ddot{f} = 0 \ .\nonumber
 }
-One can prove that $f(r) = \sqrt{R^2 - r^2}$ is solution of the previous relation and corresponds to the function that minimizes the functional of the entanglement entropy and connects to the boundary region $A$. Hence, the surface of minimal area is found to be a half sphere.
+One can prove that $f(r) = \sqrt{R^2 - r^2}$ is a solution of the previous relation and corresponds to the function that minimizes the functional of the entanglement entropy and connects to the boundary region $A$. Hence, the surface of minimal area is found to be a half sphere.
 
-To compute the integral of the EE expression, we should first determine its limits. The inferior bound corresponds to the lower part of the half sphere inside the bulk, where $r_\text{min}=0$. The superior bound corresponds to the connexion of the surface with the conformal boundary, that is, $z=\delta=\sqrt{R^2-r_\text{max}^2}$. Thus, the entanglement entropy of the disk will be
+To compute the integral of the EE expression, we should first determine its limits carefully. The inferior bound corresponds to the lower part of the half sphere inside the bulk, where $r_\text{min}=0$. The superior bound corresponds to the connexion of the surface with the conformal boundary, that is, $z=\delta=\sqrt{R^2-r_\text{max}^2}$. Observe that if we had not included $\delta$ and had integrated all the way to $z=0$, the result would have diverged. This is precisely what we expect for the EE, which becomes divergent in the continuum. In this case, the geometric cutoff introduced in the holographic coordinate, $z=\delta$ plays the role of the ultraviolet regulator of the EE. The final result for the EE of the disk is 
 \eqgat{1sol}{
     S_A = \frac{\pi L^2}{2G} \, \text{min} \int_0^{\sqrt{R^2-\delta^2}} \mathrm{d}r \frac{r}{f(r)^2} \sqrt{ 1 + \dot{f}(r)^2 } = \nonumber \\
-    = \frac{\pi L^2}{2G} \frac{R}{\delta} - \frac{\pi L^2}{2G} \ , \nonumber
+    = \frac{\pi L^2}{2G} \frac{R}{\delta} - \frac{\pi L^2}{2G}+\mathcal{O}(\delta) \, . \nonumber
 }
-that is equivalent to the general expression for the entanglement entropy in a 3-dimensional CFT, finally finding that
-\eq{F}{
-    s_\text{univ} = \frac{\pi}{2} \frac{L^2}{G} \ . \nonumber
+This coincides with the general expression expected for the EE of  a 3-dimensional CFT. Repeating the calculation for various regions and in different dimensions, the corresponding structure found is always consistent \cite{ryu_aspects_2006,ryu_holographic_2008}. 
+
+From the above expression we can identify the universal contribution to the EE for a 3-dimensional holographic theory dual to Einstein gravity. The result reads
+\eq{suniv}{
+     s_\text{univ} = \frac{\pi}{2} \frac{L^2}{G} \ .
 }
-% ¿Poner algo sobre la importancia de esta constante?
+
+In the case of a disk region, like the one we just considered, $s_\text{univ}$ is related to another important quantity, namely, the Euclidean free energy on a three-dimensional sphere. One has $s_\text{univ}= -\log Z_{\mathbb{S}^3}$ for general CFTs \cite{casini_towards_2011}. Hence, we find that for holographic theories dual to four-dimensional Einstein gravity, the sphere free energy is given in terms of the AdS radius and the Newton constant by (\ref{eq:suniv}).
+% He puesto la cite the Casini,2011. Entiendo que es esta.
 
 
 \subsection{Strong subadditivity} \label{ss:SS}
 
-The \textit{strong subadditivity} \cite{headrick_holographic_2007} is a fundamental general property of EE. Relates the EEs of two regions $A$ and $B$ with its union $A \cup B$, intersection $A \cap B$, and relative complements $A \setminus B$ and $B \setminus A$ (Fig.~\ref{fig:SS}):
+The \emph{strong subadditivity} \cite{headrick_holographic_2007} is a fundamental general property of EE. Relates the EEs of two regions $A$ and $B$ with its union $A \cup B$, intersection $A \cap B$, and relative complements $A \setminus B$ and $B \setminus A$ (Fig.~\ref{fig:SS}):
 \eqgat{EE_strong-subadd}{
     S(A) + S(B) \ge S(A \cup B) + S(A \cap B) \ , \nonumber \\
     S(A) + S(B) \ge S(A \setminus B) + S(B \setminus A) \ .
@@ -255,7 +289,7 @@ where $\gamma_{A \cup B}$ and $\gamma_{A \cap B}$ are the segments inside the bu
 \eq{SS_gamma-1}{
     \gamma_A + \gamma_B = \gamma_{A \cup B} + \gamma_{A \cap B} \ge \gamma^{\text{min}}_{A \cup B} + \gamma^{\text{min}}_{A \cap B} \ , \nonumber
 }
-% \gamma són las superficies, no las áreas de las superficies. ¿Esta ecuación sigue siendo correcta? ¿Hay un exceso de uso de notación?
+% \gamma són las superficies, no las áreas de las superficies. ¿Esta ecuación sigue siendo correcta? ¿Hay un exceso de uso de notación? En Headrick,2007 lo ponen así.
 and, therefore, using the Ryu-Takayanagi formula (Eq.~\ref{eq:EE_RT}), we proved the first inequality of Eq.~\ref{eq:EE_strong-subadd}.
 
 Regarding the second inequality, let's define the bulk regions exclusive of $A$ and $B$: $r_{A \setminus B}$ and $r_{B \setminus A}$, respectively. The boundary surfaces of this regions will be decomposed as
@@ -273,43 +307,31 @@ Using these simple geometric proofs, we showed how holography fulfills the stron
 % Hay algunas de las pequeñas fórmulas dentro del texto que se cortan con los saltos de línea.
 
 
-\subsection{Entanglement entropy for higher orders} \label{s:EE_HO}
+\subsection{Corrections to the Ryu-Takayanagi formula} \label{ss:EE_HO}
 
-It has been shown that the Ryu-takayanagi formula (\ref{eq:EE_RT}) as the entanglement entropy for holographic theories dual to Einstein gravity. Nevertheless, considering strings and not fields, and taking into account quantum properties, higher-order terms appear \cite{bueno_holographic_2021}.
+The Ryu-Takayanagi formula (\ref{eq:EE_RT}) provides the EE for holographic theories dual to Einstein gravity in general dimensions. Nevertheless, the Einsteinian description will break down if one moves away from the strongly coupled and large-number of colors regime. From the gravity side, this is manifest in the appearance of both stringy and quantum corrections to classical Einstein gravity \cite{bueno_holographic_2021}.
 
-For stringy corrections, the area functional needs to be modified, similarly to how the Bekenstein-Hawking formula for the entropy of a black hole (\ref{eq:BH}) is replaced by Wald formula \cite{iyer_properties_1994}. But replacing the functional of the entanglement entropy for the Wald's one does not work \cite{bueno_holographic_2021}. Additional ``anomaly'' terms corresponding to extrinsic curvatures of the generalized surface involving arbitrary contractions of Riemann tensors and metrics are required \cite{dong_holographic_2014}. In the anomaly term, each of the Riemann tensor components resulting has to be split into summatories of different weighted terms. The way that these terms are weighted is non-unique, leading to the so-called \textit{splitting problem}.
-
-One can also consider corrections on the Ryu-Takayanagi formula related to quantum mechanical effects in the bulk \cite{faulkner_quantum_2013}. This quantum corrections are essentially given by the entanglement entropy between the bulk bounded by the minimal area surface and the outside region. One can see the bulk region as an effective field theory itself living on a fixed background geometry and compute its entanglement entropy as in any quantum field. One has to be cautious and do not confuse this entanglement entropy with the one computed by the Ryu-Takayanagi formula, which is intended to be generalized.
-
-
-\section{Duality with Einstein field equations} \label{s:EQ}
-
-
-\subsection{First law of entanglement entropy} \label{ss:FLEE}
-
-The \textit{first law of entanglement entropy} is a generalization of the first law of thermodynamics for any arbitrary small perturbation, quantum state or subsystem.
-
-For a small perturbation of a quantum field theory state $\ket{\psi(\varepsilon)}$ to the initial state $\ket{\psi(0)}$, the First Law of Entanglement Entropy is defined as
-\eq{FLEE}{
-    \delta S_A = \frac{\mathrm{d}}{\mathrm{d} \varepsilon} S_A = \frac{\mathrm{d}}{\mathrm{d} \varepsilon} \abs{H_A} = \frac{\mathrm{d}}{\mathrm{d} \varepsilon} \tr (H_A \rho_A) \equiv \delta E_{calA}
-}
-for the entanglement entropy of a subsystem $A$ \cite{fareghbal_first_2019}. The modular Hamiltonian $H_A$ is independent of the perturbation, and is defined by
-\eq{modularH}{
-    \rho_A (\varepsilon) = e^{-H_A}.
-}
-
-When $H_A$ is a local operator, $\rho_A$ can be mapped to a thermal one, $\rho_{\calH}$, by a unitary transformation, being the resultant entropy thermal. Hence, $\rho_{\calH}$ can be written as
-\eq{modularH2}{
-    \rho_{\calH} = \frac{e^{-H_{\calH}}}{\tr (e^{-H_{\calH}})} \ ,
-}
-where $H_{\calH}$ is the associated charge of the so-called modular flow $\xi$.
-
-In the holographic description, it has been shown that writing both sites of the first law of entanglement entropy in terms of the corresponding bulk parameters leads to a constraint on the bulk geometry that is exactly the Einstein field equations \cite{fareghbal_first_2019}. If this was an intrinsic property of any gauge/gravity theory, one could use entanglement entropy in an arbitrary field theory to find a dual gravitational geometry.
+Stringy corrections appear as higher-curvature corrections to the Einstein-Hilbert action. At the level of the holographic EE, these produce corrections to the Ryu-Takayanagi area formula, in a way similar to 
+%For stringy corrections, the area functional needs to be modified, similarly to 
+how the Bekenstein-Hawking formula for the entropy of a black hole (\ref{eq:BH}) is replaced by the Wald formula \cite{iyer_properties_1994} in the presence of higher-curvature corrections. However, replacing the functional of the entanglement entropy by the Wald one does not work in general \cite{bueno_holographic_2021}. The full formula takes the schematic form
+\begin{equation}\label{hee}
+    S_A=S_{\text{Wald}}+ S_{\text{Anomaly}}
+\end{equation}
+where $S_{\text{Wald}}$ reduces to the Ryu-Takayanagi one in the Einstein gravity case, but otherwise contains terms involving various components of the Riemann tensor, and $S_{\text{Anomaly}}$ simpliy vanishes for Einstein gravity, but includes terms involving extrinsic curvatures of the generalized minimal surface for more general theories \cite{dong_holographic_2014}. For instance, consider a quadratic theory of the form {\bf [[[[ Poner explícitamente la fórmula para gravedad cuadrática]]]]}
+\begin{equation}
+    \mathcal{L}= \frac{1}{16\pi G}\left[\frac{6}{\ell^ 2}+R+\ell^2 \left(\alpha_1 R^ 2 + \alpha_2 R_{\mu\nu} R^{\mu\nu}\right) \right]\, ,
+\end{equation}
+where $\alpha_{1,2}$ are dimensionless couplings and $\ell^2$ coincides with the AdS radius in the Einstein gravity limit.
+The modified holographic EE formula for this theory is given by (\ref{hee}), where
+\begin{align}
+    S_{\text{Wald}}&= \, , \\
+    S_{\text{Anomaly}}&=
+\end{align}
 
 
-\subsection{First law of entanglement entropy applied to holography} \label{ss:FLEE_H}
+%Additional ``anomaly'' terms corresponding to extrinsic curvatures of the generalized surface involving arbitrary contractions of Riemann tensors and metrics are required . In the anomaly term, each of the Riemann tensor components resulting has to be split into summatories of different weighted terms. The way that these terms are weighted is non-unique, leading to the so-called \emph{splitting problem}.
 
----
+One can also consider corrections to the Ryu-Takayanagi formula related to quantum mechanical effects in the bulk \cite{faulkner_quantum_2013}. This quantum corrections are essentially given by the entanglement entropy between the bulk bounded by the minimal area surface and the outside region. One can see the bulk region as a region in an effective field theory itself living on a fixed background geometry and compute its entanglement entropy as in any quantum field theory. One has to be cautious and do not confuse this entanglement entropy with the one computed by the Ryu-Takayanagi formula, which is intended to be generalized. The corrected formula reads {\bf [[[[Poner explícitamente la fórmula]]]]}
 
 
 \section{Conclusions} \label{s:Conclusions}

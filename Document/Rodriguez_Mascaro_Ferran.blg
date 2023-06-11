@@ -6,49 +6,49 @@ Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: apsrev.bst
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: TFG.bib
-Warning--I didn't find a database entry for "endnote20"
+Warning--I didn't find a database entry for "endnote22"
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Warning--empty year in kaplan_lectures_nodate; set to ????
-You've used 19 entries,
+You've used 21 entries,
             3411 wiz_defined-function locations,
-            1306 strings with 13782 characters,
-and the built_in function-call counts, 11746 in all, are:
-= -- 744
-> -- 285
-< -- 53
-+ -- 210
-- -- 70
-* -- 1613
-:= -- 1333
-add.period$ -- 19
-call.type$ -- 19
-change.case$ -- 93
-chr.to.int$ -- 31
-cite$ -- 20
-duplicate$ -- 1079
-empty$ -- 1008
-format.name$ -- 189
-if$ -- 2231
+            1319 strings with 14213 characters,
+and the built_in function-call counts, 13337 in all, are:
+= -- 843
+> -- 333
+< -- 60
++ -- 250
+- -- 82
+* -- 1831
+:= -- 1496
+add.period$ -- 21
+call.type$ -- 21
+change.case$ -- 104
+chr.to.int$ -- 33
+cite$ -- 22
+duplicate$ -- 1231
+empty$ -- 1142
+format.name$ -- 215
+if$ -- 2536
 int.to.chr$ -- 1
-int.to.str$ -- 20
-missing$ -- 170
-newline$ -- 72
-num.names$ -- 57
-pop$ -- 212
+int.to.str$ -- 22
+missing$ -- 195
+newline$ -- 78
+num.names$ -- 63
+pop$ -- 247
 preamble$ -- 1
-purify$ -- 76
+purify$ -- 84
 quote$ -- 0
-skip$ -- 408
+skip$ -- 463
 stack$ -- 0
-substring$ -- 433
-swap$ -- 855
-text.length$ -- 35
+substring$ -- 488
+swap$ -- 978
+text.length$ -- 42
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 112
+type$ -- 124
 warning$ -- 1
-while$ -- 53
+while$ -- 61
 width$ -- 0
-write$ -- 243
+write$ -- 269
 (There were 2 warnings)

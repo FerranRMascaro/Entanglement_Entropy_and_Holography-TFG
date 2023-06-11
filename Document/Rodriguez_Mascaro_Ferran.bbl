@@ -1,4 +1,4 @@
-\begin{thebibliography}{19}
+\begin{thebibliography}{21}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -82,6 +82,24 @@
   \bibinfo{issn}{0034-6861, 1539-0756}, \bibinfo{note}{arXiv:1801.10352
   [hep-th]}, \urlprefix\url{http://arxiv.org/abs/1801.10352}.
 
+\bibitem[{\citenamefont{Blanco et~al.}(2013)\citenamefont{Blanco, Casini, Hung,
+  and Myers}}]{blanco_relative_2013}
+\bibinfo{author}{\bibfnamefont{D.~D.} \bibnamefont{Blanco}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Casini}},
+  \bibinfo{author}{\bibfnamefont{L.-Y.} \bibnamefont{Hung}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.~C.} \bibnamefont{Myers}},
+  \bibinfo{journal}{Journal of High Energy Physics}
+  \textbf{\bibinfo{volume}{2013}}, \bibinfo{pages}{60} (\bibinfo{year}{2013}),
+  ISSN \bibinfo{issn}{1029-8479}, \bibinfo{note}{arXiv:1305.3182 [cond-mat,
+  physics:hep-th]}, \urlprefix\url{http://arxiv.org/abs/1305.3182}.
+
+\bibitem[{\citenamefont{Van~Raamsdonk}(2017)}]{van_raamsdonk_lectures_2017}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Van~Raamsdonk}}, in
+  \emph{\bibinfo{booktitle}{New {Frontiers} in {Fields} and {Strings}}}
+  (\bibinfo{year}{2017}), pp. \bibinfo{pages}{297--351},
+  \bibinfo{note}{arXiv:1609.00026 [gr-qc, physics:hep-th, physics:quant-ph]},
+  \urlprefix\url{http://arxiv.org/abs/1609.00026}.
+
 \bibitem[{\citenamefont{Ryu and Takayanagi}(2008)}]{ryu_holographic_2008}
 \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Ryu}} \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Takayanagi}},
@@ -108,6 +126,16 @@
   (\bibinfo{year}{2009}), ISSN \bibinfo{issn}{1751-8113, 1751-8121},
   \bibinfo{note}{arXiv:0905.0932 [cond-mat, physics:gr-qc, physics:hep-th,
   physics:quant-ph]}, \urlprefix\url{http://arxiv.org/abs/0905.0932}.
+
+\bibitem[{\citenamefont{Casini et~al.}(2011)\citenamefont{Casini, Huerta, and
+  Myers}}]{casini_towards_2011}
+\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Casini}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Huerta}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.~C.} \bibnamefont{Myers}},
+  \bibinfo{journal}{Journal of High Energy Physics}
+  \textbf{\bibinfo{volume}{2011}}, \bibinfo{pages}{36} (\bibinfo{year}{2011}),
+  ISSN \bibinfo{issn}{1029-8479}, \bibinfo{note}{arXiv:1102.0440 [gr-qc,
+  physics:hep-th]}, \urlprefix\url{http://arxiv.org/abs/1102.0440}.
 
 \bibitem[{\citenamefont{Headrick and
   Takayanagi}(2007)}]{headrick_holographic_2007}
@@ -154,14 +182,5 @@
   \textbf{\bibinfo{volume}{2013}}, \bibinfo{pages}{74} (\bibinfo{year}{2013}),
   ISSN \bibinfo{issn}{1029-8479}, \bibinfo{note}{arXiv:1307.2892 [hep-th]},
   \urlprefix\url{http://arxiv.org/abs/1307.2892}.
-
-\bibitem[{\citenamefont{Fareghbal and
-  Hakami~Shalamzari}(2019)}]{fareghbal_first_2019}
-\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Fareghbal}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Hakami~Shalamzari}},
-  \bibinfo{journal}{Physical Review D} \textbf{\bibinfo{volume}{100}},
-  \bibinfo{pages}{106006} (\bibinfo{year}{2019}), ISSN
-  \bibinfo{issn}{2470-0010, 2470-0029},
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.100.106006}.
 
 \end{thebibliography}

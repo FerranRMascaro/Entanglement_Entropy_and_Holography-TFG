@@ -172,14 +172,14 @@ INPUT C:\Users\ferran\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr6.
 INPUT C:\Users\ferran\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
 INPUT C:\Users\ferran\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
 INPUT C:\Users\ferran\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtt8.tfm
-INPUT C:\Users\ferran\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr5.tfm
 INPUT C:\Users\ferran\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri10.tfm
+INPUT C:\Users\ferran\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr5.tfm
 OUTPUT Rodriguez_Mascaro_Ferran.pdf
 INPUT C:\Users\ferran\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\ferran\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Users\ferran\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
-INPUT C:\Users\ferran\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Users\ferran\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
+INPUT C:\Users\ferran\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT ..\imatges\AdS_Cylindric.png
 INPUT ..\imatges\AdS_Cylindric.png
 INPUT ..\imatges\AdS_Cylindric.png
@@ -255,3 +255,5 @@ INPUT C:\Users\ferran\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt8.
 INPUT C:\Users\ferran\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt8.pfb
 INPUT C:\Users\ferran\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt9.pfb
 INPUT C:\Users\ferran\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt9.pfb
+INPUT C:\Users\ferran\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm7.pfb
+INPUT C:\Users\ferran\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm7.pfb
