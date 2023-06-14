@@ -1,5 +1,7 @@
+% Overleaf link: https://www.overleaf.com/4339381117cznktrnzshnt
+
 \RequirePackage[2020-02-02]{latexrelease}
-\documentclass[twocolumn]{revtex4-2}
+\documentclass[twocolumn]{revtex4}
 
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
@@ -31,8 +33,9 @@
 \usepackage{fancyhdr}
 \usepackage{wrapfig}
 \usepackage{graphicx}
-% \usepackage[hidelinks]{hyperref}
+\usepackage[hidelinks]{hyperref}
 
+% \bibliographystyle{apsrev4-2}
 
 
 \begin{document}
@@ -136,15 +139,15 @@ The natural subsystems in QFT are spacetime regions. For any QFT, given a global
 This EE is intrinsically divergent, since the region is separated from its vicinity by a zero-dimensional boundary. Nonetheless, one can regulate it and obtain physically meaningful results.
 
 The general expression of the entanglement entropy for an arbitrary region in a $d$-dimensional CFT is ---see {\emph{e.g.,}} \cite{nishioka_entanglement_2018},
-\eqgat{EE_CFT}{
-    S_A^{\text{CFT}_d} = c_{d-2} \left( \frac{H}{\delta} \right) ^{d-2} + c_{d-1} \left( \frac{H}{\delta} \right) ^{d-4} + \dots  \\
+\begin{gather}
+    S_A^{\text{CFT}_d} = c_{d-2} \left( \frac{H}{\delta} \right) ^{d-2} + c_{d-1} \left( \frac{H}{\delta} \right) ^{d-4} + \dots \label{eq:EE_CFT} \\
     + \begin{dcases}
         c_1 \frac{H}{\delta} + (-1)^{\frac{d-1}{2}} s_{\text{univ}}
         \qquad \qquad \qquad \quad \ \text{for odd } d \, , \\
         c_2  \frac{H}{\delta} + (-1)^{\frac{d-2}{2}} s_{\text{univ}} \log \left ( \frac{H}{\delta} \right ) + c_0
         \quad \text{for even } d \, ,
     \end{dcases} \nonumber
-}
+\end{gather}
 where $H$ is the characteristic length of region $A$, $\delta$ is an ultraviolet cut-off, $c_i$ are coefficients that are non-universal (not well-defined in the continuum, i.e., dependent on the definition of $\delta$), and $s_{\text{univ}}$ are universal coefficients that contain well-defined (``universal'') information about the corresponding QFT.
 
 
@@ -199,7 +202,7 @@ where $y$ are the $d$ coordinates that represent the surface $\gamma_A^\text{min
 
 \begin{wrapfigure}[14]{r}{0.25\textwidth}
     \centering
-    \includegraphics[width=0.25\textwidth]{../imatges/EE_AdS-CFT.png}
+    \includegraphics[width=0.25\textwidth]{../imatges/EE_AdS-CFT-D.png}
 \caption{Region $A$ (dark blue) and its boundary $\partial A$ inside a $z=\delta$ AdS slide (grey) and its respective $\gamma_A$ (light blue) inside the AdS spacetime.}
 \label{fig:EE_AdS-CFT}
 \end{wrapfigure}
@@ -209,7 +212,7 @@ The Ryu-Takayanagi formula is valid for generic systems, and provides a hint on 
 As one can verify, the Ryu-Takayanagi formula for a ($d+1$)-dimensional anti-de Sitter reproduces the expected general behaviour of the EE (Eq.~\ref{eq:EE_CFT}) for a $d$-dimensional conformal field theory \cite{ryu_aspects_2006, nishioka_holographic_2009}. Let us see this explicitly with an example.
 
 
-\subsection{Entanglement Entropy for a Disk in CFT$_3$} \label{ss:EE-disk}
+\subsection{Entanglement Entropy for a Disk in CFT\texorpdfstring{$_3$}{3}} \label{ss:EE-disk}
 
 In this section, we compute the EE for a circular region in a holographic CFT$_3$ dual to Einstein gravity. We will use this calculation to verify the general expression of the EE for a QFT, identify the universal coefficient for this kind of theory, and illustrate how AdS provides us with a geometric ultraviolet regulator.
 
@@ -276,8 +279,8 @@ In the case of a disk region, like the one we just considered, $s_\text{univ}$ i
 }
 \begin{wrapfigure}[13]{r}{0.25\textwidth}
     \centering
-    \includegraphics[width=0.25\textwidth]{../imatges/SS_D.png}
-\caption{Representation of the bulks $r_A$ and $r_B$ corresponding to two subsystems $A$ and $B$, and the oneesoir union, intersection, and relative complements.}
+    \includegraphics[width=0.25\textwidth]{../imatges/SS_2-D.png}
+\caption{Representation of the surfaces $\gamma_A^\text{min}$ and $\gamma_B^\text{min}$, their union $\gamma_{A \cup B}$ and intersection $\gamma_{A \cap B}$, and the bulk region $r_A$.}
 \label{fig:SS}
 \end{wrapfigure}
 This inequality is fulfilled in any quantum mechanical theory, but it is remarkably difficult to prove in general. An important test of the validity of the Ryu-Takayanagi formula is whether it fulfills it. It turns out to be particularly easy to prove that it does \cite{headrick_holographic_2007}.
@@ -342,13 +345,13 @@ where the correction $S_{r_A}$ is order $\calO(G^0)$ and we have also included a
 
 %\vspace{20px}
 \section{Conclusions} \label{s:Conclusions}
-In this TFG we have explored various aspects of the Ryu-Takayanagi formula (see the introduction for a summary), a remarkable entry in the holographic dictionary which allows to compute a genuinely quantum quantity like the EE of boundary regions, in terms of a fully classical quantity related to the geometry of spacetime, namely, the area of extremal surfaces in AdS. This connection between spacetime geometry and entanglement can be made more explicit. Remarkably, one can show that the first law of EE implies, for holographic CFTs, that perturbations of the bulk metric satisfy the linearized Einstein equations \cite{faulkner_gravitation_2014}. In a sense, the entanglement structure of the boundary theory controls the dynamics of the gravitational field, which therefore becomes an emergent phenomenon.
+We have explored various aspects of the Ryu-Takayanagi formula (see the introduction for a summary), a remarkable entry in the holographic dictionary which allows to compute a genuinely quantum quantity like the EE of boundary regions, in terms of a fully classical quantity related to the geometry of spacetime, namely, the area of extremal surfaces in AdS. This connection between spacetime geometry and entanglement can be made more explicit. Remarkably, one can show that the first law of EE implies, for holographic CFTs, that perturbations of the bulk metric satisfy the linearized Einstein equations \cite{faulkner_gravitation_2014}. In a sense, the entanglement structure of the boundary theory controls the dynamics of the gravitational field, which therefore becomes an emergent phenomenon.
 
 
 
 \begin{acknowledgments}
 
-
+    I would like to extend my sincere gratitude to Prof. Pablo Bueno for his guidance and expertise. Also, I wish to thank my family and friends for their support and unwavering patience.
     
 \end{acknowledgments}
 

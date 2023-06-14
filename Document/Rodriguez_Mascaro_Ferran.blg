@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Rodriguez_Mascaro_Ferran.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: apsrev.bst
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: TFG.bib
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 18 entries,
+            3411 wiz_defined-function locations,
+            1285 strings with 13256 characters,
+and the built_in function-call counts, 11718 in all, are:
+= -- 722
+> -- 302
+< -- 54
++ -- 230
+- -- 74
+* -- 1595
+:= -- 1289
+add.period$ -- 18
+call.type$ -- 18
+change.case$ -- 89
+chr.to.int$ -- 30
+cite$ -- 18
+duplicate$ -- 1086
+empty$ -- 1011
+format.name$ -- 194
+if$ -- 2233
+int.to.chr$ -- 1
+int.to.str$ -- 19
+missing$ -- 175
+newline$ -- 69
+num.names$ -- 54
+pop$ -- 225
+preamble$ -- 1
+purify$ -- 72
+quote$ -- 0
+skip$ -- 411
+stack$ -- 0
+substring$ -- 431
+swap$ -- 882
+text.length$ -- 38
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 104
+warning$ -- 0
+while$ -- 53
+width$ -- 0
+write$ -- 220
