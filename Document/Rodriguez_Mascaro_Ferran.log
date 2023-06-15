@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.26)  15 JUN 2023 03:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.26)  15 JUN 2023 22:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1682,7 +1682,7 @@ Underfull \hbox (badness 2334) in paragraph at lines 96--97
  []
 
 [1{C:/Users/ferran/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
-<../imatges/AdS_Cylindric.png, id=94, 1001.24063pt x 646.66594pt>
+<../imatges/AdS_Cylindric.png, id=93, 1001.24063pt x 646.66594pt>
 File: ../imatges/AdS_Cylindric.png Graphic file (type png)
 <use ../imatges/AdS_Cylindric.png>
 Package pdftex.def Info: ../imatges/AdS_Cylindric.png  used on input line 108.
@@ -1724,8 +1724,13 @@ Underfull \hbox (badness 2050) in paragraph at lines 113--114
 \OML/lmm/m/it/10 @$\T1/lmr/m/n/10 AdS$[]$ where the
  []
 
+
+Underfull \hbox (badness 1038) in paragraph at lines 115--116
+[]\T1/lmr/m/it/10 Conformal field the-o-ries\T1/lmr/m/n/10 , on the other hand, are
+ []
+
 [2{C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc} <../imatges/AdS_Cylindric.png>]
-<../imatges/EE_AdS-CFT-D.png, id=130, 781.7205pt x 444.4605pt>
+<../imatges/EE_AdS-CFT-D.png, id=129, 781.7205pt x 444.4605pt>
 File: ../imatges/EE_AdS-CFT-D.png Graphic file (type png)
 <use ../imatges/EE_AdS-CFT-D.png>
 Package pdftex.def Info: ../imatges/EE_AdS-CFT-D.png  used on input line 205.
@@ -1756,82 +1761,114 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--213
  []
 
 
+Underfull \hbox (badness 4765) in paragraph at lines 212--213
+\T1/lmr/m/n/10 dimensional AdS re-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 212--213
-\T1/lmr/m/n/10 dimensional anti-de
- []
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 212--213
-\T1/lmr/m/n/10 Sit-ter re-pro-duces the
- []
-
-
-Underfull \hbox (badness 3343) in paragraph at lines 212--213
-\T1/lmr/m/n/10 ex-pected gen-eral be-
+\T1/lmr/m/n/10 gen-eral be-haviour
  []
 
 [3 <../imatges/EE_AdS-CFT-D.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.237 }
+       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.237 }
+       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.237 }
+       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.237 }
+       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.245 }
+       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.245 }
+       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.245 }
+       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.245 }
+       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.265 }
+       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.265 }
+       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.265 }
+       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.4.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.265 }
+       
 <../imatges/SS_2-D.png, id=160, 792.561pt x 398.08725pt>
 File: ../imatges/SS_2-D.png Graphic file (type png)
 <use ../imatges/SS_2-D.png>
-Package pdftex.def Info: ../imatges/SS_2-D.png  used on input line 281.
+Package pdftex.def Info: ../imatges/SS_2-D.png  used on input line 280.
 (pdftex.def)             Requested size: 127.5pt x 64.03542pt.
 
-Underfull \hbox (badness 1960) in paragraph at lines 282--282
+Underfull \hbox (badness 1960) in paragraph at lines 281--281
 \T1/lmr/m/n/9 union $\OML/lmm/m/it/9 ^^M[]$ \T1/lmr/m/n/9 and in-ter-sec-tion
  []
 
-
-Underfull \hbox (badness 1014) in paragraph at lines 295--298
-\T1/lmr/m/n/10 Therefore, the Ryu-Takayanagi for-mula (Eq. []8equa-
- []
-
 [4
-pdfTeX warning (ext4): destination with the same identifier (name{equation.4.10}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.314 \subsection
-                 {Corrections to the Ryu-Takayanagi formula} \label{ss:EE_HO}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.4.10}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.314 \subsection
-                 {Corrections to the Ryu-Takayanagi formula} \label{ss:EE_HO}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.4.10}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.314 \subsection
-                 {Corrections to the Ryu-Takayanagi formula} \label{ss:EE_HO}
 pdfTeX warning (ext4): destination with the same identifier (name{equation.4.12}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.314 \subsection
-                 {Corrections to the Ryu-Takayanagi formula} \label{ss:EE_HO} <../imatges/SS_2-D.png>]
+l.316 
+       <../imatges/SS_2-D.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{equation.4.12}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.321 \begin{equation}
+l.320 \begin{equation}
                       \label{hee}
 pdfTeX warning (ext4): destination with the same identifier (name{equation.4.12}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.321 \begin{equation}
+l.320 \begin{equation}
                       \label{hee}
 pdfTeX warning (ext4): destination with the same identifier (name{equation.4.12}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.321 \begin{equation}
+l.320 \begin{equation}
                       \label{hee}
 pdfTeX warning (ext4): destination with the same identifier (name{equation.4.12}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.321 \begin{equation}
+l.320 \begin{equation}
                       \label{hee}
-Underfull \hbox (badness 3049) in paragraph at lines 348--349
+Underfull \hbox (badness 3049) in paragraph at lines 347--348
 []\T1/lmr/m/n/10 We have ex-plored var-i-ous as-pects of the Ryu-
  []
 
@@ -1846,26 +1883,26 @@ Underfull \hbox (badness 3199) in paragraph at lines 72--76
  []
 
 [5])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 364.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 364.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 364.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 365.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 365.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 365.
  [6] (Rodriguez_Mascaro_Ferran.aux)
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 364.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 365.
 Package rerunfilecheck Info: File `Rodriguez_Mascaro_Ferran.out' has not changed.
-(rerunfilecheck)             Checksum: E64C1800C1BC4A43E9C1CF62945A24B0;2452.
+(rerunfilecheck)             Checksum: B4C96336731962E40EA336A1653A972D;2452.
  ) 
 Here is how much of TeX's memory you used:
- 13453 strings out of 476410
- 217728 string characters out of 5788641
+ 13452 strings out of 476410
+ 217719 string characters out of 5788641
  1872845 words of memory out of 5000000
- 33486 multiletter control sequences out of 15000+600000
+ 33485 multiletter control sequences out of 15000+600000
  575029 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,17n,45p,1335b,615s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 44i,17n,45p,1335b,617s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/ferran/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on Rodriguez_Mascaro_Ferran.pdf (6 pages, 645543 bytes).
+Output written on Rodriguez_Mascaro_Ferran.pdf (6 pages, 644935 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
+ 293 PDF objects out of 1000 (max. 8388607)
  55 named destinations out of 1000 (max. 500000)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
