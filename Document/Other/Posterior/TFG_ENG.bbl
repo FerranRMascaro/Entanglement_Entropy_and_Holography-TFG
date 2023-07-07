@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{18}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -22,6 +22,12 @@
 \bibinfo{author}{\bibfnamefont{J.~D.} \bibnamefont{Bekenstein}},
   \bibinfo{journal}{Physical Review D} \textbf{\bibinfo{volume}{7}},
   \bibinfo{pages}{2333} (\bibinfo{year}{1973}), ISSN \bibinfo{issn}{0556-2821}.
+
+\bibitem[{\citenamefont{Hawking}(1975)}]{hawking_particle_1975}
+\bibinfo{author}{\bibfnamefont{S.~W.} \bibnamefont{Hawking}},
+  \bibinfo{journal}{Communications in Mathematical Physics}
+  \textbf{\bibinfo{volume}{43}}, \bibinfo{pages}{199} (\bibinfo{year}{1975}),
+  ISSN \bibinfo{issn}{1432-0916}.
 
 \bibitem[{\citenamefont{'t~Hooft}(2009)}]{t_hooft_dimensional_2009}
 \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{'t~Hooft}},
@@ -63,7 +69,7 @@
 \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Van~Raamsdonk}}, in
   \emph{\bibinfo{booktitle}{New {Frontiers} in {Fields} and {Strings}}}
   (\bibinfo{year}{2017}), pp. \bibinfo{pages}{297--351},
-  \bibinfo{note}{arXiv:1609.00026 [gr-qc, hep-th, quant-ph]}.
+  \bibinfo{note}{arXiv:1609.00026 [gr-qc, physics:hep-th, physics:quant-ph]}.
 
 \bibitem[{\citenamefont{Ryu and Takayanagi}(2008)}]{ryu_holographic_2008}
 \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Ryu}} \bibnamefont{and}
@@ -87,7 +93,8 @@
   \bibinfo{journal}{Journal of Physics A: Mathematical and Theoretical}
   \textbf{\bibinfo{volume}{42}}, \bibinfo{pages}{504008}
   (\bibinfo{year}{2009}), ISSN \bibinfo{issn}{1751-8113, 1751-8121},
-  \bibinfo{note}{arXiv:0905.0932 [cond-mat, gr-qc, hep-th, quant-ph]}.
+  \bibinfo{note}{arXiv:0905.0932 [cond-mat, gr-qc, physics:hep-th,
+  physics:quant-ph]}.
 
 \bibitem[{\citenamefont{Casini et~al.}(2011)\citenamefont{Casini, Huerta, and
   Myers}}]{casini_towards_2011}
@@ -97,7 +104,7 @@
   \bibinfo{journal}{Journal of High Energy Physics}
   \textbf{\bibinfo{volume}{2011}}, \bibinfo{pages}{36} (\bibinfo{year}{2011}),
   ISSN \bibinfo{issn}{1029-8479}, \bibinfo{note}{arXiv:1102.0440 [gr-qc,
-  hep-th]}.
+  physics:hep-th]}.
 
 \bibitem[{\citenamefont{Headrick and
   Takayanagi}(2007)}]{headrick_holographic_2007}
@@ -106,7 +113,7 @@
   \bibinfo{journal}{Physical Review D} \textbf{\bibinfo{volume}{76}},
   \bibinfo{pages}{106013} (\bibinfo{year}{2007}), ISSN
   \bibinfo{issn}{1550-7998, 1550-2368}, \bibinfo{note}{arXiv:0704.3719
-  [cond-mat, hep-th, quant-ph]}.
+  [cond-mat, physics:hep-th, physics:quant-ph]}.
 
 \bibitem[{\citenamefont{Iyer and Wald}(1994)}]{iyer_properties_1994}
 \bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Iyer}} \bibnamefont{and}
